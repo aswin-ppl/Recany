@@ -26,25 +26,25 @@
         }
 
         .secondary-text-color {
-            color: var(--secondary-text-color);
+            color: var(--secondary-text-color) !important;
         }
     </style>
-    <title>JobBox - Laravel Job Board Script</title>
+    <title>Recany</title>
     <meta name=description
-        content="JobBox is a neat, clean and professional job board website script for your organization. It’s easy to build a complete Job Board site with JobBox script.">
+        content="">
     <link rel="canonical" href="en.html">
     <meta name=robots content="index, follow">
-    <meta property="og:site_name" content="JobBox - Laravel Job Board Script">
+    <meta property="og:site_name" content="Recany">
     <meta property="og:type" content="article">
-    <meta property="og:title" content="JobBox - Laravel Job Board Script">
+    <meta property="og:title" content="Recany">
     <meta property="og:description"
-        content="JobBox is a neat, clean and professional job board website script for your organization. It’s easy to build a complete Job Board site with JobBox script.">
+        content="">
     <meta property="og:url" content="https://jobbox.archielite.com">
     <meta property="og:image" content="https://jobbox.archielite.com/storage/general/logo.png">
-    <meta name=twitter:title content="JobBox - Laravel Job Board Script">
+    <meta name=twitter:title content="Recany">
     <meta name=twitter:description
-        content="JobBox is a neat, clean and professional job board website script for your organization. It’s easy to build a complete Job Board site with JobBox script.">
-    <link rel="icon" type=image/x-icon href="./storage/general/favicon.png">
+        content="">
+    <link rel="icon" type=image/x-icon href="imgs/favicon.png">
     <link rel="stylesheet" href="./css/fonts.css">
     <style>
         :root {
@@ -61,9 +61,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
     <script
-        type=application/ld+json>{"@context":"https:\/\/schema.org","@type":"WebSite","name":"JobBox - Laravel Job Board Script","url":"https:\/\/jobbox.archielite.com"}</script>
+        type=application/ld+json>{"@context":"https:\/\/schema.org","@type":"WebSite","name":"Recany","url":"https:\/\/jobbox.archielite.com"}</script>
     <script
-        type=application/ld+json>{"@context":"https:\/\/schema.org","@type":"Organization","name":"JobBox - Laravel Job Board Script","url":"https:\/\/jobbox.archielite.com","logo":{"@type":"ImageObject","url":"https:\/\/jobbox.archielite.com\/storage\/general\/logo.png"}}</script>
+        type=application/ld+json>{"@context":"https:\/\/schema.org","@type":"Organization","name":"Recany","url":"https:\/\/jobbox.archielite.com","logo":{"@type":"ImageObject","url":"https:\/\/jobbox.archielite.com\/storage\/general\/logo.png"}}</script>
     <link href="en.html" hreflang="x-default" rel="alternate">
     <link href="en.html" hreflang="en" rel="alternate">
     <link href="en.html" hreflang="en-us" rel="alternate">
@@ -122,7 +122,7 @@
             background-image: url(./storage/locations/location6.png);
         }
 
-        .page_speed_854947848 {
+        .newsletter-bg {
             background-image: url(./imgs/page/homepage1/mail-banner.png)
         }
 
@@ -130,7 +130,7 @@
             display: none
         }
 
-        .page_speed_1652351451 {
+        .page_speed_footer {
             background-image: url(./imgs/page/homepage1/footer.png);
             color: #fff;
         }
@@ -185,6 +185,16 @@
             color: #fff;
         }
 
+        .btn-outline-gradient {
+            border: 1px solid var(--primary-color);
+            color: var(--primary-color);
+        }
+
+        .btn-outline-gradient:hover {
+            background: linear-gradient(to right, #950701, #d8241c);
+            color: #fff;
+        }
+
         .btn-find-jobs {
             background: linear-gradient(to right, #950701, #d8241c);
             color: white;
@@ -234,6 +244,24 @@
             background: #ffeced;
             border-radius: 5px;
             color: var(--primary-color);
+        }
+
+        .card-block-info {
+            min-height: 26em;
+        }
+
+        .job-of-the-day .items,
+        .jobs-listing .items {
+            height: 410px;
+        }
+
+        .job-of-the-day .job-description {
+            min-height: 110px;
+            -webkit-line-clamp: 5;
+        }
+
+        .box-newsletter .box-form-newsletter .form-newsletter .input-newsletter {
+            width: 75%;
         }
     </style>
 </head>
@@ -501,7 +529,7 @@
                             </div>
                         </div>
                     </div>
-                    <div>
+                    <div class="pb-5">
                         <section class="section-box mt-50 mb-30 pt-20 pb-20">
                             <div class="container">
                                 <div class="row">
@@ -529,7 +557,7 @@
                             </div>
                         </section>
                     </div>
-                    <div class="bg-light">
+                    <div class="bg-light py-5">
                         <section class="section-box mt-50 job-of-the-day">
                             <div class="container">
                                 <div class="text-center">
@@ -579,17 +607,19 @@
                                                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                                                     <div class="card-grid-2 hover-up items">
                                                         <div class="card-grid-2-image-left job-item">
-                                                            <div class="image-box"><img src="storage/companies/6.png"
+                                                            <div class="image-box"><img src="storage/companies/E&W.png"
                                                                     alt="Ondo"></div>
-                                                            <div class="right-info"><a class="name-job" title="Ondo"
+                                                            <div class="right-info"><a
+                                                                    class="name-job secondary-text-color" title="Ondo"
                                                                     href="en/companies/ondo.html">Ondo</a><span
                                                                     class="location-small">Holland, HL</span></div>
                                                         </div>
                                                         <div class="card-block-info">
                                                             <div class="h6 fw-bold text-truncate"><a
+                                                                    class="secondary-text-color"
                                                                     href="en/jobs/devops-account-executive-us-public-sector.html"
-                                                                    title="DevOps Account Executive - US Public Sector">DevOps
-                                                                    Account Executive - US Public Sector</a></div>
+                                                                    title="DevOps Account Executive">DevOps Account
+                                                                    Executive</a></div>
                                                             <div class="mt-5"><span class="card-briefcase"> Part Time
                                                                 </span><span class="card-time">1 year ago</span></div>
                                                             <p class="font-sm color-text-paragraph job-description mt-15"
@@ -604,13 +634,9 @@
                                                                     href="en/job-tags/lunacy.html">Lunacy</a></div>
                                                             <div class="card-2-bottom mt-15">
                                                                 <div class="row">
-                                                                    <div class="col-12 salary-information"><span
-                                                                            class="card-text-price"
-                                                                            title="$5,700.00 - $12,200.00"> $5,700.00 -
-                                                                            $12,200.00 </span><span
-                                                                            class="text-muted">/Hourly</span></div>
-                                                                    <div class="col-12 mt-3">
-                                                                        <div class=""><button class="btn btn-apply-now"
+                                                                    <div class="col-12">
+                                                                        <div class=""><button
+                                                                                class="btn btn-outline-gradient"
                                                                                 data-job-name="DevOps Account Executive - US Public Sector"
                                                                                 data-job-id="33" data-bs-toggle="modal"
                                                                                 data-bs-target="#ModalApplyJobForm">
@@ -624,17 +650,19 @@
                                                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                                                     <div class="card-grid-2 hover-up items">
                                                         <div class="card-grid-2-image-left job-item">
-                                                            <div class="image-box"><img src="storage/companies/2.png"
-                                                                    alt="Square"></div>
-                                                            <div class="right-info"><a class="name-job" title="Square"
+                                                            <div class="image-box"><img
+                                                                    src="storage/companies/ys-yat.png" alt="Square">
+                                                            </div>
+                                                            <div class="right-info"><a
+                                                                    class="name-job secondary-text-color" title="Square"
                                                                     href="en/companies/square.html">Square</a><span
-                                                                    class="location-small">New York, US</span></div>
+                                                                    class="location-small">Holland, HL</span></div>
                                                         </div>
                                                         <div class="card-block-info">
                                                             <div class="h6 fw-bold text-truncate"><a
+                                                                    class="secondary-text-color"
                                                                     href="en/jobs/support-engineer-enterprise-support-japanese.html"
-                                                                    title="Support Engineer (Enterprise Support Japanese)">Support
-                                                                    Engineer (Enterprise Support Japanese)</a></div>
+                                                                    title="Support Engineer">Support Engineer</a></div>
                                                             <div class="mt-5"><span class="card-briefcase"> Contract
                                                                 </span><span class="card-time">1 year ago</span></div>
                                                             <p class="font-sm color-text-paragraph job-description mt-15"
@@ -648,13 +676,9 @@
                                                                     href="en/job-tags/lunacy.html">Lunacy</a></div>
                                                             <div class="card-2-bottom mt-15">
                                                                 <div class="row">
-                                                                    <div class="col-12 salary-information"><span
-                                                                            class="card-text-price"
-                                                                            title="$9,200.00 - $18,800.00"> $9,200.00 -
-                                                                            $18,800.00 </span><span
-                                                                            class="text-muted">/Weekly</span></div>
-                                                                    <div class="col-12 mt-3">
-                                                                        <div class=""><button class="btn btn-apply-now"
+                                                                    <div class="col-12">
+                                                                        <div class=""><button
+                                                                                class="btn btn-outline-gradient"
                                                                                 data-job-name="Support Engineer (Enterprise Support Japanese)"
                                                                                 data-job-id="37" data-bs-toggle="modal"
                                                                                 data-bs-target="#ModalApplyJobForm">
@@ -669,18 +693,19 @@
                                                     <div class="card-grid-2 hover-up items featured-job-item">
                                                         <div class="card-grid-2-image-left job-item"><span
                                                                 class="flash"></span>
-                                                            <div class="image-box"><img
-                                                                    src="storage/companies/trusted-by.png"
+                                                            <div class="image-box"><img src="storage/companies/IGT.png"
                                                                     alt="Nintendo"></div>
-                                                            <div class="right-info"><a class="name-job" title="Nintendo"
+                                                            <div class="right-info"><a
+                                                                    class="name-job secondary-text-color"
+                                                                    title="Nintendo"
                                                                     href="en/companies/nintendo.html">Nintendo</a><span
-                                                                    class="location-small">Denmark, DN</span></div>
+                                                                    class="location-small">Holland, HL</span></div>
                                                         </div>
                                                         <div class="card-block-info">
                                                             <div class="h6 fw-bold text-truncate"><a
+                                                                    class="secondary-text-color"
                                                                     href="en/jobs/sr-manager-inside-account-management.html"
-                                                                    title="Sr Manager, Inside Account Management">Sr
-                                                                    Manager, Inside Account Management</a></div>
+                                                                    title="Sr. Manager">Sr. Manager</a></div>
                                                             <div class="mt-5"><span class="card-briefcase"> Freelance
                                                                 </span><span class="card-time">1 year ago</span></div>
                                                             <p class="font-sm color-text-paragraph job-description mt-15"
@@ -695,13 +720,9 @@
                                                                     href="en/job-tags/lunacy.html">Lunacy</a></div>
                                                             <div class="card-2-bottom mt-15">
                                                                 <div class="row">
-                                                                    <div class="col-12 salary-information"><span
-                                                                            class="card-text-price"
-                                                                            title="$1,600.00 - $11,300.00"> $1,600.00 -
-                                                                            $11,300.00 </span><span
-                                                                            class="text-muted">/Hourly</span></div>
-                                                                    <div class="col-12 mt-3">
-                                                                        <div class=""><button class="btn btn-apply-now"
+                                                                    <div class="col-12">
+                                                                        <div class=""><button
+                                                                                class="btn btn-outline-gradient"
                                                                                 data-job-name="Sr Manager, Inside Account Management"
                                                                                 data-job-id="39" data-bs-toggle="modal"
                                                                                 data-bs-target="#ModalApplyJobForm">
@@ -716,9 +737,10 @@
                                                     <div class="card-grid-2 hover-up items featured-job-item">
                                                         <div class="card-grid-2-image-left job-item"><span
                                                                 class="flash"></span>
-                                                            <div class="image-box"><img src="storage/companies/3.png"
+                                                            <div class="image-box"><img src="storage/companies/cny.png"
                                                                     alt="Bing Search"></div>
-                                                            <div class="right-info"><a class="name-job"
+                                                            <div class="right-info"><a
+                                                                    class="name-job secondary-text-color"
                                                                     title="Bing Search"
                                                                     href="en/companies/bing-search.html">Bing
                                                                     Search</a><span class="location-small">Holland,
@@ -726,6 +748,7 @@
                                                         </div>
                                                         <div class="card-block-info">
                                                             <div class="h6 fw-bold text-truncate"><a
+                                                                    class="secondary-text-color"
                                                                     href="en/jobs/java-software-engineer.html"
                                                                     title="Java Software Engineer">Java Software
                                                                     Engineer</a></div>
@@ -743,13 +766,9 @@
                                                                     href="en/job-tags/lunacy.html">Lunacy</a></div>
                                                             <div class="card-2-bottom mt-15">
                                                                 <div class="row">
-                                                                    <div class="col-12 salary-information"><span
-                                                                            class="card-text-price"
-                                                                            title="$4,000.00 - $12,900.00"> $4,000.00 -
-                                                                            $12,900.00 </span><span
-                                                                            class="text-muted">/Monthly</span></div>
-                                                                    <div class="col-12 mt-3">
-                                                                        <div class=""><button class="btn btn-apply-now"
+                                                                    <div class="col-12">
+                                                                        <div class=""><button
+                                                                                class="btn btn-outline-gradient"
                                                                                 data-job-name="Java Software Engineer"
                                                                                 data-job-id="3" data-bs-toggle="modal"
                                                                                 data-bs-target="#ModalApplyJobForm">
@@ -763,17 +782,20 @@
                                                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                                                     <div class="card-grid-2 hover-up items">
                                                         <div class="card-grid-2-image-left job-item">
-                                                            <div class="image-box"><img src="storage/companies/5.png"
-                                                                    alt="Toyota"></div>
-                                                            <div class="right-info"><a class="name-job" title="Toyota"
+                                                            <div class="image-box"><img
+                                                                    src="storage/companies/Riela.png" alt="Toyota">
+                                                            </div>
+                                                            <div class="right-info"><a
+                                                                    class="name-job secondary-text-color" title="Toyota"
                                                                     href="en/companies/toyota.html">Toyota</a><span
-                                                                    class="location-small">Denmark, DN</span></div>
+                                                                    class="location-small">Holland, HL</span></div>
                                                         </div>
                                                         <div class="card-block-info">
                                                             <div class="h6 fw-bold text-truncate"><a
+                                                                    class="secondary-text-color"
                                                                     href="en/jobs/senior-director-global-sales-development.html"
-                                                                    title="Senior Director, Global Sales Development">Senior
-                                                                    Director, Global Sales Development</a></div>
+                                                                    title="Senior Director">Senior
+                                                                    Director</a></div>
                                                             <div class="mt-5"><span class="card-briefcase"> Freelance
                                                                 </span><span class="card-time">1 year ago</span></div>
                                                             <p class="font-sm color-text-paragraph job-description mt-15"
@@ -788,13 +810,9 @@
                                                             </div>
                                                             <div class="card-2-bottom mt-15">
                                                                 <div class="row">
-                                                                    <div class="col-12 salary-information"><span
-                                                                            class="card-text-price"
-                                                                            title="$4,100.00 - $8,400.00"> $4,100.00 -
-                                                                            $8,400.00 </span><span
-                                                                            class="text-muted">/Monthly</span></div>
-                                                                    <div class="col-12 mt-3">
-                                                                        <div class=""><button class="btn btn-apply-now"
+                                                                    <div class="col-12">
+                                                                        <div class=""><button
+                                                                                class="btn btn-outline-gradient"
                                                                                 data-job-name="Senior Director, Global Sales Development"
                                                                                 data-job-id="44" data-bs-toggle="modal"
                                                                                 data-bs-target="#ModalApplyJobForm">
@@ -808,19 +826,20 @@
                                                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                                                     <div class="card-grid-2 hover-up items">
                                                         <div class="card-grid-2-image-left job-item">
-                                                            <div class="image-box"><img
-                                                                    src="storage/companies/trusted-by.png"
+                                                            <div class="image-box"><img src="storage/companies/sri.png"
                                                                     alt="Greenwood"></div>
-                                                            <div class="right-info"><a class="name-job"
+                                                            <div class="right-info"><a
+                                                                    class="name-job secondary-text-color"
                                                                     title="Greenwood"
                                                                     href="en/companies/greenwood.html">Greenwood</a><span
-                                                                    class="location-small">England, UK</span></div>
+                                                                    class="location-small">Holland, HL</span></div>
                                                         </div>
                                                         <div class="card-block-info">
                                                             <div class="h6 fw-bold text-truncate"><a
+                                                                    class="secondary-text-color"
                                                                     href="en/jobs/analyst-relations-manager-application-security.html"
-                                                                    title="Analyst Relations Manager, Application Security">Analyst
-                                                                    Relations Manager, Application Security</a></div>
+                                                                    title="Analyst Relations Manager">Analyst
+                                                                    Relations Manager</a></div>
                                                             <div class="mt-5"><span class="card-briefcase"> Freelance
                                                                 </span><span class="card-time">1 year ago</span></div>
                                                             <p class="font-sm color-text-paragraph job-description mt-15"
@@ -833,13 +852,9 @@
                                                                     href="en/job-tags/lunacy.html">Lunacy</a></div>
                                                             <div class="card-2-bottom mt-15">
                                                                 <div class="row">
-                                                                    <div class="col-12 salary-information"><span
-                                                                            class="card-text-price"
-                                                                            title="$6,600.00 - $13,900.00"> $6,600.00 -
-                                                                            $13,900.00 </span><span
-                                                                            class="text-muted">/Daily</span></div>
-                                                                    <div class="col-12 mt-3">
-                                                                        <div class=""><button class="btn btn-apply-now"
+                                                                    <div class="col-12">
+                                                                        <div class=""><button
+                                                                                class="btn btn-outline-gradient"
                                                                                 data-job-name="Analyst Relations Manager, Application Security"
                                                                                 data-job-id="22" data-bs-toggle="modal"
                                                                                 data-bs-target="#ModalApplyJobForm">
@@ -853,15 +868,17 @@
                                                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
                                                     <div class="card-grid-2 hover-up items">
                                                         <div class="card-grid-2-image-left job-item">
-                                                            <div class="image-box"><img src="storage/companies/8.png"
+                                                            <div class="image-box"><img src="storage/companies/cny.png"
                                                                     alt="Periscope"></div>
-                                                            <div class="right-info"><a class="name-job"
+                                                            <div class="right-info"><a
+                                                                    class="name-job secondary-text-color"
                                                                     title="Periscope"
                                                                     href="en/companies/periscope.html">Periscope</a><span
-                                                                    class="location-small">Denmark, DN</span></div>
+                                                                    class="location-small">Holland, HL</span></div>
                                                         </div>
                                                         <div class="card-block-info">
                                                             <div class="h6 fw-bold text-truncate"><a
+                                                                    class="secondary-text-color"
                                                                     href="en/jobs/senior-service-delivery-engineer.html"
                                                                     title="Senior Service Delivery Engineer">Senior
                                                                     Service Delivery Engineer</a></div>
@@ -879,13 +896,9 @@
                                                                     href="en/job-tags/lunacy.html">Lunacy</a></div>
                                                             <div class="card-2-bottom mt-15">
                                                                 <div class="row">
-                                                                    <div class="col-12 salary-information"><span
-                                                                            class="card-text-price"
-                                                                            title="$1,600.00 - $7,700.00"> $1,600.00 -
-                                                                            $7,700.00 </span><span
-                                                                            class="text-muted">/Yearly</span></div>
-                                                                    <div class="col-12 mt-3">
-                                                                        <div class=""><button class="btn btn-apply-now"
+                                                                    <div class="col-12">
+                                                                        <div class=""><button
+                                                                                class="btn btn-outline-gradient"
                                                                                 data-job-name="Senior Service Delivery Engineer"
                                                                                 data-job-id="43" data-bs-toggle="modal"
                                                                                 data-bs-target="#ModalApplyJobForm">
@@ -897,329 +910,139 @@
                                                     </div>
                                                 </div>
                                                 <div class="col-xl-3 col-lg-4 col-md-6 col-sm-12 col-12">
-                                                    <div class="card-grid-2 hover-up items">
-                                                        <div class="card-grid-2-image-left job-item">
-                                                            <div class="image-box"><img src="storage/companies/5.png"
-                                                                    alt="PowerHome"></div>
-                                                            <div class="right-info"><a class="name-job"
-                                                                    title="PowerHome"
-                                                                    href="en/companies/powerhome.html">PowerHome</a><span
-                                                                    class="location-small">Germany, DN</span></div>
-                                                        </div>
-                                                        <div class="card-block-info">
-                                                            <div class="h6 fw-bold text-truncate"><a
-                                                                    href="en/jobs/director-revenue-compensation.html"
-                                                                    title="Director, Revenue Compensation">Director,
-                                                                    Revenue Compensation</a></div>
-                                                            <div class="mt-5"><span class="card-briefcase"> Freelance
-                                                                </span><span class="card-time">1 year ago</span></div>
-                                                            <p class="font-sm color-text-paragraph job-description mt-15"
-                                                                title="Earum hic aut fuga unde itaque. Similique modi in odit consectetur velit eos ipsam.">
-                                                                Earum hic aut fuga unde itaque. Similique modi in odit
-                                                                consectetur velit eos ipsam.</p>
-                                                            <div class="mt-15"><a class="btn btn-grey-small mr-5 mb-2"
-                                                                    href="en/job-tags/figma.html">Figma</a><a
-                                                                    class="btn btn-grey-small mr-5 mb-2"
-                                                                    href="en/job-tags/javascript.html">JavaScript</a>
-                                                            </div>
-                                                            <div class="card-2-bottom mt-15">
-                                                                <div class="row">
-                                                                    <div class="col-12 salary-information"><span
-                                                                            class="card-text-price"
-                                                                            title="$7,200.00 - $10,700.00"> $7,200.00 -
-                                                                            $10,700.00 </span><span
-                                                                            class="text-muted">/Weekly</span></div>
-                                                                    <div class="col-12 mt-3">
-                                                                        <div class=""><button class="btn btn-apply-now"
-                                                                                data-job-name="Director, Revenue Compensation"
-                                                                                data-job-id="25" data-bs-toggle="modal"
-                                                                                data-bs-target="#ModalApplyJobForm">
-                                                                                Apply Now </button></div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-                    <div>
-                        <section class="section-box mt-50 job-by-location">
-                            <div class="container">
-                                <div class="text-center">
-                                    <h2 class="secondary-text-color mb-10 wow animate__animated animate__fadeInUp"><span
-                                            class="text-primary">Job</span> Categories</h2>
-                                    <p class="font-sm color-text-paragraph-2 wow animate__animated animate__fadeInUp">
-                                        Find the job that’s perfect for you, about 100+ new jobs everyday</p>
-                                </div>
-                            </div>
-                            <div class="container">
-                                <div class="row mt-50">
-                                    <div class="col-xl-4 col-lg-4 col-md-5 col-sm-12 col-12">
-                                        <div class="card-image-top hover-up"><a href="en/jobs/city/paris.html"
-                                                aria-label="Paris">
-                                                <div class="image page_speed_1447416844"></div>
-                                            </a>
-                                            <span class="text-primary my-3 primary-badge">1 Open Position</span>
-                                            <div class="informations mt-3"><a href="en/jobs/city/paris.html">
-                                                    <div class="h5 fw-bold secondary-text-color">Civil</div>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-4 col-lg-4 col-md-7 col-sm-12 col-12">
-                                        <div class="card-image-top hover-up"><a href="en/jobs/city/london.html"
-                                                aria-label="London">
-                                                <div class="image page_speed_1932393778"></div>
-                                            </a>
-                                            <span class="text-primary my-3 primary-badge">12 Open Position</span>
-                                            <div class="informations mt-3"><a href="en/jobs/city/london.html">
-                                                    <div class="h5 fw-bold secondary-text-color">Food & Beverage
-                                                        Industry</div>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-4 col-lg-4 col-md-7 col-sm-12 col-12">
-                                        <div class="card-image-top hover-up"><a class="mb-3"
-                                                href="en/jobs/city/new-york.html" aria-label="New York">
-                                                <div class="image page_speed_201052765"></div>
-                                            </a>
-                                            <span class="text-primary my-3 primary-badge">21 Open Position</span>
-                                            <div class="informations mt-3"><a href="en/jobs/city/new-york.html">
-                                                    <div class="h5 fw-bold secondary-text-color">Mechanical</div>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-                    <div>
-                        <section class="section-box mt-70 mb-40">
-                            <div class="container">
-                                <div class="text-start">
-                                    <h2 class="section-title mb-10 wow animate__ animate__fadeInUp animated text-center"
-                                        style="visibility: visible; animation-name: fadeInUp;"> How It Works </h2>
-                                    <p class="font-sm color-text-paragraph-2 wow animate__ animate__fadeInUp animated text-center"
-                                        style="visibility: visible; animation-name: fadeInUp;"> Just via some simple
-                                        steps, you will find your ideal candidates you’r looking for! </p>
-                                </div>
-                                <div class="mt-70">
-                                    <div class="row">
-                                        <div class="col-lg-3">
-                                            <div class="box-step step-1">
-                                                <h2 class="number-element">1</h2>
-                                                <h4 class="mb-20">Register an <br> account to start</h4>
-                                                <p class="font-lg color-text-paragraph-2">Lorem ipsum dolor sit amet,
-                                                    consectetur adipisicing elit, sed do</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-3">
-                                            <div class="box-step step-2">
-                                                <h2 class="number-element">2</h2>
-                                                <h4 class="mb-20">Explore over <br> thousands of resumes</h4>
-                                                <p class="font-lg color-text-paragraph-2">Lorem ipsum dolor sit amet,
-                                                    consectetur adipisicing elit, sed do</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-3">
-                                            <div class="box-step step-3">
-                                                <h2 class="number-element">3</h2>
-                                                <h4 class="mb-20">Find the most <br> suitable candidate</h4>
-                                                <p class="font-lg color-text-paragraph-2">Lorem ipsum dolor sit amet,
-                                                    consectetur adipisicing elit, sed do</p>
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-3">
-                                            <div class="box-step step-4">
-                                                <h2 class="number-element">4</h2>
-                                                <h4 class="mb-20">Find the most <br> suitable candidate</h4>
-                                                <p class="font-lg color-text-paragraph-2">Lorem ipsum dolor sit amet,
-                                                    consectetur adipisicing elit, sed do</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </section>
-                    </div>
-                    <div>
-                        <section class="section-box mt-50 mb-50 news-or-blogs">
-                            <div class="container">
-                                <div class="text-center">
-                                    <h2 class="section-title mb-10 wow animate__animated animate__fadeInUp">News and
-                                        Blog</h2>
-                                    <p class="font-lg color-text-paragraph-2 wow animate__animated animate__fadeInUp">
-                                        Get the latest news, updates and tips</p>
-                                </div>
-                            </div>
-                            <div class="container">
-                                <div class="mt-50">
-                                    <div class="box-swiper style-nav-top">
-                                        <div class="swiper-container swiper-group-3 swiper">
-                                            <div class="swiper-wrapper pb-70 pt-5">
-                                                <div class="swiper-slide">
                                                     <div
-                                                        class="card-grid-3 hover-up wow animate__animated animate__fadeIn">
-                                                        <div class="text-center card-grid-3-image"><a
-                                                                href="en/blog/21-job-interview-tips-how-to-make-a-great-impression.html">
-                                                                <figure><img
-                                                                        alt="21 Job Interview Tips: How To Make a Great Impression"
-                                                                        src="storage/news/img-news2-403x257.png">
-                                                                </figure>
-                                                            </a></div>
-                                                        <div class="card-block-info">
-                                                            <div class="tags mb-15"><a class="btn btn-tag"
-                                                                    href="en/tag/new.html">New</a>&nbsp; <a
-                                                                    class="btn btn-tag"
-                                                                    href="en/tag/event.html">Event</a>&nbsp; </div>
-                                                            <h5><a
-                                                                    href="en/blog/21-job-interview-tips-how-to-make-a-great-impression.html">21
-                                                                    Job Interview Tips: How To Make a Great
-                                                                    Impression</a></h5>
-                                                            <p
-                                                                class="mt-10 color-text-paragraph font-sm post-description">
-                                                                Consequatur voluptatem in aut consequatur ea et vero.
-                                                                Sed excepturi quia sit. Aut enim a vitae. Possimus omnis
-                                                                nobis rem et. Animi at numquam sed eum dolorem.
-                                                                Recusandae est sunt vel quo iusto commodi saepe.</p>
-                                                            <div class="card-2-bottom mt-20">
-                                                                <div class="row">
-                                                                    <div class="col-lg-6 col-6">
-                                                                        <div class="d-flex"><img class="img-rounded"
-                                                                                src=data:image/jpeg;base64,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alt="Janice Schimmel">
-                                                                            <div class="info-right-img"><span
-                                                                                    class="font-sm font-bold color-brand-1 op-70">Janice
-                                                                                    Schimmel</span><br><span
-                                                                                    class="font-xs color-text-paragraph-2">Sep
-                                                                                    24, 2024</span></div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="col-lg-6 text-md-end col-6 pt-15"><span
-                                                                            class="color-text-paragraph-2 font-xs"> 12
-                                                                            mins to read </span></div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="swiper-slide">
-                                                    <div
-                                                        class="card-grid-3 hover-up wow animate__animated animate__fadeIn">
-                                                        <div class="text-center card-grid-3-image"><a
-                                                                href="en/blog/interview-question-why-dont-you-have-a-degree.html">
-                                                                <figure><img
-                                                                        alt="Interview Question: Why Dont You Have a Degree?"
-                                                                        src="storage/news/img-news1-403x257.png">
-                                                                </figure>
-                                                            </a></div>
-                                                        <div class="card-block-info">
-                                                            <div class="tags mb-15"><a class="btn btn-tag"
-                                                                    href="en/tag/new.html">New</a>&nbsp; <a
-                                                                    class="btn btn-tag"
-                                                                    href="en/tag/event.html">Event</a>&nbsp; </div>
-                                                            <h5><a
-                                                                    href="en/blog/interview-question-why-dont-you-have-a-degree.html">Interview
-                                                                    Question: Why Dont You Have a Degree?</a></h5>
-                                                            <p
-                                                                class="mt-10 color-text-paragraph font-sm post-description">
-                                                                A doloremque nihil occaecati aliquam et cum. Distinctio
-                                                                rerum eos minus. Nemo maxime voluptas illo modi.
-                                                                Voluptates repellendus minima quod beatae. Fugit
-                                                                voluptatem ut in quibusdam mollitia. Facilis ratione
-                                                                nihil hic ea expedita delectus.</p>
-                                                            <div class="card-2-bottom mt-20">
-                                                                <div class="row">
-                                                                    <div class="col-lg-6 col-6">
-                                                                        <div class="d-flex"><img class="img-rounded"
-                                                                                src=data:image/jpeg;base64,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alt="Janice Schimmel">
-                                                                            <div class="info-right-img"><span
-                                                                                    class="font-sm font-bold color-brand-1 op-70">Janice
-                                                                                    Schimmel</span><br><span
-                                                                                    class="font-xs color-text-paragraph-2">Sep
-                                                                                    03, 2024</span></div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="col-lg-6 text-md-end col-6 pt-15"><span
-                                                                            class="color-text-paragraph-2 font-xs"> 12
-                                                                            mins to read </span></div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="swiper-slide">
-                                                    <div
-                                                        class="card-grid-3 hover-up wow animate__animated animate__fadeIn">
-                                                        <div class="text-center card-grid-3-image"><a
-                                                                href="en/blog/39-strengths-and-weaknesses-to-discuss-in-a-job-interview.html">
-                                                                <figure><img
-                                                                        alt="39 Strengths and Weaknesses To Discuss in a Job Interview"
-                                                                        src="storage/news/img-news3-403x257.png">
-                                                                </figure>
-                                                            </a></div>
-                                                        <div class="card-block-info">
-                                                            <div class="tags mb-15"><a class="btn btn-tag"
-                                                                    href="en/tag/new.html">New</a>&nbsp; <a
-                                                                    class="btn btn-tag"
-                                                                    href="en/tag/event.html">Event</a>&nbsp; </div>
-                                                            <h5><a
-                                                                    href="en/blog/39-strengths-and-weaknesses-to-discuss-in-a-job-interview.html">39
-                                                                    Strengths and Weaknesses To Discuss in a Job
-                                                                    Interview</a></h5>
-                                                            <p
-                                                                class="mt-10 color-text-paragraph font-sm post-description">
-                                                                In aut aut temporibus nulla laboriosam. Velit doloremque
-                                                                facere quam quis incidunt eius. Qui nisi nam occaecati
-                                                                sed. At in perspiciatis aperiam dolor voluptates.</p>
-                                                            <div class="card-2-bottom mt-20">
-                                                                <div class="row">
-                                                                    <div class="col-lg-6 col-6">
-                                                                        <div class="d-flex"><img class="img-rounded"
-                                                                                src=data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD//gA7Q1JFQVRPUjogZ2QtanBlZyB2MS4wICh1c2luZyBJSkcgSlBFRyB2ODApLCBxdWFsaXR5ID0gNzUK/9sAQwAIBgYHBgUIBwcHCQkICgwUDQwLCwwZEhMPFB0aHx4dGhwcICQuJyAiLCMcHCg3KSwwMTQ0NB8nOT04MjwuMzQy/9sAQwEJCQkMCwwYDQ0YMiEcITIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIyMjIy/8AAEQgA+gD6AwEiAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC//EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+v/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC//EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/aAAwDAQACEQMRAD8AwqKKKD9VCiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAooooAKKKKACiiigAopyxu4yqMR6gUvky/883/75NNRb2REqkI7tIZRS4I7Gkoaa3KUlLZhRRRSGFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUVJGgaRAehIBpqLZM5qCuxiruYAd6u2mmSXbMFkRdozzWza6PZtcKCjY5/iPpWtb6ZbWxYxKQW65YmvQo4Fy1kfMY/iKFNctK97dl/mZFnoUyQkGWP73vUE1s0cjxlgSpxmuoVAgwOlYF3/AMfcv+8a9SjQhT2PmKmY1sTNub89jHewfYfnWq72joMllrZIBGDTGgRhyD+da4nLadRXitfU2y/iGvQdqj92+tkjDdChwTTa1prSEuOD09azpUVJWUdAa8HEYKdF+9Y+0wGb0cWrQTva+v8Aw5FRRRXGesFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUVZhtlkkjUsRuIH51UYuWiM6lWNNXkQRxtI+1Rk1bg0q6n3eWinHX5hW1baBAs4Imk7+la1tpyWxba7Hd6130cC38Z81juI6cE1Qd35pmRY6Vdx2+1kXOT/EK3oUZIY1YchQDUirtGKWvTpUY01ZHyGMx9XFSvO299AooorY4Qrnrv/j7l/wB410Nc9d/8fcv+8aaN6G7IaKKK9I4AooooAoSW0rRsABk+9UpLWWJQXAwTjrW5UU0CzKFJIwc8V5mIy2nUV1e59JgOIa1CSjK3LfXR/wCZhkEdaStGWwQMPnbpVKWMRyMoOQK8LEYGrSd2tD7PA5zh8UrRetr7MjoooriPXCiiigAooooAKKKKACiiigAooqSCLzriOIHBdgufTJppXdhSkopyeyGojyNtRSx9BViLT7uXOy3kbHXC1t2fh94ZwxuFPBH3a2bSzNtvy4bdjtXoUcDJv39D5jHcR0oJqg1L7zFsNMYWi+dZjfk53IM1uRWVqqIfssIYAf8ALMZBqwBgUtenToRgtD5DFZjWxErt29GxAqg5CgH6UtFFbHC3cKKKKBBRRRQAVz13/wAfcv8AvGuhrnrv/j7l/wB400b0N2Q0UUV6RwBRRRQAUUUUAIQD1ANNMMROTEhPqVFPopOKe6LjUnH4XYpS2w8ptsQzjjC1Qe3lUZMbD8K3D0qOSIuuM45rzMTlsKmq3Posv4hq0Hyzs031uYTKy9QRSVo3FmWYfOOnpVGVPLkKZzjvXg4nCVKDvJaH22X5pRxiShL3rXtr3GUUUVyHphRRRQAUUUUAFWdPGdStR/02T+YqtVnTv+Qnaf8AXZP/AEIVdP40Y4n+DP0f5HfBFU5Ap1FFfTn4+FFFFABRRRQAUUUUAFFFFABXPXf/AB9y/wC8a6Gueu/+PuX/AHjTRvQ3ZDRRRXpHAFFFFABRRRQAUUUUAFFFFADHUE8ise9GLtwPb+VbLdax73/j7k/D+Qrxs5/gr1/Rn1vCTf1uS/uv80V6KKK+bP0EKKKKACiiigAqzp3/ACE7T/rsn/oQqtVnTv8AkJ2n/XZP/QhV0/jRjif4M/R/kegUUUV9Ofj4UUUUAFFFFABRRRQAUUUUAFc9d/8AH3L/ALxroa567/4+5f8AeNNG9DdkNFFFekcAUUUUAFFFFABRRRQAUUUUANbrWPe/8fcn4fyFbDdax73/AI+5Pw/kK8fOf4K9f0Z9bwl/vcv8L/NFeiiivmj9BCiiigAooooAKs6d/wAhO0/67J/6EKrVZ07/AJCdp/12T/0IVdP40Y4n+DP0f5HoFFFFfTn4+FFFFABRRRQAUUUUAFFFFABXPXf/AB9y/wC8a6GueuyPtkvI+8aaN6G7IaKKK9I4AooooAKKKKACiiigAooooAa3Wse9/wCPuT8P5CthutY97/x9yfh/IV4+c/wV6/oz63hL/e5f4X+aK9FFFfNH6CFFFFABRRRQAVZ07/kJ2n/XZP8A0IVWqzp3/ITtP+uyf+hCrp/GjHE/wZ+j/I9Aooor6c/HwooooAKKKKACiimuSsbEdQCaAHVBc3SWoUuGO7ptrHuNYuooGddmRjqvvWXPrV3chRJ5fHTC1rToynsXKPI/f2N2bxBaQPtaOYnGeFH+NYdxfxTXMkqq4VmJGQM/zqjLK0z7nxnGOKZXXDCRt7xn9Y5HemaQv4icbX/If41LFOkxIUEY9ayBwc1LFO8RJXHPqK0lGS16Er2clZbmvRVSG4kkQlsdfSrSnKgmpUk3YU6coq7FooopmYUUUUAFFFFADW61j3v/AB9yfh/IVsN1rHvf+PuT8P5CvHzn+CvX9GfW8Jf73L/C/wA0V6KKK+aP0EKKKKACiiigAqzp3/ITtP8Arsn/AKEKrVZ07/kJ2n/XZP8A0IVdP40Y4n+DP0f5HoFFFFfTn4+FFFUZr9ohIfLB257+lBUYuWxcd1jXcxwKrTanZ2+PNm27unyk/wBKxJ/EMkkRX7Oo/wCBVmXd6bsJlAu3PQ1vTw8p69Alyw0nublzq1m82UnJGP7rf4VgTzs88jLIxUsSOT0zUFFdlPDRjqZPEPZbCliepNJRRXSc4UUUUAFFFFABkjvTgx/vH86bRUygpFwqODui+lzEGBL8fQ1YW5ic4V8n6GsipI5fLYnGeKxdJx+E19pGes9DXDBuhpaz47wgH5B+dWUuCyg7RzUc1nZ7h7KTV47E9FFFUZDW61j3v/H3J+H8hWw3Wse9/wCPuT8P5CvHzn+CvX9GfW8Jf73L/C/zRXooor5o/QQooooAKKKKACrOnf8AITtP+uyfzFVqltpBDdQykEhHViB7Gqh8SMsQr0pJdn+R6C80Ua7pJERfVmAFVpb+1GMXcP8A38FYF/q8V3amJY3U5BycVkMd1fXUKPtVfofklan7DSe/Y2NR1KYXjCC7Pl4GNj8VmteXDbszOQevPWoKK76dCMPM5KlZyVloLknvSUUVuklsYtt7hRRRQAUUUUAFFFFABRRRQAUUUUAFFFFAACRTxI4GAxxTKKXKuw+Z7XLUdw/mLuk4zzk1dWaMn/WJ/wB9CsilU7TmsHS5VdM6PaKpJJqxsF0boyn6Gsi95u3/AA/lUsU6oDkGq07h5mYd68LN6idJR63/AEZ9fwvhp08S6lvdcXr80R0UUV88fchRRRQAUUUUAFHQ0UUA1fRjt7U5DnOajorro42tSeknb1PNxWU4WuneCv3siY0VDTgRxXu4bOYySjNW87/8A+Rx/C84NzpSve+ijt+JJRSZFKDmvZp16dT4JJny1bCV6P8AEg16oKKKK1OcKKKKACiiigAooooAKKKKACiijNJtLVjjFydkgopMimkjNcdfH0aX2k36nqYTJ8TiH8LS72Y4mmljimUV4OJzidRWgrfP/gH2WB4YpUGpVJKWvWP/AAWLvNITk5ooryJ1Z1HeTufSUcPSoq1OKXoFFFFZmwUUUUAFFFFABRRRQAUUUUAFFFFAC7jTlamUV0UcXWpfBKxw4nLsNiV+8hck3U4dKhyfWnA+9e3hc50tUTZ8rmHC93zUWkvmSUU0MM9acOele5TxFOotGvvPka+Br0X70X9zCijGKK3ORqwUUUmRScox3ZUac56RVxaKaWHrTS3vXBXzGlR8/mexg8jxGJ/u+qY7dSMeKZk+tFfPYjNa1T4G0j7XBcO4ajrUim7+Yu6koorzZzlN3kz3qVGFKKjBWQUUUVBoFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFPSTbnimUVrSrTpO8Gc+IwtLERcaiumTbt/OMUmajDEdKNxr16OczjG03+CPmsVwvSnNypJLXq2PLcdKaWz2puaK46+ZV6ujenoj1MHkeEwz5ox19WB5ooorgbu7s9iMVFWQUUUUhhRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQAUUUUAFFFFABRRRQB//9k=alt="Janice Schimmel">
-                                                                            <div class="info-right-img"><span
-                                                                                    class="font-sm font-bold color-brand-1 op-70">Janice
-                                                                                    Schimmel</span><br><span
-                                                                                    class="font-xs color-text-paragraph-2">Aug
-                                                                                    30, 2024</span></div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="col-lg-6 text-md-end col-6 pt-15"><span
-                                                                            class="color-text-paragraph-2 font-xs"> 12
-                                                                            mins to read </span></div>
-                                                                </div>
-                                                            </div>
+                                                        class="card-grid-2 hover-up items row align-items-center justify-contents-center">
+                                                        <div class="col-12 text-center" style="padding-inline: 57px;">
+                                                            <h4 class="secondary-text-color mb-5 pb-5">Explore More Job
+                                                                Listings</h1>
+                                                                <div class=""><button
+                                                                        class="btn btn-outline-gradient mt-4 w-100"
+                                                                        data-job-name="Director, Revenue Compensation"
+                                                                        data-job-id="25" data-bs-toggle="modal"
+                                                                        data-bs-target="#ModalApplyJobForm">
+                                                                        View More </button></div>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="swiper-button-next"></div>
-                                        <div class="swiper-button-prev"></div>
-                                        <div class="text-center"><a
-                                                class="btn btn-brand-1 mt--30 hover-up view-more-posts"
-                                                href="en/blog.html"> View more </a></div>
                                     </div>
                                 </div>
                             </div>
-                        </section>
                     </div>
+                    </section>
+                </div>
+                <div class="py-5">
+                    <section class="section-box mt-50 job-by-location">
+                        <div class="container">
+                            <div class="text-center">
+                                <h2 class="secondary-text-color mb-10 wow animate__animated animate__fadeInUp"><span
+                                        class="text-primary">Job</span> Categories</h2>
+                                <p class="font-sm color-text-paragraph-2 wow animate__animated animate__fadeInUp">
+                                    Find the job that’s perfect for you, about 100+ new jobs everyday</p>
+                            </div>
+                        </div>
+                        <div class="container">
+                            <div class="row mt-50">
+                                <div class="col-xl-4 col-lg-4 col-md-5 col-sm-12 col-12">
+                                    <div class="card-image-top hover-up"><a href="en/jobs/city/paris.html"
+                                            aria-label="Paris">
+                                            <div class="image page_speed_1447416844"></div>
+                                        </a>
+                                        <span class="text-primary my-3 primary-badge">1 Open Position</span>
+                                        <div class="informations mt-3"><a href="en/jobs/city/paris.html">
+                                                <div class="h5 fw-bold secondary-text-color">Civil</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-lg-4 col-md-7 col-sm-12 col-12">
+                                    <div class="card-image-top hover-up"><a href="en/jobs/city/london.html"
+                                            aria-label="London">
+                                            <div class="image page_speed_1932393778"></div>
+                                        </a>
+                                        <span class="text-primary my-3 primary-badge">12 Open Position</span>
+                                        <div class="informations mt-3"><a href="en/jobs/city/london.html">
+                                                <div class="h5 fw-bold secondary-text-color">Food & Beverage
+                                                    Industry</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-lg-4 col-md-7 col-sm-12 col-12">
+                                    <div class="card-image-top hover-up"><a class="mb-3"
+                                            href="en/jobs/city/new-york.html" aria-label="New York">
+                                            <div class="image page_speed_201052765"></div>
+                                        </a>
+                                        <span class="text-primary my-3 primary-badge">21 Open Position</span>
+                                        <div class="informations mt-3"><a href="en/jobs/city/new-york.html">
+                                                <div class="h5 fw-bold secondary-text-color">Mechanical</div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="bg-light py-5">
+                    <section class="section-box mt-70 mb-40">
+                        <div class="container">
+                            <div class="text-start">
+                                <h2 class="section-title mb-10 wow animate__ animate__fadeInUp animated text-center"
+                                    style="visibility: visible; animation-name: fadeInUp;"> How It Works </h2>
+                                <p class="font-sm color-text-paragraph-2 wow animate__ animate__fadeInUp animated text-center"
+                                    style="visibility: visible; animation-name: fadeInUp;"> Just via some simple
+                                    steps, you will find your ideal candidates you’r looking for! </p>
+                            </div>
+                            <div class="mt-70">
+                                <div class="row">
+                                    <div class="col-lg-3">
+                                        <div class="box-step step-1">
+                                            <h2 class="number-element">1</h2>
+                                            <h4 class="mb-20">Register an <br> account to start</h4>
+                                            <p class="font-lg color-text-paragraph-2">Lorem ipsum dolor sit amet,
+                                                consectetur adipisicing elit, sed do</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="box-step step-2">
+                                            <h2 class="number-element">2</h2>
+                                            <h4 class="mb-20">Explore over <br> thousands of resumes</h4>
+                                            <p class="font-lg color-text-paragraph-2">Lorem ipsum dolor sit amet,
+                                                consectetur adipisicing elit, sed do</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="box-step step-3">
+                                            <h2 class="number-element">3</h2>
+                                            <h4 class="mb-20">Find the most <br> suitable candidate</h4>
+                                            <p class="font-lg color-text-paragraph-2">Lorem ipsum dolor sit amet,
+                                                consectetur adipisicing elit, sed do</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3">
+                                        <div class="box-step step-4">
+                                            <h2 class="number-element">4</h2>
+                                            <h4 class="mb-20">Find the most <br> suitable candidate</h4>
+                                            <p class="font-lg color-text-paragraph-2">Lorem ipsum dolor sit amet,
+                                                consectetur adipisicing elit, sed do</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
                 </div>
             </div>
         </div>
-        <section class="section-box mt-50 mb-20">
+        </div>
+        <section class="section-box mt-50 mb-20 py-5">
             <div class="container">
-                <div class="box-newsletter page_speed_854947848">
+                <div class="box-newsletter newsletter-bg">
                     <div class="row">
                         <div class="col-xl-3 col-12 text-center d-none d-xl-block"><img
-                                src="storage/general/newsletter-image-left.png" alt="JobBox - Laravel Job Board Script">
+                                src="storage/general/newsletter-image-left.png" alt="Recany">
                         </div>
                         <div class="col-lg-12 col-xl-6 col-12">
                             <h2 class="text-md-newsletter text-center"> New Things Will Always <br> Update Regularly
@@ -1231,8 +1054,8 @@
                                     <input name=_token type=hidden value="BABS9PzZFYTkFe3ucNu2JYYkoA2YnuJ9oMS47rA2">
                                     <div class="input-group d-flex"><input class="input-newsletter"
                                             placeholder="Enter Your Email" name=email type=email><button
-                                            class="btn btn-default font-heading icon-send-letter"
-                                            type=submit>Subscribe</button></div>
+                                            class="btn btn-default btn-gradient font-heading" type=submit>Send Mail
+                                            &nbsp; <i class="fa-solid fa-paper-plane"></i></button></div>
                                     <div class="newsletter-message newsletter-success-message page_speed_1782753614">
                                     </div>
                                     <div class="newsletter-message newsletter-error-message page_speed_1782753614">
@@ -1242,7 +1065,7 @@
                         </div>
                         <div class="col-xl-3 col-12 text-center d-none d-xl-block"><img
                                 src="storage/general/newsletter-image-right.png"
-                                alt="JobBox - Laravel Job Board Script"></div>
+                                alt="Recany"></div>
                     </div>
                 </div>
             </div>
@@ -1574,7 +1397,7 @@
             }
         }
     </style>
-    <div dir="ltr" data-nosnippet class="js-site-notice site-notice site-notice-full-width page_speed_1652351451">
+    <div dir="ltr" data-nosnippet class="js-site-notice site-notice site-notice-full-width page_speed_footer">
         <div class="site-notice-body page_speed_566403145">
             <div class="site-notice__inner">
                 <div class="site-notice__message"> Your experience on this site will be improved by allowing cookies <a

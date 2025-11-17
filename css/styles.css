@@ -5639,6 +5639,9 @@ div.paginations .pager li a.pager-number:before {
 .w-lg-50 {
   width: 50%;
 }
+.w-lg-74 {
+  width: 74%;
+}
 .banner-hero {
   margin: 0 auto;
   max-width: 1770px;

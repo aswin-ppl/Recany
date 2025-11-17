@@ -93,48 +93,38 @@
     <div class="container">
         <div class="main-header">
             <div class="header-left">
-                <div class="header-logo"><a class="d-flex" href="en.html"><img alt="JobBox - Laravel Job Board Script"
+                <div class="header-logo"><a class="d-flex" href="index.php"><img alt="JobBox - Laravel Job Board Script"
                             src="storage/general/logo.png"></a></div>
             </div>
             <div class="header-nav">
                 <nav class="nav-main-menu">
                     <ul class="main-menu">
-                        <li class=""><a href="en.html" target="_self"> Home </a></li>
-                        <li class=" has-children "><a href="en/companies.html" target="_self"> About Us <div
+                        <li class=""><a href="index.php" target="_self"> Home </a></li>
+                        <li class=" has-children "><a href="./about-us.php" target="_self"> About Us <div
                                     class="arrow-down"></div></a>
                             <ul class="sub-menu">
-                                <li class=" "><a href="en/jobs/java-software-engineer.html" target="_self"><i
-                                            class="fi fi-rr-briefcase"></i> Job Hide Company </a></li>
-                                <li class=" "><a href="en/jobs/full-stack-engineer.html" target="_self"><i
-                                            class="fi fi-rr-briefcase"></i> Job External </a></li>
-                                <li class=" "><a href="en/jobs/ui-ux-designer-full-time.html" target="_self"><i
-                                            class="fi fi-rr-briefcase"></i> Job Details </a></li>
-                                <li class=" "><a href="en/jobs.html" target="_self"><i class="fi fi-rr-briefcase"></i>
-                                        Jobs List </a></li>
-                                <li class=" "><a href="en/jobs%3Flayout=grid.html" target="_self"><i
-                                            class="fi fi-rr-briefcase"></i> Jobs Grid </a></li>
+                                <li class=" "><a href="testimonial.php" target="_self">Testimonial</a></li>
+                                <li class=" "><a href="job-banner.php" target="_self">Job Banner</a></li>
+                                <li class=" "><a href="photos.php" target="_self">Our Photos</a></li>
+                                <li class=" "><a href="success-story.php" target="_self">Success Story</a></li>
                             </ul>
                         </li>
-                        <li class=" has-children "><a href="en/companies.html" target="_self"> Awards & Achievements
+                        <li class=" has-children "><a href="achievements-and-awards.php" target="_self"> Awards & Achievements
                                 <div class="arrow-down"></div>
                             </a>
                             <ul class="sub-menu">
-                                <li class=" "><a href="en/companies.html" target="_self"><i
-                                            class="fi fi-rr-briefcase"></i> Companies </a></li>
-                                <li class=" "><a href="en/companies/linkedin.html" target="_self"><i
-                                            class="fi fi-rr-info"></i> Company Details </a></li>
+                                <li class=" "><a href="interviews.php" target="_self"> Interviews </a></li>
                             </ul>
                         </li>
-                        <li class=" has-children "><a href="en/candidates.html" target="_self"> Candidate Zone <div
+                        <li class=" has-children "><a href="" target="_self"> Candidate Zone <div
                                     class="arrow-down"></div></a>
                             <ul class="sub-menu">
-                                <li class=" "><a href="en/candidates/monica.html" target="_self"><i
-                                            class="fi fi-rr-info"></i> Candidate Details </a></li>
-                                <li class=" "><a href="en/candidates.html" target="_self"><i class="fi fi-rr-user"></i>
-                                        Candidates Grid </a></li>
+                                <li class=" "><a href="domestic.php" target="_self">Domestic </a></li>
+                                <li class=" "><a href="international.php" target="_self">
+                                        International </a></li>
                             </ul>
                         </li>
-                        <li><a href="en.html#" target="_self"> Contact Us </a>
+                        <li><a href="contact.php" target="_self"> Contact Us </a>
                         </li>
                     </ul>
                 </nav>
