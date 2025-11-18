@@ -123,32 +123,12 @@
             color: #fff;
         }
 
-        .btn-outline-gradient {
-            border: 1px solid var(--primary-color);
-            color: var(--primary-color);
-        }
-
-        .btn-outline-gradient:hover {
-            background: linear-gradient(to right, #950701, #d8241c);
-            color: #fff;
-        }
-
         .newsletter-bg {
             background-image: url(./imgs/page/homepage1/mail-banner.png)
         }
 
         .box-newsletter .box-form-newsletter .form-newsletter .input-newsletter {
             width: 75%;
-        }
-
-        .head-border-light {
-            border-bottom: 1px solid var(--border-color-2);
-            padding-bottom: 10px;
-        }
-
-        .image-box {
-            height: 52px;
-            width: 67px;
         }
     </style>
 </head>
@@ -157,40 +137,7 @@
 
     <!-- Header   -->
     <?php include('header.php'); ?>
-    <div class="modal fade" id="ModalLocationSelection" tabindex="-1" aria-hidden="true">
-        <div class="modal-dialog modal-md">
-            <div class="modal-content" style="border-radius: 30px;"><button class="btn-close" type=button
-                    data-bs-dismiss="modal" aria-label="Close"></button>
-                <div class="modal-body pl-60 pr-60 pt-60 pb-60">
-                    <form method="POST" action="https://jobbox.archielite.com/jobs/apply" accept-charset="UTF-8"
-                        id="botble-job-board-forms-fronts-internal-job-application-form"
-                        class="job-apply-form dirty-check" enctype="multipart/form-data"><input name=_token type=hidden
-                            value="BABS9PzZFYTkFe3ucNu2JYYkoA2YnuJ9oMS47rA2">
-                        <div class="filter-block mb-30">
-                            <h5 class="medium-heading mb-10 text-dark">State</h5>
-                            <div class="mb-3 select-style select-style-icon"><select
-                                    class="form-control submit-form-filter form-icons select-active select-location"
-                                    form="jobs-filter-form" id="selectStateForm" name=state data-state-type="state"
-                                    data-placeholder="Select state"></select><i class="fi-rr-marker"></i><input
-                                    type=hidden name=state value="">
-                            </div>
-                        </div>
-                        <div class="filter-block mb-30">
-                            <h5 class="medium-heading mb-10 text-dark">District</h5>
-                            <div class="mb-3 select-style select-style-icon"><select
-                                    class="form-control submit-form-filter form-icons select-active select-location"
-                                    form="jobs-filter-form" id="selectDistrictForm" name=district
-                                    data-district-type="state" data-placeholder="Select district"></select><i
-                                    class="fi-rr-marker"></i><input type=hidden name=district value=""></div>
-                        </div>
-                        <div class="text-center">
-                            <button type="submit" class="btn btn-gradient text-light">Proceed</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
+
     <main class="main">
         <div class="ck-content">
             <div>
@@ -257,11 +204,12 @@
                                         <div class="swiper-slide hover-up"><a
                                                 href="https://jobbox.archielite.com/job-categories/security-analyst">
                                                 <div class="item-logo">
-                                                    <div class="image-left"><img src="./imgs/page/domestic/service.png"
+                                                    <div class="image-left"><img
+                                                            src="./imgs/page/domestic/service.png"
                                                             alt="Mechanical"></div>
                                                     <div class="text-info-right">
                                                         <h4>Mechanical</h4>
-                                                        <p class="font-xs"> 7 <span>Jobs Available</span></p>
+                                                        <p class="font-xs"> 7<span>Jobs Available</span></p>
                                                     </div>
                                                 </div>
                                             </a></div>
@@ -287,57 +235,57 @@
                                                 data-value="1"><input type=hidden name=keyword value=""><input
                                                 type=hidden name=per_page><input type=hidden name=layout><input
                                                 type=hidden name=sort_by value="">
-                                            <div class="filter-block head-border-light mb-30">
-                                                <h5 class="text-dark"> Advanced Filters <a class="link-reset"
+                                            <div class="filter-block head-border mb-30">
+                                                <h5> Advanced Filters <a class="link-reset"
                                                         href="https://jobbox.archielite.com/jobs">Reset</a></h5>
                                             </div>
                                             <div class="filter-block mb-30">
                                                 <div class="mb-3 select-style select-style-icon"><select
                                                         class="form-control submit-form-filter form-icons select-active select-location"
-                                                        form="jobs-filter-form" id="selectCity" name=keyword
-                                                        data-keyword-type="state"
-                                                        data-placeholder="Select keyword"></select><i
-                                                        class="fi-rr-marker"></i><input type=hidden name=keyword
+                                                        form="jobs-filter-form" id="selectCity" name=location
+                                                        data-location-type="state"
+                                                        data-placeholder="Select location"></select><i
+                                                        class="fi-rr-marker"></i><input type=hidden name=location
                                                         value=""></div>
                                             </div>
                                             <div class="filter-block mb-20">
-                                                <h5 class="medium-heading mb-15 text-dark">Industry</h5>
+                                                <h5 class="medium-heading mb-15">Industry</h5>
                                                 <div class="mb-3 ps-custom-scrollbar">
                                                     <ul class="list-checkbox">
                                                         <li><label class="cb-container"><input type=checkbox
                                                                     class="submit-form-filter" name=job_categories[]
                                                                     form="jobs-filter-form" value="1"><span
-                                                                    class="text-small">Operator</span><span
+                                                                    class="text-small">Content Writer</span><span
                                                                     class="checkmark"></span></label><span
                                                                 class="number-item">29</span></li>
                                                         <li><label class="cb-container"><input type=checkbox
                                                                     class="submit-form-filter" name=job_categories[]
                                                                     form="jobs-filter-form" value="7"><span
-                                                                    class="text-small">Finishing Foreman</span><span
+                                                                    class="text-small">Human Resource</span><span
                                                                     class="checkmark"></span></label><span
                                                                 class="number-item">10</span></li>
                                                         <li><label class="cb-container"><input type=checkbox
                                                                     class="submit-form-filter" name=job_categories[]
                                                                     form="jobs-filter-form" value="3"><span
-                                                                    class="text-small">Chef</span><span
+                                                                    class="text-small">Marketing &amp; Sale</span><span
                                                                     class="checkmark"></span></label><span
                                                                 class="number-item">9</span></li>
                                                         <li><label class="cb-container"><input type=checkbox
                                                                     class="submit-form-filter" name=job_categories[]
                                                                     form="jobs-filter-form" value="5"><span
-                                                                    class="text-small">CNC Lathe/Turing</span><span
+                                                                    class="text-small">Finance</span><span
                                                                     class="checkmark"></span></label><span
                                                                 class="number-item">9</span></li>
                                                         <li><label class="cb-container"><input type=checkbox
                                                                     class="submit-form-filter" name=job_categories[]
                                                                     form="jobs-filter-form" value="2"><span
-                                                                    class="text-small">Extrusion Molding</span><span
+                                                                    class="text-small">Market Research</span><span
                                                                     class="checkmark"></span></label><span
                                                                 class="number-item">7</span></li>
                                                         <li><label class="cb-container"><input type=checkbox
                                                                     class="submit-form-filter" name=job_categories[]
                                                                     form="jobs-filter-form" value="9"><span
-                                                                    class="text-small">Grinding Machinist</span><span
+                                                                    class="text-small">Retail &amp; Products</span><span
                                                                     class="checkmark"></span></label><span
                                                                 class="number-item">7</span></li>
                                                         <li><label class="cb-container"><input type=checkbox
@@ -368,7 +316,7 @@
                                                 </div>
                                             </div>
                                             <div class="filter-block mb-20">
-                                                <h5 class="medium-heading mb-25 text-dark">Salary range</h5>
+                                                <h5 class="medium-heading mb-25">Salary range</h5>
                                                 <div class="list-checkbox pb-20">
                                                     <div class="row position-relative mt-10 mb-20">
                                                         <div class="col-sm-12 box-slider-range">
@@ -386,39 +334,39 @@
                                                 </div>
                                             </div>
                                             <div class="filter-block mb-30">
-                                                <h5 class="medium-heading mb-10 text-dark">Experience Level</h5>
+                                                <h5 class="medium-heading mb-10">Experience Level</h5>
                                                 <div class="mb-3 ps-custom-scrollbar">
                                                     <ul class="list-checkbox">
-                                                        <li><label class="cb-container"><input type="checkbox"
-                                                                    name="job_experiences[]" class="submit-form-filter"
+                                                        <li><label class="cb-container"><input type=checkbox
+                                                                    name=job_experiences[] class="submit-form-filter"
                                                                     id="check-job-experience-1" value="1"
                                                                     form="jobs-filter-form"><span
                                                                     class="text-small">Fresh</span><span
                                                                     class="checkmark"></span></label><span
                                                                 class="number-item">7</span></li>
-                                                        <li><label class="cb-container"><input type="checkbox"
-                                                                    name="job_experiences[]" class="submit-form-filter"
+                                                        <li><label class="cb-container"><input type=checkbox
+                                                                    name=job_experiences[] class="submit-form-filter"
                                                                     id="check-job-experience-2" value="2"
                                                                     form="jobs-filter-form"><span
                                                                     class="text-small">Less Than 1 Year</span><span
                                                                     class="checkmark"></span></label><span
                                                                 class="number-item">4</span></li>
-                                                        <li><label class="cb-container"><input type="checkbox"
-                                                                    name="job_experiences[]" class="submit-form-filter"
+                                                        <li><label class="cb-container"><input type=checkbox
+                                                                    name=job_experiences[] class="submit-form-filter"
                                                                     id="check-job-experience-3" value="3"
                                                                     form="jobs-filter-form"><span class="text-small">1
                                                                     Year</span><span
                                                                     class="checkmark"></span></label><span
                                                                 class="number-item">8</span></li>
-                                                        <li><label class="cb-container"><input type="checkbox"
-                                                                    name="job_experiences[]" class="submit-form-filter"
+                                                        <li><label class="cb-container"><input type=checkbox
+                                                                    name=job_experiences[] class="submit-form-filter"
                                                                     id="check-job-experience-4" value="4"
                                                                     form="jobs-filter-form"><span class="text-small">2
                                                                     Year</span><span
                                                                     class="checkmark"></span></label><span
                                                                 class="number-item">5</span></li>
-                                                        <li><label class="cb-container"><input type="checkbox"
-                                                                    name="job_experiences[]" class="submit-form-filter"
+                                                        <li><label class="cb-container"><input type=checkbox
+                                                                    name=job_experiences[] class="submit-form-filter"
                                                                     id="check-job-experience-5" value="5"
                                                                     form="jobs-filter-form"><span class="text-small">3
                                                                     Year</span><span
@@ -428,7 +376,7 @@
                                                 </div>
                                             </div>
                                             <div class="filter-block mb-30">
-                                                <h5 class="medium-heading mb-10 text-dark">Date Posted</h5>
+                                                <h5 class="medium-heading mb-10">Job Posted</h5>
                                                 <div class="mb-3">
                                                     <ul class="list-checkbox">
                                                         <li><label class="cb-container"><input type=checkbox
@@ -464,25 +412,110 @@
                                                     </ul>
                                                 </div>
                                             </div>
-                                            <div class="filter-block mb-30">
-                                                <h5 class="medium-heading mb-10 text-dark">State</h5>
-                                                <div class="mb-3 select-style select-style-icon"><select
-                                                        class="form-control submit-form-filter form-icons select-active select-location"
-                                                        form="jobs-filter-form" id="selectState" name=state
-                                                        data-state-type="state"
-                                                        data-placeholder="Select state"></select><i
-                                                        class="fi-rr-marker"></i><input type=hidden name=state value="">
+                                            <div class="filter-block mb-20">
+                                                <h5 class="medium-heading mb-15">Job type</h5>
+                                                <div class="mb-3 ps-custom-scrollbar">
+                                                    <ul class="list-checkbox">
+                                                        <li><label class="cb-container"><input type=checkbox
+                                                                    class="submit-form-filter" value="2"
+                                                                    name=job_types[] id="check-job-type-2"
+                                                                    form="jobs-filter-form"><span
+                                                                    class="text-small">Freelance</span><span
+                                                                    class="checkmark"></span></label><span
+                                                                class="number-item">8</span></li>
+                                                        <li><label class="cb-container"><input type=checkbox
+                                                                    class="submit-form-filter" value="5"
+                                                                    name=job_types[] id="check-job-type-5"
+                                                                    form="jobs-filter-form"><span
+                                                                    class="text-small">Part Time</span><span
+                                                                    class="checkmark"></span></label><span
+                                                                class="number-item">8</span></li>
+                                                        <li><label class="cb-container"><input type=checkbox
+                                                                    class="submit-form-filter" value="1"
+                                                                    name=job_types[] id="check-job-type-1"
+                                                                    form="jobs-filter-form"><span
+                                                                    class="text-small">Contract</span><span
+                                                                    class="checkmark"></span></label><span
+                                                                class="number-item">6</span></li>
+                                                        <li><label class="cb-container"><input type=checkbox
+                                                                    class="submit-form-filter" value="3"
+                                                                    name=job_types[] id="check-job-type-3"
+                                                                    form="jobs-filter-form"><span
+                                                                    class="text-small">Full Time</span><span
+                                                                    class="checkmark"></span></label><span
+                                                                class="number-item">4</span></li>
+                                                        <li><label class="cb-container"><input type=checkbox
+                                                                    class="submit-form-filter" value="4"
+                                                                    name=job_types[] id="check-job-type-4"
+                                                                    form="jobs-filter-form"><span
+                                                                    class="text-small">Internship</span><span
+                                                                    class="checkmark"></span></label><span
+                                                                class="number-item">3</span></li>
+                                                    </ul>
                                                 </div>
                                             </div>
-                                            <div class="filter-block mb-30">
-                                                <h5 class="medium-heading mb-10 text-dark">District</h5>
-                                                <div class="mb-3 select-style select-style-icon"><select
-                                                        class="form-control submit-form-filter form-icons select-active select-location"
-                                                        form="jobs-filter-form" id="selectDistrict" name=district
-                                                        data-district-type="state"
-                                                        data-placeholder="Select district"></select><i
-                                                        class="fi-rr-marker"></i><input type=hidden name=district
-                                                        value=""></div>
+                                            <div class="filter-block mb-20">
+                                                <h5 class="medium-heading mb-15">Skill</h5>
+                                                <div class="mb-3 ps-custom-scrollbar">
+                                                    <ul class="list-checkbox">
+                                                        <li><label class="cb-container"><input type=checkbox
+                                                                    class="submit-form-filter" name=job_skills[]
+                                                                    id="btn-check-outlined-8" autocomplete="off"
+                                                                    form="jobs-filter-form" value="8"><span
+                                                                    class="text-small">FilamentPHP</span><span
+                                                                    class="checkmark"></span></label><span
+                                                                class="number-item">7</span></li>
+                                                        <li><label class="cb-container"><input type=checkbox
+                                                                    class="submit-form-filter" name=job_skills[]
+                                                                    id="btn-check-outlined-4" autocomplete="off"
+                                                                    form="jobs-filter-form" value="4"><span
+                                                                    class="text-small">Laravel</span><span
+                                                                    class="checkmark"></span></label><span
+                                                                class="number-item">5</span></li>
+                                                        <li><label class="cb-container"><input type=checkbox
+                                                                    class="submit-form-filter" name=job_skills[]
+                                                                    id="btn-check-outlined-2" autocomplete="off"
+                                                                    form="jobs-filter-form" value="2"><span
+                                                                    class="text-small">PHP</span><span
+                                                                    class="checkmark"></span></label><span
+                                                                class="number-item">4</span></li>
+                                                        <li><label class="cb-container"><input type=checkbox
+                                                                    class="submit-form-filter" name=job_skills[]
+                                                                    id="btn-check-outlined-3" autocomplete="off"
+                                                                    form="jobs-filter-form" value="3"><span
+                                                                    class="text-small">Python</span><span
+                                                                    class="checkmark"></span></label><span
+                                                                class="number-item">4</span></li>
+                                                        <li><label class="cb-container"><input type=checkbox
+                                                                    class="submit-form-filter" name=job_skills[]
+                                                                    id="btn-check-outlined-1" autocomplete="off"
+                                                                    form="jobs-filter-form" value="1"><span
+                                                                    class="text-small">JavaScript</span><span
+                                                                    class="checkmark"></span></label><span
+                                                                class="number-item">3</span></li>
+                                                        <li><label class="cb-container"><input type=checkbox
+                                                                    class="submit-form-filter" name=job_skills[]
+                                                                    id="btn-check-outlined-5" autocomplete="off"
+                                                                    form="jobs-filter-form" value="5"><span
+                                                                    class="text-small">CakePHP</span><span
+                                                                    class="checkmark"></span></label><span
+                                                                class="number-item">3</span></li>
+                                                        <li><label class="cb-container"><input type=checkbox
+                                                                    class="submit-form-filter" name=job_skills[]
+                                                                    id="btn-check-outlined-6" autocomplete="off"
+                                                                    form="jobs-filter-form" value="6"><span
+                                                                    class="text-small">WordPress</span><span
+                                                                    class="checkmark"></span></label><span
+                                                                class="number-item">2</span></li>
+                                                        <li><label class="cb-container"><input type=checkbox
+                                                                    class="submit-form-filter" name=job_skills[]
+                                                                    id="btn-check-outlined-9" autocomplete="off"
+                                                                    form="jobs-filter-form" value="9"><span
+                                                                    class="text-small">React.js</span><span
+                                                                    class="checkmark"></span></label><span
+                                                                class="number-item">1</span></li>
+                                                    </ul>
+                                                </div>
                                             </div>
                                         </form>
                                     </div>
@@ -569,38 +602,42 @@
                                         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 jobs-item job-grid">
                                             <div class="card-grid-2 hover-up featured-job-item ">
                                                 <div class="card-grid-2-image-left"><span class="flash"></span>
-                                                    <div class="image-box"><img src="storage/companies/E&W.png"
-                                                            alt="Ondo"></div>
-                                                    <div class="right-info"><a class="name-job secondary-text-color"
-                                                            title="Ondo" href="en/companies/ondo.html">Ondo</a><span
-                                                            class="location-small">Holland, HL</span></div>
+                                                    <div class="image-box"><img
+                                                            src=https://jobbox.archielite.com/storage/companies/7.png
+                                                            alt="Sr Manager, Inside Account Management"></div>
+                                                    <div class="right-info"><a class="name-job"
+                                                            href="https://jobbox.archielite.com/companies/nintendo">
+                                                            Nintendo </a><span class="location-small"> Denmark, DN
+                                                        </span></div>
                                                 </div>
                                                 <div class="card-block-info">
-                                                    <div class="h6 fw-bold text-truncate"><a
-                                                            class="secondary-text-color"
-                                                            href="en/jobs/devops-account-executive-us-public-sector.html"
-                                                            title="DevOps Account Executive">DevOps Account
-                                                            Executive</a></div>
-                                                    <div class="mt-5"><span class="card-briefcase"> Part Time
+                                                    <h6 class="text-truncate"><a
+                                                            href="https://jobbox.archielite.com/jobs/sr-manager-inside-account-management"
+                                                            title="Sr Manager, Inside Account Management">Sr Manager,
+                                                            Inside Account Management</a></h6>
+                                                    <div class="mt-5"><span class="card-briefcase"> Freelance
                                                         </span><span class="card-time">1 year ago</span></div>
-                                                    <p class="font-sm color-text-paragraph job-description mt-15"
-                                                        title="Earum autem ea nihil non. Commodi illo tempora cupiditate magni dolores non omnis consequatur. Alias dolores dolores accusamus et. Aut ducimus praesentium sed labore modi id voluptas aperiam.">
-                                                        Earum autem ea nihil non. Commodi illo tempora
-                                                        cupiditate magni dolores non omnis consequatur. Alias
-                                                        dolores dolores accusamus et. Aut ducimus praesentium
-                                                        sed labore modi id voluptas aperiam.</p>
-                                                    <div class="mt-15"><a class="btn btn-grey-small mr-5 mb-2"
-                                                            href="en/job-tags/figma.html">Figma</a><a
+                                                    <p class="font-sm color-text-paragraph mt-15 job-description">At sit
+                                                        natus repellendus accusamus. Modi nobis aut corporis. Sed ullam
+                                                        perspiciatis possimus reprehenderit. Debitis dicta omnis
+                                                        voluptatem fugiat quos neque. Et necessitatibus amet ea
+                                                        consequatur at.</p>
+                                                    <div class="mt-30"><a class="btn btn-grey-small mr-5 mb-2"
+                                                            href="https://jobbox.archielite.com/job-tags/illustrator">Illustrator</a><a
                                                             class="btn btn-grey-small mr-5 mb-2"
-                                                            href="en/job-tags/lunacy.html">Lunacy</a></div>
-                                                    <div class="card-2-bottom mt-15">
+                                                            href="https://jobbox.archielite.com/job-tags/lunacy">Lunacy</a>
+                                                    </div>
+                                                    <div class="card-2-bottom mt-30">
                                                         <div class="row">
-                                                            <div class="col-12">
-                                                                <div class=""><button class="btn btn-outline-gradient"
-                                                                        data-job-name="DevOps Account Executive - US Public Sector"
-                                                                        data-job-id="33" data-bs-toggle="modal"
-                                                                        data-bs-target="#ModalApplyJobForm">
-                                                                        Apply Now </button></div>
+                                                            <div class="col-12 salary-information"><span
+                                                                    class="card-text-price"
+                                                                    title="$1,600.00 - $11,300.00"> $1,600.00 -
+                                                                    $11,300.00 </span><span
+                                                                    class="text-muted">/Hourly</span></div>
+                                                            <div class="col-12 mt-3">
+                                                                <div class=""><button disabled
+                                                                        class="page_speed_1660542144 btn btn-apply-now text-danger">
+                                                                        Closed </button></div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -610,37 +647,41 @@
                                         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 jobs-item job-grid">
                                             <div class="card-grid-2 hover-up featured-job-item ">
                                                 <div class="card-grid-2-image-left"><span class="flash"></span>
-                                                    <div class="image-box"><img src="storage/companies/ys-yat.png"
-                                                            alt="Ondo"></div>
-                                                    <div class="right-info"><a class="name-job secondary-text-color"
-                                                            title="Ondo" href="en/companies/ondo.html">Ondo</a><span
-                                                            class="location-small">Holland, HL</span></div>
+                                                    <div class="image-box"><img
+                                                            src=https://jobbox.archielite.com/storage/companies/3.png
+                                                            alt="Java Software Engineer"></div>
+                                                    <div class="right-info"><a class="name-job"
+                                                            href="https://jobbox.archielite.com/companies/bing-search">
+                                                            Bing Search </a><span class="location-small"> Holland, HL
+                                                        </span></div>
                                                 </div>
                                                 <div class="card-block-info">
-                                                    <div class="h6 fw-bold text-truncate"><a
-                                                            class="secondary-text-color"
-                                                            href="en/jobs/devops-account-executive-us-public-sector.html"
-                                                            title="Support Engineer">Support Engineer</a></div>
-                                                    <div class="mt-5"><span class="card-briefcase"> Part Time
+                                                    <h6 class="text-truncate"><a
+                                                            href="https://jobbox.archielite.com/jobs/java-software-engineer"
+                                                            title="Java Software Engineer">Java Software Engineer</a>
+                                                    </h6>
+                                                    <div class="mt-5"><span class="card-briefcase"> Full Time
                                                         </span><span class="card-time">1 year ago</span></div>
-                                                    <p class="font-sm color-text-paragraph job-description mt-15"
-                                                        title="Earum autem ea nihil non. Commodi illo tempora cupiditate magni dolores non omnis consequatur. Alias dolores dolores accusamus et. Aut ducimus praesentium sed labore modi id voluptas aperiam.">
-                                                        Earum autem ea nihil non. Commodi illo tempora
-                                                        cupiditate magni dolores non omnis consequatur. Alias
-                                                        dolores dolores accusamus et. Aut ducimus praesentium
-                                                        sed labore modi id voluptas aperiam.</p>
-                                                    <div class="mt-15"><a class="btn btn-grey-small mr-5 mb-2"
-                                                            href="en/job-tags/figma.html">Figma</a><a
+                                                    <p class="font-sm color-text-paragraph mt-15 job-description">Magnam
+                                                        consectetur sed minus hic consequuntur dicta saepe. Modi quia
+                                                        quis facere tempore magnam autem. Ducimus et sapiente autem at.
+                                                        Ipsam adipisci sed totam totam.</p>
+                                                    <div class="mt-30"><a class="btn btn-grey-small mr-5 mb-2"
+                                                            href="https://jobbox.archielite.com/job-tags/sketch">Sketch</a><a
                                                             class="btn btn-grey-small mr-5 mb-2"
-                                                            href="en/job-tags/lunacy.html">Lunacy</a></div>
-                                                    <div class="card-2-bottom mt-15">
+                                                            href="https://jobbox.archielite.com/job-tags/lunacy">Lunacy</a>
+                                                    </div>
+                                                    <div class="card-2-bottom mt-30">
                                                         <div class="row">
-                                                            <div class="col-12">
-                                                                <div class=""><button class="btn btn-outline-gradient"
-                                                                        data-job-name="DevOps Account Executive - US Public Sector"
-                                                                        data-job-id="33" data-bs-toggle="modal"
-                                                                        data-bs-target="#ModalApplyJobForm">
-                                                                        Apply Now </button></div>
+                                                            <div class="col-12 salary-information"><span
+                                                                    class="card-text-price"
+                                                                    title="$4,000.00 - $12,900.00"> $4,000.00 -
+                                                                    $12,900.00 </span><span
+                                                                    class="text-muted">/Monthly</span></div>
+                                                            <div class="col-12 mt-3">
+                                                                <div class=""><button disabled
+                                                                        class="page_speed_1660542144 btn btn-apply-now text-danger">
+                                                                        Closed </button></div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -650,37 +691,41 @@
                                         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 jobs-item job-grid">
                                             <div class="card-grid-2 hover-up featured-job-item ">
                                                 <div class="card-grid-2-image-left"><span class="flash"></span>
-                                                    <div class="image-box"><img src="storage/companies/IGT.png"
-                                                            alt="Ondo"></div>
-                                                    <div class="right-info"><a class="name-job secondary-text-color"
-                                                            title="Ondo" href="en/companies/ondo.html">Ondo</a><span
-                                                            class="location-small">Holland, HL</span></div>
+                                                    <div class="image-box"><img
+                                                            src=https://jobbox.archielite.com/storage/companies/5.png
+                                                            alt="Services Sales Representative"></div>
+                                                    <div class="right-info"><a class="name-job"
+                                                            href="https://jobbox.archielite.com/companies/toyota">
+                                                            Toyota </a><span class="location-small"> Denmark, DN </span>
+                                                    </div>
                                                 </div>
                                                 <div class="card-block-info">
-                                                    <div class="h6 fw-bold text-truncate"><a
-                                                            class="secondary-text-color"
-                                                            href="en/jobs/devops-account-executive-us-public-sector.html"
-                                                            title="Sr. Manager">Sr. Manager</a></div>
-                                                    <div class="mt-5"><span class="card-briefcase"> Part Time
+                                                    <h6 class="text-truncate"><a
+                                                            href="https://jobbox.archielite.com/jobs/services-sales-representative"
+                                                            title="Services Sales Representative">Services Sales
+                                                            Representative</a></h6>
+                                                    <div class="mt-5"><span class="card-briefcase"> Contract
                                                         </span><span class="card-time">1 year ago</span></div>
-                                                    <p class="font-sm color-text-paragraph job-description mt-15"
-                                                        title="Earum autem ea nihil non. Commodi illo tempora cupiditate magni dolores non omnis consequatur. Alias dolores dolores accusamus et. Aut ducimus praesentium sed labore modi id voluptas aperiam.">
-                                                        Earum autem ea nihil non. Commodi illo tempora
-                                                        cupiditate magni dolores non omnis consequatur. Alias
-                                                        dolores dolores accusamus et. Aut ducimus praesentium
-                                                        sed labore modi id voluptas aperiam.</p>
-                                                    <div class="mt-15"><a class="btn btn-grey-small mr-5 mb-2"
-                                                            href="en/job-tags/figma.html">Figma</a><a
+                                                    <p class="font-sm color-text-paragraph mt-15 job-description">
+                                                        Facilis optio amet reprehenderit sit molestias. Laudantium
+                                                        adipisci perspiciatis dolores cumque fugit amet dolorum eius.
+                                                        Tenetur suscipit fuga dolores asperiores esse.</p>
+                                                    <div class="mt-30"><a class="btn btn-grey-small mr-5 mb-2"
+                                                            href="https://jobbox.archielite.com/job-tags/figma">Figma</a><a
                                                             class="btn btn-grey-small mr-5 mb-2"
-                                                            href="en/job-tags/lunacy.html">Lunacy</a></div>
-                                                    <div class="card-2-bottom mt-15">
+                                                            href="https://jobbox.archielite.com/job-tags/lunacy">Lunacy</a>
+                                                    </div>
+                                                    <div class="card-2-bottom mt-30">
                                                         <div class="row">
-                                                            <div class="col-12">
-                                                                <div class=""><button class="btn btn-outline-gradient"
-                                                                        data-job-name="DevOps Account Executive - US Public Sector"
-                                                                        data-job-id="33" data-bs-toggle="modal"
-                                                                        data-bs-target="#ModalApplyJobForm">
-                                                                        Apply Now </button></div>
+                                                            <div class="col-12 salary-information"><span
+                                                                    class="card-text-price"
+                                                                    title="$7,000.00 - $16,100.00"> $7,000.00 -
+                                                                    $16,100.00 </span><span
+                                                                    class="text-muted">/Monthly</span></div>
+                                                            <div class="col-12 mt-3">
+                                                                <div class=""><button disabled
+                                                                        class="page_speed_1660542144 btn btn-apply-now text-danger">
+                                                                        Closed </button></div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -690,37 +735,40 @@
                                         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 jobs-item job-grid">
                                             <div class="card-grid-2 hover-up featured-job-item ">
                                                 <div class="card-grid-2-image-left"><span class="flash"></span>
-                                                    <div class="image-box"><img src="storage/companies/Riela.png"
-                                                            alt="Ondo"></div>
-                                                    <div class="right-info"><a class="name-job secondary-text-color"
-                                                            title="Ondo" href="en/companies/ondo.html">Ondo</a><span
-                                                            class="location-small">Holland, HL</span></div>
+                                                    <div class="image-box"><img
+                                                            src=https://jobbox.archielite.com/storage/companies/8.png
+                                                            alt="Corporate Sales Representative"></div>
+                                                    <div class="right-info"><a class="name-job"
+                                                            href="https://jobbox.archielite.com/companies/periscope">
+                                                            Periscope </a><span class="location-small"> Denmark, DN
+                                                        </span></div>
                                                 </div>
                                                 <div class="card-block-info">
-                                                    <div class="h6 fw-bold text-truncate"><a
-                                                            class="secondary-text-color"
-                                                            href="en/jobs/devops-account-executive-us-public-sector.html"
-                                                            title="Sr Director">Sr Director</a></div>
+                                                    <h6 class="text-truncate"><a
+                                                            href="https://jobbox.archielite.com/jobs/corporate-sales-representative"
+                                                            title="Corporate Sales Representative">Corporate Sales
+                                                            Representative</a></h6>
                                                     <div class="mt-5"><span class="card-briefcase"> Part Time
                                                         </span><span class="card-time">1 year ago</span></div>
-                                                    <p class="font-sm color-text-paragraph job-description mt-15"
-                                                        title="Earum autem ea nihil non. Commodi illo tempora cupiditate magni dolores non omnis consequatur. Alias dolores dolores accusamus et. Aut ducimus praesentium sed labore modi id voluptas aperiam.">
-                                                        Earum autem ea nihil non. Commodi illo tempora
-                                                        cupiditate magni dolores non omnis consequatur. Alias
-                                                        dolores dolores accusamus et. Aut ducimus praesentium
-                                                        sed labore modi id voluptas aperiam.</p>
-                                                    <div class="mt-15"><a class="btn btn-grey-small mr-5 mb-2"
-                                                            href="en/job-tags/figma.html">Figma</a><a
+                                                    <p class="font-sm color-text-paragraph mt-15 job-description">
+                                                        Dolores esse veniam ut fuga eum. Architecto est odio qui officia
+                                                        quia. Sit tempore et et nihil qui nobis a. Qui ea culpa
+                                                        consequatur numquam.</p>
+                                                    <div class="mt-30"><a class="btn btn-grey-small mr-5 mb-2"
+                                                            href="https://jobbox.archielite.com/job-tags/illustrator">Illustrator</a><a
                                                             class="btn btn-grey-small mr-5 mb-2"
-                                                            href="en/job-tags/lunacy.html">Lunacy</a></div>
-                                                    <div class="card-2-bottom mt-15">
+                                                            href="https://jobbox.archielite.com/job-tags/lunacy">Lunacy</a>
+                                                    </div>
+                                                    <div class="card-2-bottom mt-30">
                                                         <div class="row">
-                                                            <div class="col-12">
-                                                                <div class=""><button class="btn btn-outline-gradient"
-                                                                        data-job-name="DevOps Account Executive - US Public Sector"
-                                                                        data-job-id="33" data-bs-toggle="modal"
-                                                                        data-bs-target="#ModalApplyJobForm">
-                                                                        Apply Now </button></div>
+                                                            <div class="col-12 salary-information"><span
+                                                                    class="card-text-price"
+                                                                    title="$6,000.00 - $9,000.00"> $6,000.00 - $9,000.00
+                                                                </span><span class="text-muted">/Yearly</span></div>
+                                                            <div class="col-12 mt-3">
+                                                                <div class=""><button disabled
+                                                                        class="page_speed_1660542144 btn btn-apply-now text-danger">
+                                                                        Closed </button></div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -730,38 +778,40 @@
                                         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 jobs-item job-grid">
                                             <div class="card-grid-2 hover-up featured-job-item ">
                                                 <div class="card-grid-2-image-left"><span class="flash"></span>
-                                                    <div class="image-box"><img src="storage/companies/sri.png"
-                                                            alt="Ondo"></div>
-                                                    <div class="right-info"><a class="name-job secondary-text-color"
-                                                            title="Ondo" href="en/companies/ondo.html">Ondo</a><span
-                                                            class="location-small">Holland, HL</span></div>
+                                                    <div class="image-box"><img
+                                                            src=https://jobbox.archielite.com/storage/companies/6.png
+                                                            alt="Systems Software Engineer"></div>
+                                                    <div class="right-info"><a class="name-job"
+                                                            href="https://jobbox.archielite.com/companies/ondo"> Ondo
+                                                        </a><span class="location-small"> Holland, HL </span></div>
                                                 </div>
                                                 <div class="card-block-info">
-                                                    <div class="h6 fw-bold text-truncate"><a
-                                                            class="secondary-text-color"
-                                                            href="en/jobs/devops-account-executive-us-public-sector.html"
-                                                            title="Analyst Relations Manager">Analyst Relations
-                                                            Manager</a></div>
-                                                    <div class="mt-5"><span class="card-briefcase"> Part Time
+                                                    <h6 class="text-truncate"><a
+                                                            href="https://jobbox.archielite.com/jobs/systems-software-engineer"
+                                                            title="Systems Software Engineer">Systems Software
+                                                            Engineer</a></h6>
+                                                    <div class="mt-5"><span class="card-briefcase"> Freelance
                                                         </span><span class="card-time">1 year ago</span></div>
-                                                    <p class="font-sm color-text-paragraph job-description mt-15"
-                                                        title="Earum autem ea nihil non. Commodi illo tempora cupiditate magni dolores non omnis consequatur. Alias dolores dolores accusamus et. Aut ducimus praesentium sed labore modi id voluptas aperiam.">
-                                                        Earum autem ea nihil non. Commodi illo tempora
-                                                        cupiditate magni dolores non omnis consequatur. Alias
-                                                        dolores dolores accusamus et. Aut ducimus praesentium
-                                                        sed labore modi id voluptas aperiam.</p>
-                                                    <div class="mt-15"><a class="btn btn-grey-small mr-5 mb-2"
-                                                            href="en/job-tags/figma.html">Figma</a><a
+                                                    <p class="font-sm color-text-paragraph mt-15 job-description">
+                                                        Architecto reiciendis accusamus accusamus harum aliquid. Dolor
+                                                        odit soluta dolores est quae quas est. Excepturi accusamus ipsam
+                                                        aut hic et quod. Veniam nemo veritatis mollitia distinctio nobis
+                                                        ea.</p>
+                                                    <div class="mt-30"><a class="btn btn-grey-small mr-5 mb-2"
+                                                            href="https://jobbox.archielite.com/job-tags/illustrator">Illustrator</a><a
                                                             class="btn btn-grey-small mr-5 mb-2"
-                                                            href="en/job-tags/lunacy.html">Lunacy</a></div>
-                                                    <div class="card-2-bottom mt-15">
+                                                            href="https://jobbox.archielite.com/job-tags/lunacy">Lunacy</a>
+                                                    </div>
+                                                    <div class="card-2-bottom mt-30">
                                                         <div class="row">
-                                                            <div class="col-12">
-                                                                <div class=""><button class="btn btn-outline-gradient"
-                                                                        data-job-name="DevOps Account Executive - US Public Sector"
-                                                                        data-job-id="33" data-bs-toggle="modal"
-                                                                        data-bs-target="#ModalApplyJobForm">
-                                                                        Apply Now </button></div>
+                                                            <div class="col-12 salary-information"><span
+                                                                    class="card-text-price"
+                                                                    title="$3,000.00 - $8,500.00"> $3,000.00 - $8,500.00
+                                                                </span><span class="text-muted">/Daily</span></div>
+                                                            <div class="col-12 mt-3">
+                                                                <div class=""><button disabled
+                                                                        class="page_speed_1660542144 btn btn-apply-now text-danger">
+                                                                        Closed </button></div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -771,38 +821,40 @@
                                         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 jobs-item job-grid">
                                             <div class="card-grid-2 hover-up featured-job-item ">
                                                 <div class="card-grid-2-image-left"><span class="flash"></span>
-                                                    <div class="image-box"><img src="storage/companies/cny.png"
-                                                            alt="Ondo"></div>
-                                                    <div class="right-info"><a class="name-job secondary-text-color"
-                                                            title="Ondo" href="en/companies/ondo.html">Ondo</a><span
-                                                            class="location-small">Holland, HL</span></div>
+                                                    <div class="image-box"><img
+                                                            src=https://jobbox.archielite.com/storage/companies/6.png
+                                                            alt="Customer Reliability Engineer III"></div>
+                                                    <div class="right-info"><a class="name-job"
+                                                            href="https://jobbox.archielite.com/companies/whopcom">
+                                                            Whop.com </a><span class="location-small"> France, FRA
+                                                        </span></div>
                                                 </div>
                                                 <div class="card-block-info">
-                                                    <div class="h6 fw-bold text-truncate"><a
-                                                            class="secondary-text-color"
-                                                            href="en/jobs/devops-account-executive-us-public-sector.html"
-                                                            title="Sr Service Delivery Engineer">Sr Service Delivery
-                                                            Engineer</a></div>
-                                                    <div class="mt-5"><span class="card-briefcase"> Part Time
+                                                    <h6 class="text-truncate"><a
+                                                            href="https://jobbox.archielite.com/jobs/customer-reliability-engineer-iii"
+                                                            title="Customer Reliability Engineer III">Customer
+                                                            Reliability Engineer III</a></h6>
+                                                    <div class="mt-5"><span class="card-briefcase"> Internship
                                                         </span><span class="card-time">1 year ago</span></div>
-                                                    <p class="font-sm color-text-paragraph job-description mt-15"
-                                                        title="Earum autem ea nihil non. Commodi illo tempora cupiditate magni dolores non omnis consequatur. Alias dolores dolores accusamus et. Aut ducimus praesentium sed labore modi id voluptas aperiam.">
-                                                        Earum autem ea nihil non. Commodi illo tempora
-                                                        cupiditate magni dolores non omnis consequatur. Alias
-                                                        dolores dolores accusamus et. Aut ducimus praesentium
-                                                        sed labore modi id voluptas aperiam.</p>
-                                                    <div class="mt-15"><a class="btn btn-grey-small mr-5 mb-2"
-                                                            href="en/job-tags/figma.html">Figma</a><a
+                                                    <p class="font-sm color-text-paragraph mt-15 job-description">
+                                                        Temporibus neque aut dolore error. Est ab sit rerum autem quia
+                                                        ut voluptatem ut.</p>
+                                                    <div class="mt-30"><a class="btn btn-grey-small mr-5 mb-2"
+                                                            href="https://jobbox.archielite.com/job-tags/illustrator">Illustrator</a><a
                                                             class="btn btn-grey-small mr-5 mb-2"
-                                                            href="en/job-tags/lunacy.html">Lunacy</a></div>
-                                                    <div class="card-2-bottom mt-15">
+                                                            href="https://jobbox.archielite.com/job-tags/lunacy">Lunacy</a>
+                                                    </div>
+                                                    <div class="card-2-bottom mt-30">
                                                         <div class="row">
-                                                            <div class="col-12">
-                                                                <div class=""><button class="btn btn-outline-gradient"
-                                                                        data-job-name="DevOps Account Executive - US Public Sector"
-                                                                        data-job-id="33" data-bs-toggle="modal"
-                                                                        data-bs-target="#ModalApplyJobForm">
-                                                                        Apply Now </button></div>
+                                                            <div class="col-12 salary-information"><span
+                                                                    class="card-text-price"
+                                                                    title="$4,900.00 - $11,400.00"> $4,900.00 -
+                                                                    $11,400.00 </span><span
+                                                                    class="text-muted">/Hourly</span></div>
+                                                            <div class="col-12 mt-3">
+                                                                <div class=""><button disabled
+                                                                        class="page_speed_1660542144 btn btn-apply-now text-danger">
+                                                                        Closed </button></div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -812,38 +864,251 @@
                                         <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 jobs-item job-grid">
                                             <div class="card-grid-2 hover-up featured-job-item ">
                                                 <div class="card-grid-2-image-left"><span class="flash"></span>
-                                                    <div class="image-box"><img src="storage/companies/E&W.png"
-                                                            alt="Ondo"></div>
-                                                    <div class="right-info"><a class="name-job secondary-text-color"
-                                                            title="Ondo" href="en/companies/ondo.html">Ondo</a><span
-                                                            class="location-small">Holland, HL</span></div>
+                                                    <div class="image-box"><img
+                                                            src=https://jobbox.archielite.com/storage/companies/8.png
+                                                            alt="Senior Cloud Solutions Engineer"></div>
+                                                    <div class="right-info"><a class="name-job"
+                                                            href="https://jobbox.archielite.com/companies/visa"> Visa
+                                                        </a><span class="location-small"> England, UK </span></div>
                                                 </div>
                                                 <div class="card-block-info">
-                                                    <div class="h6 fw-bold text-truncate"><a
-                                                            class="secondary-text-color"
-                                                            href="en/jobs/devops-account-executive-us-public-sector.html"
-                                                            title="DevOps Account Executive">DevOps Account
-                                                            Executive</a></div>
+                                                    <h6 class="text-truncate"><a
+                                                            href="https://jobbox.archielite.com/jobs/senior-cloud-solutions-engineer"
+                                                            title="Senior Cloud Solutions Engineer">Senior Cloud
+                                                            Solutions Engineer</a></h6>
+                                                    <div class="mt-5"><span class="card-briefcase"> Freelance
+                                                        </span><span class="card-time">1 year ago</span></div>
+                                                    <p class="font-sm color-text-paragraph mt-15 job-description">Non
+                                                        doloribus eveniet quam non totam qui eius. Aspernatur qui
+                                                        necessitatibus aut consequatur rerum. Et commodi in at aut nihil
+                                                        dolor ipsa sed. Quo quia minima quia sed voluptates.</p>
+                                                    <div class="mt-30"><a class="btn btn-grey-small mr-5 mb-2"
+                                                            href="https://jobbox.archielite.com/job-tags/sketch">Sketch</a><a
+                                                            class="btn btn-grey-small mr-5 mb-2"
+                                                            href="https://jobbox.archielite.com/job-tags/python">Python</a>
+                                                    </div>
+                                                    <div class="card-2-bottom mt-30">
+                                                        <div class="row">
+                                                            <div class="col-12 salary-information"><span
+                                                                    class="card-text-price"
+                                                                    title="$6,700.00 - $9,500.00"> $6,700.00 - $9,500.00
+                                                                </span><span class="text-muted">/Monthly</span></div>
+                                                            <div class="col-12 mt-3">
+                                                                <div class=""><button disabled
+                                                                        class="page_speed_1660542144 btn btn-apply-now text-danger">
+                                                                        Closed </button></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 jobs-item job-grid">
+                                            <div class="card-grid-2 hover-up featured-job-item ">
+                                                <div class="card-grid-2-image-left"><span class="flash"></span>
+                                                    <div class="image-box"><img
+                                                            src=https://jobbox.archielite.com/storage/companies/2.png
+                                                            alt="Full Stack Engineer"></div>
+                                                    <div class="right-info"><a class="name-job"
+                                                            href="https://jobbox.archielite.com/companies/adobe-illustrator">
+                                                            Adobe Illustrator </a><span class="location-small"> New
+                                                            York, US </span></div>
+                                                </div>
+                                                <div class="card-block-info">
+                                                    <h6 class="text-truncate"><a
+                                                            href="https://jobbox.archielite.com/jobs/full-stack-engineer"
+                                                            title="Full Stack Engineer">Full Stack Engineer</a></h6>
                                                     <div class="mt-5"><span class="card-briefcase"> Part Time
                                                         </span><span class="card-time">1 year ago</span></div>
-                                                    <p class="font-sm color-text-paragraph job-description mt-15"
-                                                        title="Earum autem ea nihil non. Commodi illo tempora cupiditate magni dolores non omnis consequatur. Alias dolores dolores accusamus et. Aut ducimus praesentium sed labore modi id voluptas aperiam.">
-                                                        Earum autem ea nihil non. Commodi illo tempora
-                                                        cupiditate magni dolores non omnis consequatur. Alias
-                                                        dolores dolores accusamus et. Aut ducimus praesentium
-                                                        sed labore modi id voluptas aperiam.</p>
-                                                    <div class="mt-15"><a class="btn btn-grey-small mr-5 mb-2"
-                                                            href="en/job-tags/figma.html">Figma</a><a
+                                                    <p class="font-sm color-text-paragraph mt-15 job-description">Vel
+                                                        ipsa minus ea placeat. Facere et velit tenetur facere neque.</p>
+                                                    <div class="mt-30"><a class="btn btn-grey-small mr-5 mb-2"
+                                                            href="https://jobbox.archielite.com/job-tags/illustrator">Illustrator</a><a
                                                             class="btn btn-grey-small mr-5 mb-2"
-                                                            href="en/job-tags/lunacy.html">Lunacy</a></div>
-                                                    <div class="card-2-bottom mt-15">
+                                                            href="https://jobbox.archielite.com/job-tags/lunacy">Lunacy</a>
+                                                    </div>
+                                                    <div class="card-2-bottom mt-30">
                                                         <div class="row">
-                                                            <div class="col-12">
-                                                                <div class=""><button class="btn btn-outline-gradient"
-                                                                        data-job-name="DevOps Account Executive - US Public Sector"
-                                                                        data-job-id="33" data-bs-toggle="modal"
-                                                                        data-bs-target="#ModalApplyJobForm">
-                                                                        Apply Now </button></div>
+                                                            <div class="col-12 salary-information"><span
+                                                                    class="card-text-price"
+                                                                    title="$4,200.00 - $7,800.00"> $4,200.00 - $7,800.00
+                                                                </span><span class="text-muted">/Daily</span></div>
+                                                            <div class="col-12 mt-3">
+                                                                <div class=""><button disabled
+                                                                        class="page_speed_1660542144 btn btn-apply-now text-danger">
+                                                                        Closed </button></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 jobs-item job-grid">
+                                            <div class="card-grid-2 hover-up featured-job-item ">
+                                                <div class="card-grid-2-image-left"><span class="flash"></span>
+                                                    <div class="image-box"><img
+                                                            src=https://jobbox.archielite.com/storage/companies/5.png
+                                                            alt="Senior System Engineer"></div>
+                                                    <div class="right-info"><a class="name-job"
+                                                            href="https://jobbox.archielite.com/companies/linkedin">
+                                                            Linkedin </a><span class="location-small"> France, FRA
+                                                        </span></div>
+                                                </div>
+                                                <div class="card-block-info">
+                                                    <h6 class="text-truncate"><a
+                                                            href="https://jobbox.archielite.com/jobs/senior-system-engineer"
+                                                            title="Senior System Engineer">Senior System Engineer</a>
+                                                    </h6>
+                                                    <div class="mt-5"><span class="card-briefcase"> Freelance
+                                                        </span><span class="card-time">1 year ago</span></div>
+                                                    <p class="font-sm color-text-paragraph mt-15 job-description">Ut hic
+                                                        temporibus quas sit reiciendis sapiente nihil. Similique earum
+                                                        corrupti ipsam aliquam. Rem exercitationem ad dicta neque sed.
+                                                        Sit alias voluptas dolorem error et sunt quas.</p>
+                                                    <div class="mt-30"><a class="btn btn-grey-small mr-5 mb-2"
+                                                            href="https://jobbox.archielite.com/job-tags/adobe-xd">Adobe
+                                                            XD</a><a class="btn btn-grey-small mr-5 mb-2"
+                                                            href="https://jobbox.archielite.com/job-tags/python">Python</a>
+                                                    </div>
+                                                    <div class="card-2-bottom mt-30">
+                                                        <div class="row">
+                                                            <div class="col-12 salary-information"><span
+                                                                    class="card-text-price"
+                                                                    title="$9,300.00 - $13,800.00"> $9,300.00 -
+                                                                    $13,800.00 </span><span
+                                                                    class="text-muted">/Monthly</span></div>
+                                                            <div class="col-12 mt-3">
+                                                                <div class=""><button disabled
+                                                                        class="page_speed_1660542144 btn btn-apply-now text-danger">
+                                                                        Closed </button></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 jobs-item job-grid">
+                                            <div class="card-grid-2 hover-up featured-job-item ">
+                                                <div class="card-grid-2-image-left"><span class="flash"></span>
+                                                    <div class="image-box"><img
+                                                            src=https://jobbox.archielite.com/storage/companies/6.png
+                                                            alt="Program Manager"></div>
+                                                    <div class="right-info"><a class="name-job"
+                                                            href="https://jobbox.archielite.com/companies/whopcom">
+                                                            Whop.com </a><span class="location-small"> France, FRA
+                                                        </span></div>
+                                                </div>
+                                                <div class="card-block-info">
+                                                    <h6 class="text-truncate"><a
+                                                            href="https://jobbox.archielite.com/jobs/program-manager"
+                                                            title="Program Manager">Program Manager</a></h6>
+                                                    <div class="mt-5"><span class="card-briefcase"> Part Time
+                                                        </span><span class="card-time">1 year ago</span></div>
+                                                    <p class="font-sm color-text-paragraph mt-15 job-description">Est
+                                                        labore necessitatibus quidem laboriosam est atque. Et
+                                                        repellendus vel cum nihil corrupti. Non qui doloribus ut impedit
+                                                        nihil doloremque ut. Nulla nihil suscipit beatae.</p>
+                                                    <div class="mt-30"><a class="btn btn-grey-small mr-5 mb-2"
+                                                            href="https://jobbox.archielite.com/job-tags/adobe-xd">Adobe
+                                                            XD</a><a class="btn btn-grey-small mr-5 mb-2"
+                                                            href="https://jobbox.archielite.com/job-tags/php">PHP</a>
+                                                    </div>
+                                                    <div class="card-2-bottom mt-30">
+                                                        <div class="row">
+                                                            <div class="col-12 salary-information"><span
+                                                                    class="card-text-price"
+                                                                    title="$4,800.00 - $7,700.00"> $4,800.00 - $7,700.00
+                                                                </span><span class="text-muted">/Daily</span></div>
+                                                            <div class="col-12 mt-3">
+                                                                <div class=""><button disabled
+                                                                        class="page_speed_1660542144 btn btn-apply-now text-danger">
+                                                                        Closed </button></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 jobs-item job-grid">
+                                            <div class="card-grid-2 hover-up featured-job-item ">
+                                                <div class="card-grid-2-image-left"><span class="flash"></span>
+                                                    <div class="image-box"><img
+                                                            src=https://jobbox.archielite.com/storage/companies/8.png
+                                                            alt="Products Manager"></div>
+                                                    <div class="right-info"><a class="name-job"
+                                                            href="https://jobbox.archielite.com/companies/periscope">
+                                                            Periscope </a><span class="location-small"> Denmark, DN
+                                                        </span></div>
+                                                </div>
+                                                <div class="card-block-info">
+                                                    <h6 class="text-truncate"><a
+                                                            href="https://jobbox.archielite.com/jobs/products-manager"
+                                                            title="Products Manager">Products Manager</a></h6>
+                                                    <div class="mt-5"><span class="card-briefcase"> Full Time
+                                                        </span><span class="card-time">1 year ago</span></div>
+                                                    <p class="font-sm color-text-paragraph mt-15 job-description">Sed
+                                                        aspernatur et eius. Facilis error repudiandae modi vero quis
+                                                        illum. Aliquid vero similique exercitationem qui adipisci.</p>
+                                                    <div class="mt-30"><a class="btn btn-grey-small mr-5 mb-2"
+                                                            href="https://jobbox.archielite.com/job-tags/sketch">Sketch</a><a
+                                                            class="btn btn-grey-small mr-5 mb-2"
+                                                            href="https://jobbox.archielite.com/job-tags/lunacy">Lunacy</a>
+                                                    </div>
+                                                    <div class="card-2-bottom mt-30">
+                                                        <div class="row">
+                                                            <div class="col-12 salary-information"><span
+                                                                    class="card-text-price"
+                                                                    title="$2,800.00 - $6,800.00"> $2,800.00 - $6,800.00
+                                                                </span><span class="text-muted">/Yearly</span></div>
+                                                            <div class="col-12 mt-3">
+                                                                <div class=""><button disabled
+                                                                        class="page_speed_1660542144 btn btn-apply-now text-danger">
+                                                                        Closed </button></div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-12 jobs-item job-grid">
+                                            <div class="card-grid-2 hover-up featured-job-item ">
+                                                <div class="card-grid-2-image-left"><span class="flash"></span>
+                                                    <div class="image-box"><img
+                                                            src=https://jobbox.archielite.com/storage/companies/2.png
+                                                            alt="Customer Success Architect"></div>
+                                                    <div class="right-info"><a class="name-job"
+                                                            href="https://jobbox.archielite.com/companies/square">
+                                                            Square </a><span class="location-small"> New York, US
+                                                        </span></div>
+                                                </div>
+                                                <div class="card-block-info">
+                                                    <h6 class="text-truncate"><a
+                                                            href="https://jobbox.archielite.com/jobs/customer-success-architect"
+                                                            title="Customer Success Architect">Customer Success
+                                                            Architect</a></h6>
+                                                    <div class="mt-5"><span class="card-briefcase"> Contract
+                                                        </span><span class="card-time">1 year ago</span></div>
+                                                    <p class="font-sm color-text-paragraph mt-15 job-description">
+                                                        Officia minus tempora iusto eum voluptatem cumque. Culpa enim
+                                                        iste amet perferendis quam dignissimos et. Dolor at ut qui
+                                                        optio. Eaque reiciendis recusandae quibusdam incidunt in
+                                                        occaecati.</p>
+                                                    <div class="mt-30"><a class="btn btn-grey-small mr-5 mb-2"
+                                                            href="https://jobbox.archielite.com/job-tags/adobe-xd">Adobe
+                                                            XD</a><a class="btn btn-grey-small mr-5 mb-2"
+                                                            href="https://jobbox.archielite.com/job-tags/python">Python</a>
+                                                    </div>
+                                                    <div class="card-2-bottom mt-30">
+                                                        <div class="row">
+                                                            <div class="col-12 salary-information"><span
+                                                                    class="card-text-price"
+                                                                    title="$3,600.00 - $11,100.00"> $3,600.00 -
+                                                                    $11,100.00 </span><span
+                                                                    class="text-muted">/Weekly</span></div>
+                                                            <div class="col-12 mt-3">
+                                                                <div class=""><button disabled
+                                                                        class="page_speed_1660542144 btn btn-apply-now text-danger">
+                                                                        Closed </button></div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -914,27 +1179,7 @@
     <!-- Footer   -->
     <?php include('footer.php'); ?>
 
-    <script>
-        window.currencies = {
-            "display_big_money": null,
-            "billion": "billion",
-            "million": "million",
-            "is_prefix_symbol": 1,
-            "symbol": "₹",
-            "title": "INR",
-            "decimal_separator": ".",
-            "thousands_separator": ",",
-            "number_after_dot": 2,
-            "show_symbol_or_title": true
-        };
-
-        // modal pop up
-        document.addEventListener('DOMContentLoaded', () => {
-            var modal = new bootstrap.Modal(document.getElementById('ModalLocationSelection'));
-            modal.show();
-        });
-
-    </script>
+    <script> window.currencies = { "display_big_money": null, "billion": "billion", "million": "million", "is_prefix_symbol": 1, "symbol": "$", "title": "USD", "decimal_separator": ".", "thousands_separator": ",", "number_after_dot": 2, "show_symbol_or_title": true }; window.alertTranslations = { 'success': "Success", 'errors': "Errors" } </script>
     <script src=https://jobbox.archielite.com/themes/jobbox/plugins/wow.js></script>
     <script src=https://jobbox.archielite.com/themes/jobbox/plugins/modernizr-3.6.0.min.js></script>
     <script data-pagespeed-no-defer="1"
@@ -951,8 +1196,8 @@
     <script src=https://jobbox.archielite.com/themes/jobbox/plugins/counterup.js></script>
     <script src=https://jobbox.archielite.com/themes/jobbox/js/main.js?v=1.17.0></script>
     <script src=https://jobbox.archielite.com/themes/jobbox/js/script.js?v=1.17.0></script>
-    <script src=./js/backend.js></script>
-    <script src=./js/noUISlider.js></script>
+    <script src=https://jobbox.archielite.com/themes/jobbox/js/backend.js?v=1.17.0></script>
+    <script src=https://jobbox.archielite.com/themes/jobbox/js/noUISlider.js></script>
     <script src=https://jobbox.archielite.com/themes/jobbox/plugins/leaflet/leaflet.js></script>
     <script src=https://jobbox.archielite.com/themes/jobbox/plugins/leaflet/leaflet.markercluster-src.js></script>
     <script src=https://jobbox.archielite.com/vendor/core/core/js-validation/js/js-validation.js?v=1.0.1></script>

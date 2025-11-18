@@ -167,21 +167,13 @@
                         class="job-apply-form dirty-check" enctype="multipart/form-data"><input name=_token type=hidden
                             value="BABS9PzZFYTkFe3ucNu2JYYkoA2YnuJ9oMS47rA2">
                         <div class="filter-block mb-30">
-                            <h5 class="medium-heading mb-10 text-dark">State</h5>
+                            <h5 class="medium-heading mb-10 text-dark">Country</h5>
                             <div class="mb-3 select-style select-style-icon"><select
                                     class="form-control submit-form-filter form-icons select-active select-location"
-                                    form="jobs-filter-form" id="selectStateForm" name=state data-state-type="state"
-                                    data-placeholder="Select state"></select><i class="fi-rr-marker"></i><input
-                                    type=hidden name=state value="">
+                                    form="jobs-filter-form" id="selectCountryForm" name=country
+                                    data-country-type="country" data-placeholder="Select country"></select><i
+                                    class="fi-rr-marker"></i><input type=hidden name=country value="">
                             </div>
-                        </div>
-                        <div class="filter-block mb-30">
-                            <h5 class="medium-heading mb-10 text-dark">District</h5>
-                            <div class="mb-3 select-style select-style-icon"><select
-                                    class="form-control submit-form-filter form-icons select-active select-location"
-                                    form="jobs-filter-form" id="selectDistrictForm" name=district
-                                    data-district-type="state" data-placeholder="Select district"></select><i
-                                    class="fi-rr-marker"></i><input type=hidden name=district value=""></div>
                         </div>
                         <div class="text-center">
                             <button type="submit" class="btn btn-gradient text-light">Proceed</button>
@@ -462,6 +454,16 @@
                                                                     class="text-small">Last 1 month</span><span
                                                                     class="checkmark"></span></label></li>
                                                     </ul>
+                                                </div>
+                                            </div>
+                                            <div class="filter-block mb-30">
+                                                <h5 class="medium-heading mb-10 text-dark">Country</h5>
+                                                <div class="mb-3 select-style select-style-icon"><select
+                                                        class="form-control submit-form-filter form-icons select-active select-location"
+                                                        form="jobs-filter-form" id="selectCountry" name=country
+                                                        data-country-type="country"
+                                                        data-placeholder="Select country"></select><i
+                                                        class="fi-rr-marker"></i><input type=hidden name=country value="">
                                                 </div>
                                             </div>
                                             <div class="filter-block mb-30">

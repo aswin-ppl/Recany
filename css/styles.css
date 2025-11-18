@@ -5904,7 +5904,7 @@ div.paginations .pager li a.pager-number:before {
   text-align: left;
 }
 .banner-hero.hero-3 {
-  background: var(--primary-color);
+  background-image: url(../imgs/page/domestic/Section.png);
 }
 .banner-hero.hero-3:before {
   display: none;
