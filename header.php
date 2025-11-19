@@ -116,7 +116,7 @@
                                 <li class=" "><a href="interviews.php" target="_self"> Interviews </a></li>
                             </ul>
                         </li>
-                        <li class=" has-children "><a href="" target="_self"> Candidate Zone <div
+                        <li class=" has-children "><a href="job-description.php" target="_self"> Candidate Zone <div
                                     class="arrow-down"></div></a>
                             <ul class="sub-menu">
                                 <li class=" "><a href="domestic.php" target="_self">Domestic </a></li>
