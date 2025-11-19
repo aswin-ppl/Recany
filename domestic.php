@@ -2,13 +2,13 @@
 <html lang="en">
 
 <head>
-    <link rel="dns-prefetch" href="//jobbox.archielite.com">
-    <link rel="dns-prefetch" href="//www.googletagmanager.com">
-    <link rel="dns-prefetch" href="//www.w3.org">
-    <link rel="dns-prefetch" href="//facebook.com">
-    <link rel="dns-prefetch" href="//linkedin.com">
-    <link rel="dns-prefetch" href="//twitter.com">
-    <link rel="dns-prefetch" href="//jobbox.archielite.comcookie-policy">
+    <link rel="dns-prefetch" href="">
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com/">
+    <link rel="dns-prefetch" href="https://www.w3.org/">
+    <link rel="dns-prefetch" href="https://facebook.com/">
+    <link rel="dns-prefetch" href="https://linkedin.com/">
+    <link rel="dns-prefetch" href="https://twitter.com/">
+    <link rel="dns-prefetch" href="">
     <meta charset=utf-8>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=5, user-scalable=1"
@@ -32,18 +32,18 @@
     <title>Jobs</title>
     <meta name=description
         content="JobBox is a neat, clean and professional job board website script for your organization. It’s easy to build a complete Job Board site with JobBox script.">
-    <link rel="canonical" href="https://jobbox.archielite.com/jobs">
+    <link rel="canonical" href="">
     <meta name=robots content="index, follow">
     <meta property="og:site_name" content="JobBox - Laravel Job Board Script">
     <meta property="og:type" content="article">
     <meta property="og:title" content="Jobs">
     <meta property="og:description" content="">
-    <meta property="og:url" content="https://jobbox.archielite.com/jobs">
-    <meta property="og:image" content="https://jobbox.archielite.com/storage/general/logo.png">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
     <meta name=twitter:title content="Jobs">
     <meta name=twitter:description content="">
-    <link rel="sitemap" title="Sitemap" href="https://jobbox.archielite.com/sitemap.xml" type=application/xml>
-    <link rel="icon" type=image/x-icon href="https://jobbox.archielite.com/storage/general/favicon.png">
+    <link rel="sitemap" title="Sitemap" href="" type=application/xml>
+    <link rel="icon" type=image/x-icon href="">
     <link rel="icon" type=image/x-icon href="imgs/favicon.png">
     <link rel="stylesheet" href="./css/fonts.css">
     </style>
@@ -67,15 +67,15 @@
         type=application/ld+json>{"@context":"https:\/\/schema.org","@type":"WebSite","name":"JobBox - Laravel Job Board Script","url":"https:\/\/jobbox.archielite.com"}</script>
     <script
         type=application/ld+json>{"@context":"https:\/\/schema.org","@type":"Organization","name":"JobBox - Laravel Job Board Script","url":"https:\/\/jobbox.archielite.com\/jobs","logo":{"@type":"ImageObject","url":"https:\/\/jobbox.archielite.com\/storage\/general\/logo.png"}}</script>
-    <link href="https://jobbox.archielite.com/jobs" hreflang="x-default" rel="alternate">
-    <link href="https://jobbox.archielite.com/jobs" hreflang="en" rel="alternate">
-    <link href="https://jobbox.archielite.com/jobs" hreflang="en-us" rel="alternate">
-    <link href="https://jobbox.archielite.com/ar/jobs" hreflang="ar" rel="alternate">
-    <link type=application/atom+xml rel="alternate" title="Posts feed" href="https://jobbox.archielite.com/feed/posts">
+    <link href="#" hreflang="x-default" rel="alternate">
+    <link href="#" hreflang="en" rel="alternate">
+    <link href="#" hreflang="en-us" rel="alternate">
+    <link href="#" hreflang="ar" rel="alternate">
+    <link type=application/atom+xml rel="alternate" title="Posts feed" href="#">
     <link type=application/atom+xml rel="alternate" title="Posts feed"
-        href="https://jobbox.archielite.com/ar/feed/posts">
-    <link type=application/atom+xml rel="alternate" title="Jobs feed" href="https://jobbox.archielite.com/feed/jobs">
-    <link type=application/atom+xml rel="alternate" title="Jobs feed" href="https://jobbox.archielite.com/ar/feed/jobs">
+        href="#">
+    <link type=application/atom+xml rel="alternate" title="Jobs feed" href="#">
+    <link type=application/atom+xml rel="alternate" title="Jobs feed" href="#">
     <script async defer src='https://www.googletagmanager.com/gtag/js?id=G-R7X6YBEYYT'></script>
     <script> window.dataLayer = window.dataLayer || []; function gtag() { if (window.gtmDebugMode) { console.log('GTM Event:', arguments); } dataLayer.push(arguments); } gtag('js', new Date()); gtag('config', 'G-R7X6YBEYYT');</script>
     <script> window.siteUrl = "https://jobbox.archielite.com"</script>
@@ -162,7 +162,7 @@
             <div class="modal-content" style="border-radius: 30px;"><button class="btn-close" type=button
                     data-bs-dismiss="modal" aria-label="Close"></button>
                 <div class="modal-body pl-60 pr-60 pt-60 pb-60">
-                    <form method="POST" action="https://jobbox.archielite.com/jobs/apply" accept-charset="UTF-8"
+                    <form method="POST" action="" accept-charset="UTF-8"
                         id="botble-job-board-forms-fronts-internal-job-application-form"
                         class="job-apply-form dirty-check" enctype="multipart/form-data"><input name=_token type=hidden
                             value="BABS9PzZFYTkFe3ucNu2JYYkoA2YnuJ9oMS47rA2">
@@ -208,7 +208,7 @@
                                 <div class="form-find position-relative mt-40 wow animate__animated animate__fadeIn"
                                     data-wow-delay=".2s">
                                     <form method="GET" action="" accept-charset="UTF-8"
-                                        data-quick-search-url="https://jobbox.archielite.com/ajax/quick-search-jobs">
+                                        data-quick-search-url="#">
                                         <div class="box-industry"><select
                                                 class="form-input mr-10 select-active input-industry job-category"
                                                 name=job_categories[]>
@@ -231,7 +231,7 @@
                                 <div class="swiper-container swiper-group-3 swiper">
                                     <div class="swiper-wrapper pb-25 pt-5">
                                         <div class="swiper-slide hover-up"><a
-                                                href="https://jobbox.archielite.com/job-categories/management">
+                                                href="#">
                                                 <div class="item-logo">
                                                     <div class="image-left"><img
                                                             src="./imgs/page/domestic/civil-engineering.png"
@@ -243,7 +243,7 @@
                                                 </div>
                                             </a></div>
                                         <div class="swiper-slide hover-up"><a
-                                                href="https://jobbox.archielite.com/job-categories/retail-products">
+                                                href="#">
                                                 <div class="item-logo">
                                                     <div class="image-left"><img
                                                             src="./imgs/page/domestic/fast-food.png"
@@ -255,7 +255,7 @@
                                                 </div>
                                             </a></div>
                                         <div class="swiper-slide hover-up"><a
-                                                href="https://jobbox.archielite.com/job-categories/security-analyst">
+                                                href="#">
                                                 <div class="item-logo">
                                                     <div class="image-left"><img src="./imgs/page/domestic/service.png"
                                                             alt="Mechanical"></div>
@@ -281,7 +281,7 @@
                                 <div class="sidebar-shadow none-shadow mb-30">
                                     <div class="backdrop"></div>
                                     <div class="sidebar-filters sidebar-filter-mobile__inner">
-                                        <form method="GET" action="https://jobbox.archielite.com/ajax/jobs"
+                                        <form method="GET" action=""
                                             accept-charset="UTF-8" id="jobs-filter-form"
                                             class="sidebar-filter-mobile__content"><input type=hidden name=page
                                                 data-value="1"><input type=hidden name=keyword value=""><input
@@ -289,7 +289,7 @@
                                                 type=hidden name=sort_by value="">
                                             <div class="filter-block head-border-light mb-30">
                                                 <h5 class="text-dark"> Advanced Filters <a class="link-reset"
-                                                        href="https://jobbox.archielite.com/jobs">Reset</a></h5>
+                                                        href="#">Reset</a></h5>
                                             </div>
                                             <div class="filter-block mb-30">
                                                 <div class="mb-3 select-style select-style-icon"><select
@@ -544,14 +544,14 @@
                                                     </div>
                                                     <div class="box-view-type"><a class="view-type layout-job" href="#"
                                                             data-layout="list"><img
-                                                                src=https://jobbox.archielite.com/themes/jobbox/imgs/template/icons/icon-list.svg
+                                                                src=./imgs/template/icons/icon-list.svg
                                                                 alt="List layout"></a><a class="view-type layout-job"
                                                             href="#" data-layout="grid"><img
-                                                                src=https://jobbox.archielite.com/themes/jobbox/imgs/template/icons/icon-grid.svg
+                                                                src=./imgs/template/icons/icon-grid.svg
                                                                 alt="Grid layout"></a><a
                                                             class="view-type layout-job map" href="#"
                                                             data-layout="map"><img
-                                                                src=https://jobbox.archielite.com/themes/jobbox/imgs/template/map/map.png
+                                                                src=./imgs/template/map/map.png
                                                                 alt="Map layout"></a></div>
                                                 </div>
                                             </div>
@@ -859,13 +859,13 @@
                                                     class="fi fi-rr-arrow-small-left btn-prev"></i></a></li>
                                         <li><a class="pager-number active" href="javascript:void(0)">1</a></li>
                                         <li><a class="pager-number pagination-button" data-page="2"
-                                                href="https://jobbox.archielite.com/jobs?layout=grid&amp;page=2">2</a>
+                                                href="#">2</a>
                                         </li>
                                         <li><a class="pager-number pagination-button" data-page="3"
-                                                href="https://jobbox.archielite.com/jobs?layout=grid&amp;page=3">3</a>
+                                                href="#">3</a>
                                         </li>
                                         <li><a class="pager-next pagination-button text-center" data-page="2"
-                                                href="https://jobbox.archielite.com/jobs?layout=grid&amp;page=2"><i
+                                                href="#"><i
                                                     class="fi fi-rr-arrow-small-right btn-next"></i></a></li>
                                     </ul>
                                 </div>
@@ -888,7 +888,7 @@
                             <h2 class="text-md-newsletter text-center"> New Things Will Always <br> Update Regularly
                             </h2>
                             <div class="box-form-newsletter mt-40">
-                                <form method="POST" action="https://jobbox.archielite.com/newsletter/subscribe"
+                                <form method="POST" action=""
                                     accept-charset="UTF-8" id="botble-newsletter-forms-fronts-newsletter-form"
                                     class="subscribe-form form-newsletter subscribe-form newsletter-form dirty-check">
                                     <input name=_token type=hidden value="BABS9PzZFYTkFe3ucNu2JYYkoA2YnuJ9oMS47rA2">
@@ -935,31 +935,31 @@
         });
 
     </script>
-    <script src=https://jobbox.archielite.com/themes/jobbox/plugins/wow.js></script>
-    <script src=https://jobbox.archielite.com/themes/jobbox/plugins/modernizr-3.6.0.min.js></script>
+    <script src=./plugins/wow.js></script>
+    <script src=./plugins/modernizr-3.6.0.min.js></script>
     <script data-pagespeed-no-defer="1"
-        src=https://jobbox.archielite.com/themes/jobbox/plugins/jquery-3.6.3.min.js></script>
-    <script src=https://jobbox.archielite.com/themes/jobbox/plugins/jquery-migrate-3.3.0.min.js></script>
-    <script src=https://jobbox.archielite.com/themes/jobbox/plugins/bootstrap/bootstrap.bundle.min.js></script>
-    <script src=https://jobbox.archielite.com/themes/jobbox/plugins//waypoints.js></script>
-    <script src=https://jobbox.archielite.com/themes/jobbox/plugins//magnific-popup.js></script>
-    <script src=https://jobbox.archielite.com/themes/jobbox/plugins/perfect-scrollbar.min.js></script>
-    <script src=https://jobbox.archielite.com/themes/jobbox/plugins/select2.min.js></script>
-    <script src=https://jobbox.archielite.com/themes/jobbox/plugins/isotope.js></script>
-    <script src=https://jobbox.archielite.com/themes/jobbox/plugins/scrollup.js></script>
-    <script src=https://jobbox.archielite.com/themes/jobbox/plugins/swiper-bundle.min.js></script>
-    <script src=https://jobbox.archielite.com/themes/jobbox/plugins/counterup.js></script>
-    <script src=https://jobbox.archielite.com/themes/jobbox/js/main.js?v=1.17.0></script>
-    <script src=https://jobbox.archielite.com/themes/jobbox/js/script.js?v=1.17.0></script>
+        src=./plugins/jquery-3.6.3.min.js></script>
+    <script src=./plugins/jquery-migrate-3.3.0.min.js></script>
+    <script src=./plugins/bootstrap/bootstrap.bundle.min.js></script>
+    <script src=./plugins/waypoints.js></script>
+    <script src=./plugins/magnific-popup.js></script>
+    <script src=./plugins/perfect-scrollbar.min.js></script>
+    <script src=./plugins/select2.min.js></script>
+    <script src=./plugins/isotope.js></script>
+    <script src=./plugins/scrollup.js></script>
+    <script src=./plugins/swiper-bundle.min.js></script>
+    <script src=./plugins/counterup.js></script>
+    <script src=./js/main.js></script>
+    <script src=./js/script.js></script>
     <script src=./js/backend.js></script>
     <script src=./js/noUISlider.js></script>
-    <script src=https://jobbox.archielite.com/themes/jobbox/plugins/leaflet/leaflet.js></script>
-    <script src=https://jobbox.archielite.com/themes/jobbox/plugins/leaflet/leaflet.markercluster-src.js></script>
-    <script src=https://jobbox.archielite.com/vendor/core/core/js-validation/js/js-validation.js?v=1.0.1></script>
+    <script src=./plugins/leaflet/leaflet.js></script>
+    <script src=./plugins/leaflet/leaflet.markercluster-src.js></script>
+    <script src=./vendor/core/core/js-validation/js/js-validation.js></script>
     <script> jQuery(document).ready(function () { 'use strict'; $("#botble-job-board-forms-fronts-internal-job-application-form").each(function () { $(this).validate({ errorElement: 'div', errorClass: 'invalid-feedback', errorPlacement: function (error, element) { if (element.closest('[data-bb-toggle="tree-checkboxes"]').length) { error.insertAfter(element.closest('[data-bb-toggle="tree-checkboxes"]')); } else if (element.parent('.input-group').length || element.prop('type') === 'checkbox' || element.prop('type') === 'radio') { error.insertAfter(element.parent()); } else if ($(element).data('select2')) { error.insertAfter(element.next('span')); } else { error.insertAfter(element); } }, highlight: function (element) { $(element).closest('.form-control').removeClass('is-valid').addClass('is-invalid'); }, unhighlight: function (element) { $(element).closest('.form-control').removeClass('is-invalid').addClass('is-valid'); }, success: function (element) { $(element).closest('.form-control').removeClass('is-invalid').addClass('is-valid'); }, focusInvalid: false, rules: JSON.parse('{\u0022job_type\u0022:{\u0022laravelValidation\u0022:[[\u0022In\u0022,[\u0022internal\u0022,\u0022external\u0022],\u0022The selected job type is invalid.\u0022,false]]},\u0022email\u0022:{\u0022laravelValidation\u0022:[[\u0022Required\u0022,[],\u0022The Email field is required.\u0022,true],[\u0022Email\u0022,[],\u0022The Email must be a valid email address.\u0022,false]]},\u0022message\u0022:{\u0022laravelValidation\u0022:[[\u0022Nullable\u0022,[],\u0022validation.nullable\u0022,false],[\u0022Max\u0022,[\u00221000\u0022],\u0022The Message must not be greater than 1000 characters.\u0022,false]]}}') }); }); });</script>
     <script> jQuery(document).ready(function () { 'use strict'; $("#botble-job-board-forms-fronts-external-job-application-form").each(function () { $(this).validate({ errorElement: 'div', errorClass: 'invalid-feedback', errorPlacement: function (error, element) { if (element.closest('[data-bb-toggle="tree-checkboxes"]').length) { error.insertAfter(element.closest('[data-bb-toggle="tree-checkboxes"]')); } else if (element.parent('.input-group').length || element.prop('type') === 'checkbox' || element.prop('type') === 'radio') { error.insertAfter(element.parent()); } else if ($(element).data('select2')) { error.insertAfter(element.next('span')); } else { error.insertAfter(element); } }, highlight: function (element) { $(element).closest('.form-control').removeClass('is-valid').addClass('is-invalid'); }, unhighlight: function (element) { $(element).closest('.form-control').removeClass('is-invalid').addClass('is-valid'); }, success: function (element) { $(element).closest('.form-control').removeClass('is-invalid').addClass('is-valid'); }, focusInvalid: false, rules: JSON.parse('{\u0022job_type\u0022:{\u0022laravelValidation\u0022:[[\u0022In\u0022,[\u0022internal\u0022,\u0022external\u0022],\u0022The selected job type is invalid.\u0022,false]]},\u0022email\u0022:{\u0022laravelValidation\u0022:[[\u0022Required\u0022,[],\u0022The Email field is required.\u0022,true],[\u0022Email\u0022,[],\u0022The Email must be a valid email address.\u0022,false]]},\u0022message\u0022:{\u0022laravelValidation\u0022:[[\u0022Nullable\u0022,[],\u0022validation.nullable\u0022,false],[\u0022Max\u0022,[\u00221000\u0022],\u0022The Message must not be greater than 1000 characters.\u0022,false]]}}') }); }); });</script>
     <script> jQuery(document).ready(function () { 'use strict'; $("#botble-newsletter-forms-fronts-newsletter-form").each(function () { $(this).validate({ errorElement: 'div', errorClass: 'invalid-feedback', errorPlacement: function (error, element) { if (element.closest('[data-bb-toggle="tree-checkboxes"]').length) { error.insertAfter(element.closest('[data-bb-toggle="tree-checkboxes"]')); } else if (element.parent('.input-group').length || element.prop('type') === 'checkbox' || element.prop('type') === 'radio') { error.insertAfter(element.parent()); } else if ($(element).data('select2')) { error.insertAfter(element.next('span')); } else { error.insertAfter(element); } }, highlight: function (element) { $(element).closest('.form-control').removeClass('is-valid').addClass('is-invalid'); }, unhighlight: function (element) { $(element).closest('.form-control').removeClass('is-invalid').addClass('is-valid'); }, success: function (element) { $(element).closest('.form-control').removeClass('is-invalid').addClass('is-valid'); }, focusInvalid: false, rules: JSON.parse('{\u0022email\u0022:{\u0022laravelValidation\u0022:[[\u0022Required\u0022,[],\u0022The email field is required.\u0022,true],[\u0022Email\u0022,[],\u0022The email must be a valid email address.\u0022,false]],\u0022laravelValidationRemote\u0022:[[\u0022Unique\u0022,[\u0022email\u0022,\u0022eyJpdiI6IlRvT3lPejVXMXd0cUFWVzVsMGs0b1E9PSIsInZhbHVlIjoiVVBEUG9odnF3VmhXWXMvZ2xobzhwZHFFNTFYenB2SEJXNmRvZ0o5d3oyZUJjRDlyc01BLzVDQTFFbEZrQjIyMVBlUm9NWkMwSTNxL0FCREdCb1BIZXc9PSIsIm1hYyI6ImViZTk0ODU0MGQ3ZjdlMjhmNzJkZDAwZGQ2ZjdlYmMzNzJjNWU0OTc0OTQ3MWMzODViMDdlZTBiYjdkOWRkODIiLCJ0YWciOiIifQ==\u0022,false],\u0022The email has already been taken.\u0022,false]]},\u0022status\u0022:{\u0022laravelValidation\u0022:[[\u0022In\u0022,[\u0022subscribed\u0022,\u0022unsubscribed\u0022],\u0022The selected status is invalid.\u0022,false]]}}') }); }); });</script>
-    <script src=https://jobbox.archielite.com/vendor/core/plugins/language/js/language-public.js?v=2.2.0></script>
+    <script src=./vendor/core/plugins/language/js/language-public.js></script>
     <style>
         .site-notice {
             position: fixed;
@@ -1264,7 +1264,7 @@
         <div class="site-notice-body page_speed_footer">
             <div class="site-notice__inner">
                 <div class="site-notice__message"> Your experience on this site will be improved by allowing cookies <a
-                        href="https://jobbox.archielite.com//cookie-policy">Cookie Policy</a></div>
+                        href="#">Cookie Policy</a></div>
                 <div class="site-notice__actions"><button
                         class="js-site-notice-agree site-notice__agree page_speed_1714842563"> Allow cookies </button>
                 </div>
