@@ -2,13 +2,13 @@
 <html lang="en">
 
 <head>
-    <link rel="dns-prefetch" href="en.html">
+    <link rel="dns-prefetch" href="">
     <link rel="dns-prefetch" href="https://www.googletagmanager.com/">
     <link rel="dns-prefetch" href="https://www.w3.org/">
     <link rel="dns-prefetch" href="https://facebook.com/">
     <link rel="dns-prefetch" href="https://linkedin.com/">
     <link rel="dns-prefetch" href="https://twitter.com/">
-    <link rel="dns-prefetch" href="https://jobbox.archielite.comcookie-policy/">
+    <link rel="dns-prefetch" href="">
     <meta charset=utf-8>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=5, user-scalable=1"
@@ -32,15 +32,15 @@
     <title>Recany</title>
     <meta name=description
         content="">
-    <link rel="canonical" href="en.html">
+    <link rel="canonical" href="">
     <meta name=robots content="index, follow">
     <meta property="og:site_name" content="Recany">
     <meta property="og:type" content="article">
     <meta property="og:title" content="Recany">
     <meta property="og:description"
         content="">
-    <meta property="og:url" content="https://jobbox.archielite.com">
-    <meta property="og:image" content="https://jobbox.archielite.com/storage/general/logo.png">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
     <meta name=twitter:title content="Recany">
     <meta name=twitter:description
         content="">
@@ -64,9 +64,9 @@
         type=application/ld+json>{"@context":"https:\/\/schema.org","@type":"WebSite","name":"Recany","url":"https:\/\/jobbox.archielite.com"}</script>
     <script
         type=application/ld+json>{"@context":"https:\/\/schema.org","@type":"Organization","name":"Recany","url":"https:\/\/jobbox.archielite.com","logo":{"@type":"ImageObject","url":"https:\/\/jobbox.archielite.com\/storage\/general\/logo.png"}}</script>
-    <link href="en.html" hreflang="x-default" rel="alternate">
-    <link href="en.html" hreflang="en" rel="alternate">
-    <link href="en.html" hreflang="en-us" rel="alternate">
+    <link href="#" hreflang="x-default" rel="alternate">
+    <link href="#" hreflang="en" rel="alternate">
+    <link href="#" hreflang="en-us" rel="alternate">
     <link href="ar.html" hreflang="ar" rel="alternate">
     <link type=application/atom+xml rel="alternate" title="plugins/rss-feed::rss-feed.name_feed" href="feed/posts">
     <link type=application/atom+xml rel="alternate" title="plugins/rss-feed::rss-feed.name_feed" href="ar/feed/posts">
@@ -524,7 +524,6 @@
                                             </div>
                                         </div>
                                     </div>
-
                                 </div>
                             </div>
                         </div>
@@ -571,20 +570,20 @@
                                         <div class="nav nav-tabs" role="tablist">
                                             <div role="tab"><a class="px-5 secondary-text-color" id="nav-tab-job-9"
                                                     href="en.html#tab-job-9"
-                                                    data-url="https://jobbox.archielite.com/ajax/jobs-by-category/9?limit=8"
+                                                    data-url="#"
                                                     data-class="active category-item page_speed_970232878"><img
                                                         src="storage/general/Content-Writer.png" alt="Civil">
                                                     Civil&nbsp;</a></div>
                                             <div role="tab"><a class="secondary-text-color" id="nav-tab-job-1"
                                                     href="en.html#tab-job-1"
-                                                    data-url="https://jobbox.archielite.com/ajax/jobs-by-category/1?limit=8"
+                                                    data-url="#"
                                                     data- class="category-item page_speed_970232878"><img
                                                         src="storage/general/Marketing-&-Sale.png"
                                                         alt="Food & Beverage Industry"> Food & Beverage Industry </a>
                                             </div>
                                             <div role="tab"><a class="secondary-text-color" id="nav-tab-job-3"
                                                     href="en.html#tab-job-3"
-                                                    data-url="https://jobbox.archielite.com/ajax/jobs-by-category/3?limit=8"
+                                                    data-url="#"
                                                     data- class="category-item page_speed_970232878"><img
                                                         src="storage/general/mechanic.png" alt="Mechanical">
                                                     Mechanical </a></div>
@@ -1048,7 +1047,7 @@
                             <h2 class="text-md-newsletter text-center"> New Things Will Always <br> Update Regularly
                             </h2>
                             <div class="box-form-newsletter mt-40">
-                                <form method="POST" action="https://jobbox.archielite.com/newsletter/subscribe"
+                                <form method="POST" action=""
                                     accept-charset="UTF-8" id="botble-newsletter-forms-fronts-newsletter-form"
                                     class="subscribe-form form-newsletter subscribe-form newsletter-form dirty-check">
                                     <input name=_token type=hidden value="BABS9PzZFYTkFe3ucNu2JYYkoA2YnuJ9oMS47rA2">
@@ -1089,9 +1088,9 @@
     <script src="./plugins/scrollup.js"></script>
     <script src="./plugins/swiper-bundle.min.js"></script>
     <script src="./plugins/counterup.js"></script>
-    <script src="./js/main.js%3Fv=1.17.0"></script>
-    <script src="./js/script.js%3Fv=1.17.0"></script>
-    <script src="./js/backend.js%3Fv=1.17.0"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/backend.js"></script>
     <script src="./vendor/core/core/js-validation/js/js-validation.js%3Fv=1.0.1"></script>
     <script> jQuery(document).ready(function () { 'use strict'; $("#botble-job-board-forms-fronts-internal-job-application-form").each(function () { $(this).validate({ errorElement: 'div', errorClass: 'invalid-feedback', errorPlacement: function (error, element) { if (element.closest('[data-bb-toggle="tree-checkboxes"]').length) { error.insertAfter(element.closest('[data-bb-toggle="tree-checkboxes"]')); } else if (element.parent('.input-group').length || element.prop('type') === 'checkbox' || element.prop('type') === 'radio') { error.insertAfter(element.parent()); } else if ($(element).data('select2')) { error.insertAfter(element.next('span')); } else { error.insertAfter(element); } }, highlight: function (element) { $(element).closest('.form-control').removeClass('is-valid').addClass('is-invalid'); }, unhighlight: function (element) { $(element).closest('.form-control').removeClass('is-invalid').addClass('is-valid'); }, success: function (element) { $(element).closest('.form-control').removeClass('is-invalid').addClass('is-valid'); }, focusInvalid: false, rules: JSON.parse('{\u0022job_type\u0022:{\u0022laravelValidation\u0022:[[\u0022In\u0022,[\u0022internal\u0022,\u0022external\u0022],\u0022The selected job type is invalid.\u0022,false]]},\u0022email\u0022:{\u0022laravelValidation\u0022:[[\u0022Required\u0022,[],\u0022The Email field is required.\u0022,true],[\u0022Email\u0022,[],\u0022The Email must be a valid email address.\u0022,false]]},\u0022message\u0022:{\u0022laravelValidation\u0022:[[\u0022Nullable\u0022,[],\u0022validation.nullable\u0022,false],[\u0022Max\u0022,[\u00221000\u0022],\u0022The Message must not be greater than 1000 characters.\u0022,false]]}}') }); }); });</script>
     <script> jQuery(document).ready(function () { 'use strict'; $("#botble-job-board-forms-fronts-external-job-application-form").each(function () { $(this).validate({ errorElement: 'div', errorClass: 'invalid-feedback', errorPlacement: function (error, element) { if (element.closest('[data-bb-toggle="tree-checkboxes"]').length) { error.insertAfter(element.closest('[data-bb-toggle="tree-checkboxes"]')); } else if (element.parent('.input-group').length || element.prop('type') === 'checkbox' || element.prop('type') === 'radio') { error.insertAfter(element.parent()); } else if ($(element).data('select2')) { error.insertAfter(element.next('span')); } else { error.insertAfter(element); } }, highlight: function (element) { $(element).closest('.form-control').removeClass('is-valid').addClass('is-invalid'); }, unhighlight: function (element) { $(element).closest('.form-control').removeClass('is-invalid').addClass('is-valid'); }, success: function (element) { $(element).closest('.form-control').removeClass('is-invalid').addClass('is-valid'); }, focusInvalid: false, rules: JSON.parse('{\u0022job_type\u0022:{\u0022laravelValidation\u0022:[[\u0022In\u0022,[\u0022internal\u0022,\u0022external\u0022],\u0022The selected job type is invalid.\u0022,false]]},\u0022email\u0022:{\u0022laravelValidation\u0022:[[\u0022Required\u0022,[],\u0022The Email field is required.\u0022,true],[\u0022Email\u0022,[],\u0022The Email must be a valid email address.\u0022,false]]},\u0022message\u0022:{\u0022laravelValidation\u0022:[[\u0022Nullable\u0022,[],\u0022validation.nullable\u0022,false],[\u0022Max\u0022,[\u00221000\u0022],\u0022The Message must not be greater than 1000 characters.\u0022,false]]}}') }); }); });</script>
@@ -1401,7 +1400,7 @@
         <div class="site-notice-body page_speed_566403145">
             <div class="site-notice__inner">
                 <div class="site-notice__message"> Your experience on this site will be improved by allowing cookies <a
-                        href="https://jobbox.archielite.com//cookie-policy">Cookie Policy</a></div>
+                        href="#">Cookie Policy</a></div>
                 <div class="site-notice__actions"><button
                         class="js-site-notice-agree site-notice__agree page_speed_653921778"> Allow cookies </button>
                 </div>
@@ -1433,7 +1432,7 @@
     </div>
     <div data-site-cookie-name="cookie_for_consent"></div>
     <div data-site-cookie-lifetime="7300"></div>
-    <div data-site-cookie-domain="jobbox.archielite.com"></div>
+    <div data-site-cookie-domain=""></div>
     <div data-site-session-secure=""></div>
     <script> document.addEventListener('DOMContentLoaded', function () { function checkCookie(name) { return document.cookie.split(';').some((item) => item.trim().startsWith(name + '=')); } setTimeout(function () { const cookieName = document.querySelector('div[data-site-cookie-name]').getAttribute('data-site-cookie-name') || 'cookie_for_consent'; if (!checkCookie(cookieName)) { const siteNotice = document.querySelector('.js-site-notice'); if (siteNotice) { siteNotice.classList.add('site-notice--visible'); } } }, 1000); }); window.addEventListener('load', function () { if (typeof gtag !== 'undefined') { gtag('consent', 'default', { 'ad_storage': 'denied', 'analytics_storage': 'denied' }); document.addEventListener('click', function (event) { if (event.target.classList.contains('js-site-notice-agree')) { const categories = document.querySelectorAll('.js-cookie-category:checked'); const consents = { 'ad_storage': 'denied', 'analytics_storage': 'denied' }; categories.forEach(function (category) { if (category.value === 'marketing') { consents.ad_storage = 'granted'; } if (category.value === 'analytics') { consents.analytics_storage = 'granted'; } }); gtag('consent', 'update', consents); } }); } window.botbleCookieConsent = (function () { const COOKIE_NAME = document.querySelector('div[data-site-cookie-name]').getAttribute('data-site-cookie-name') || 'cookie_for_consent'; const COOKIE_DOMAIN = document.querySelector('div[data-site-cookie-domain]').getAttribute('data-site-cookie-domain') || window.location.hostname; const COOKIE_LIFETIME = parseInt(document.querySelector('div[data-site-cookie-lifetime]').getAttribute('data-site-cookie-lifetime') || '36000', 10); const SESSION_SECURE = document.querySelector('div[data-site-session-secure]').getAttribute('data-site-session-secure') || ''; const cookieDialog = document.querySelector('.js-site-notice'); const cookieCategories = document.querySelector('.site-notice__categories'); const customizeButton = document.querySelector('.js-site-notice-customize'); if (cookieDialog) { if (cookieCategories) { cookieCategories.style.display = 'none'; } if (!cookieExists(COOKIE_NAME)) { setTimeout(function () { cookieDialog.classList.add('site-notice--visible'); }, 800); } } function consentWithCookies() { const categories = {}; document.querySelectorAll('.js-cookie-category:checked').forEach(function (checkbox) { categories[checkbox.value] = true; }); setCookie(COOKIE_NAME, JSON.stringify(categories), COOKIE_LIFETIME); hideCookieDialog(); } function savePreferences() { consentWithCookies(); if (cookieCategories) { const slideUpAnimation = cookieCategories.animate([{ opacity: 1, height: cookieCategories.offsetHeight + 'px' }, { opacity: 0, height: 0 }], { duration: 300, easing: 'ease-out' }); slideUpAnimation.onfinish = function () { cookieCategories.style.display = 'none'; }; } if (customizeButton) { customizeButton.classList.remove('active'); } } function rejectAllCookies() { if (cookieExists(COOKIE_NAME)) { const secure = window.location.protocol === 'https:' ? '; Secure' : ''; document.cookie = COOKIE_NAME + '=; expires=Thu, 01 Jan 1970 00:00:00 UTC; domain=' + COOKIE_DOMAIN + '; path=/; SameSite=Lax' + secure + SESSION_SECURE; } if (typeof gtag !== 'undefined') { gtag('consent', 'update', { 'ad_storage': 'denied', 'analytics_storage': 'denied' }); } hideCookieDialog(); } function cookieExists(name) { const cookie = getCookie(name); return cookie !== null && cookie !== undefined; } function getCookie(name) { const value = `; ${document.cookie}`; const parts = value.split(`; ${name}=`); if (parts.length === 2) { return parts.pop().split(';').shift(); } return null; } function hideCookieDialog() { if (cookieDialog) { cookieDialog.classList.remove('site-notice--visible'); cookieDialog.style.display = 'none'; } } function setCookie(name, value, expirationInDays) { const date = new Date(); date.setTime(date.getTime() + expirationInDays * 24 * 60 * 60 * 1000); const secure = window.location.protocol === 'https:' ? ';Secure' : ''; document.cookie = name + '=' + value + ';expires=' + date.toUTCString() + ';domain=' + COOKIE_DOMAIN + ';path=/' + ';SameSite=Lax' + secure + SESSION_SECURE; } function toggleCustomizeView() { if (!cookieCategories) return; if (cookieCategories.style.display === 'none') { cookieCategories.style.height = '0'; cookieCategories.style.opacity = '0'; cookieCategories.style.display = 'block'; const height = cookieCategories.scrollHeight; const slideDownAnimation = cookieCategories.animate([{ opacity: 0, height: 0 }, { opacity: 1, height: height + 'px' }], { duration: 300, easing: 'ease-in' }); slideDownAnimation.onfinish = function () { cookieCategories.style.height = 'auto'; cookieCategories.style.opacity = '1'; }; if (customizeButton) { customizeButton.classList.add('active'); } } else { const slideUpAnimation = cookieCategories.animate([{ opacity: 1, height: cookieCategories.offsetHeight + 'px' }, { opacity: 0, height: 0 }], { duration: 300, easing: 'ease-out' }); slideUpAnimation.onfinish = function () { cookieCategories.style.display = 'none'; }; if (customizeButton) { customizeButton.classList.remove('active'); } } } if (cookieExists(COOKIE_NAME)) { hideCookieDialog(); } document.addEventListener('click', function (event) { if (event.target.classList.contains('js-site-notice-agree')) { consentWithCookies(); } else if (event.target.classList.contains('js-site-notice-reject')) { rejectAllCookies(); } else if (event.target.classList.contains('js-site-notice-customize')) { toggleCustomizeView(); } else if (event.target.classList.contains('js-site-notice-save')) { savePreferences(); } }); return { consentWithCookies: consentWithCookies, rejectAllCookies: rejectAllCookies, hideCookieDialog: hideCookieDialog, savePreferences: savePreferences, }; })(); });</script>
     <script> 'use strict'; $(function () { $.scrollUp({ scrollText: '<i class="fi-rr-arrow-small-up"></i>', easingType: "linear", scrollSpeed: 900, animation: "fade" }) }); </script>

@@ -2,13 +2,13 @@
 <html lang="en">
 
 <head>
-    <link rel="dns-prefetch" href="en.html">
+    <link rel="dns-prefetch" href="">
     <link rel="dns-prefetch" href="https://www.googletagmanager.com/">
     <link rel="dns-prefetch" href="https://www.w3.org/">
     <link rel="dns-prefetch" href="https://facebook.com/">
     <link rel="dns-prefetch" href="https://linkedin.com/">
     <link rel="dns-prefetch" href="https://twitter.com/">
-    <link rel="dns-prefetch" href="https://jobbox.archielite.comcookie-policy/">
+    <link rel="dns-prefetch" href="">
     <meta charset=utf-8>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=5, user-scalable=1"
@@ -37,8 +37,8 @@
     <meta property="og:type" content="article">
     <meta property="og:title" content="Achievements & Awards">
     <meta property="og:description" content="Recognition for excellence and success.">
-    <meta property="og:url" content="https://jobbox.archielite.com/about-us">
-    <meta property="og:image" content="https://jobbox.archielite.com/storage/general/logo.png">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
     <meta name=twitter:title content="Achievements & Awards">
     <meta name=twitter:description content="Recognition for excellence and success.">
     <link rel="icon" type=image/x-icon href="imgs/favicon.png">
@@ -49,8 +49,8 @@
     </style>
     <link rel="stylesheet" href="./css/fonts.css">
     <link media="all" type=text/css rel="stylesheet"
-        href="vendor/core/plugins/language/css/language-public.css%3Fv=2.2.0.css">
-    <link media="all" type=text/css rel="stylesheet" href="vendor/core/core/base/libraries/ckeditor/content-styles.css">
+        href="./vendor/core/plugins/language/css/language-public.css%3Fv=2.2.0.css">
+    <link media="all" type=text/css rel="stylesheet" href="./vendor/core/core/base/libraries/ckeditor/content-styles.css">
     <link media="all" type=text/css rel="stylesheet" href="./plugins/bootstrap/bootstrap.min.css">
     <link media="all" type=text/css rel="stylesheet" href="./css/styles.css">
     <link media="all" type=text/css rel="stylesheet" href="./plugins/animate.min.css">
@@ -228,14 +228,14 @@
     <script src="./plugins/scrollup.js"></script>
     <script src="./plugins/swiper-bundle.min.js"></script>
     <script src="./plugins/counterup.js"></script>
-    <script src="./js/main.js%3Fv=1.17.0"></script>
-    <script src="./js/script.js%3Fv=1.17.0"></script>
-    <script src="./js/backend.js%3Fv=1.17.0"></script>
-    <script src="vendor/core/core/js-validation/js/js-validation.js%3Fv=1.0.1"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/backend.js"></script>
+    <script src="./vendor/core/core/js-validation/js/js-validation.js%3Fv=1.0.1"></script>
     <script> jQuery(document).ready(function () { 'use strict'; $("#botble-job-board-forms-fronts-internal-job-application-form").each(function () { $(this).validate({ errorElement: 'div', errorClass: 'invalid-feedback', errorPlacement: function (error, element) { if (element.closest('[data-bb-toggle="tree-checkboxes"]').length) { error.insertAfter(element.closest('[data-bb-toggle="tree-checkboxes"]')); } else if (element.parent('.input-group').length || element.prop('type') === 'checkbox' || element.prop('type') === 'radio') { error.insertAfter(element.parent()); } else if ($(element).data('select2')) { error.insertAfter(element.next('span')); } else { error.insertAfter(element); } }, highlight: function (element) { $(element).closest('.form-control').removeClass('is-valid').addClass('is-invalid'); }, unhighlight: function (element) { $(element).closest('.form-control').removeClass('is-invalid').addClass('is-valid'); }, success: function (element) { $(element).closest('.form-control').removeClass('is-invalid').addClass('is-valid'); }, focusInvalid: false, rules: JSON.parse('{\u0022job_type\u0022:{\u0022laravelValidation\u0022:[[\u0022In\u0022,[\u0022internal\u0022,\u0022external\u0022],\u0022The selected job type is invalid.\u0022,false]]},\u0022email\u0022:{\u0022laravelValidation\u0022:[[\u0022Required\u0022,[],\u0022The Email field is required.\u0022,true],[\u0022Email\u0022,[],\u0022The Email must be a valid email address.\u0022,false]]},\u0022message\u0022:{\u0022laravelValidation\u0022:[[\u0022Nullable\u0022,[],\u0022validation.nullable\u0022,false],[\u0022Max\u0022,[\u00221000\u0022],\u0022The Message must not be greater than 1000 characters.\u0022,false]]}}') }); }); });</script>
     <script> jQuery(document).ready(function () { 'use strict'; $("#botble-job-board-forms-fronts-external-job-application-form").each(function () { $(this).validate({ errorElement: 'div', errorClass: 'invalid-feedback', errorPlacement: function (error, element) { if (element.closest('[data-bb-toggle="tree-checkboxes"]').length) { error.insertAfter(element.closest('[data-bb-toggle="tree-checkboxes"]')); } else if (element.parent('.input-group').length || element.prop('type') === 'checkbox' || element.prop('type') === 'radio') { error.insertAfter(element.parent()); } else if ($(element).data('select2')) { error.insertAfter(element.next('span')); } else { error.insertAfter(element); } }, highlight: function (element) { $(element).closest('.form-control').removeClass('is-valid').addClass('is-invalid'); }, unhighlight: function (element) { $(element).closest('.form-control').removeClass('is-invalid').addClass('is-valid'); }, success: function (element) { $(element).closest('.form-control').removeClass('is-invalid').addClass('is-valid'); }, focusInvalid: false, rules: JSON.parse('{\u0022job_type\u0022:{\u0022laravelValidation\u0022:[[\u0022In\u0022,[\u0022internal\u0022,\u0022external\u0022],\u0022The selected job type is invalid.\u0022,false]]},\u0022email\u0022:{\u0022laravelValidation\u0022:[[\u0022Required\u0022,[],\u0022The Email field is required.\u0022,true],[\u0022Email\u0022,[],\u0022The Email must be a valid email address.\u0022,false]]},\u0022message\u0022:{\u0022laravelValidation\u0022:[[\u0022Nullable\u0022,[],\u0022validation.nullable\u0022,false],[\u0022Max\u0022,[\u00221000\u0022],\u0022The Message must not be greater than 1000 characters.\u0022,false]]}}') }); }); });</script>
     <script> jQuery(document).ready(function () { 'use strict'; $("#botble-newsletter-forms-fronts-newsletter-form").each(function () { $(this).validate({ errorElement: 'div', errorClass: 'invalid-feedback', errorPlacement: function (error, element) { if (element.closest('[data-bb-toggle="tree-checkboxes"]').length) { error.insertAfter(element.closest('[data-bb-toggle="tree-checkboxes"]')); } else if (element.parent('.input-group').length || element.prop('type') === 'checkbox' || element.prop('type') === 'radio') { error.insertAfter(element.parent()); } else if ($(element).data('select2')) { error.insertAfter(element.next('span')); } else { error.insertAfter(element); } }, highlight: function (element) { $(element).closest('.form-control').removeClass('is-valid').addClass('is-invalid'); }, unhighlight: function (element) { $(element).closest('.form-control').removeClass('is-invalid').addClass('is-valid'); }, success: function (element) { $(element).closest('.form-control').removeClass('is-invalid').addClass('is-valid'); }, focusInvalid: false, rules: JSON.parse('{\u0022email\u0022:{\u0022laravelValidation\u0022:[[\u0022Required\u0022,[],\u0022The email field is required.\u0022,true],[\u0022Email\u0022,[],\u0022The email must be a valid email address.\u0022,false]],\u0022laravelValidationRemote\u0022:[[\u0022Unique\u0022,[\u0022email\u0022,\u0022eyJpdiI6IklIUFdsa1VwTENVUitsMDZlbWZJMlE9PSIsInZhbHVlIjoialQ1c0xua21ZaXM5aHZ5cEF4QkxuNDhVVjlBc090MDBhenNRNUdtS092aDNQeTM4TkJUbVFRMFZ4Z3ZzOWpwUDVncGpKdnRXaDdNYW9HWnVLK3lBOFE9PSIsIm1hYyI6IjFlYmExMDcyNTNkYzQyY2Y0MTc0OWFhMjE5NTlmYjNkOTJlZTg2OTljNzI1MmQ3NzExZDlkNGQ1Y2IzYzY0NGUiLCJ0YWciOiIifQ==\u0022,false],\u0022The email has already been taken.\u0022,false]]},\u0022status\u0022:{\u0022laravelValidation\u0022:[[\u0022In\u0022,[\u0022subscribed\u0022,\u0022unsubscribed\u0022],\u0022The selected status is invalid.\u0022,false]]}}') }); }); });</script>
-    <script src="vendor/core/plugins/language/js/language-public.js%3Fv=2.2.0"></script>
+    <script src="./vendor/core/plugins/language/js/language-public.js%3Fv=2.2.0"></script>
     <style>
         .site-notice {
             position: fixed;
@@ -540,7 +540,7 @@
         <div class="site-notice-body page_speed_903811784">
             <div class="site-notice__inner">
                 <div class="site-notice__message"> Your experience on this site will be improved by allowing cookies <a
-                        href="https://jobbox.archielite.com//cookie-policy">Cookie Policy</a></div>
+                        href="">Cookie Policy</a></div>
                 <div class="site-notice__actions"><button
                         class="js-site-notice-agree site-notice__agree page_speed_1073625542"> Allow cookies </button>
                 </div>

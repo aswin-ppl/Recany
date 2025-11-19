@@ -2,13 +2,13 @@
 <html lang="en">
 
 <head>
-    <link rel="dns-prefetch" href="en.html">
+    <link rel="dns-prefetch" href="">
     <link rel="dns-prefetch" href="https://www.googletagmanager.com/">
     <link rel="dns-prefetch" href="https://www.w3.org/">
     <link rel="dns-prefetch" href="https://facebook.com/">
     <link rel="dns-prefetch" href="https://linkedin.com/">
     <link rel="dns-prefetch" href="https://twitter.com/">
-    <link rel="dns-prefetch" href="https://jobbox.archielite.comcookie-policy/">
+    <link rel="dns-prefetch" href="">
     <meta charset=utf-8>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=5, user-scalable=1"
@@ -37,8 +37,8 @@
     <meta property="og:type" content="article">
     <meta property="og:title" content="About us">
     <meta property="og:description" content="Get the latest news, updates and tips">
-    <meta property="og:url" content="https://jobbox.archielite.com/about-us">
-    <meta property="og:image" content="https://jobbox.archielite.com/storage/general/logo.png">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="">
     <meta name=twitter:title content="About us">
     <meta name=twitter:description content="Get the latest news, updates and tips">
     <link rel="icon" type=image/x-icon href="imgs/favicon.png">
@@ -49,8 +49,8 @@
     </style>
     <link rel="stylesheet" href="./css/fonts.css">
     <link media="all" type=text/css rel="stylesheet"
-        href="vendor/core/plugins/language/css/language-public.css%3Fv=2.2.0.css">
-    <link media="all" type=text/css rel="stylesheet" href="vendor/core/core/base/libraries/ckeditor/content-styles.css">
+        href="./vendor/core/plugins/language/css/language-public.css%3Fv=2.2.0.css">
+    <link media="all" type=text/css rel="stylesheet" href="./vendor/core/core/base/libraries/ckeditor/content-styles.css">
     <link media="all" type=text/css rel="stylesheet" href="./plugins/bootstrap/bootstrap.min.css">
     <link media="all" type=text/css rel="stylesheet" href="./css/styles.css">
     <link media="all" type=text/css rel="stylesheet" href="./plugins/animate.min.css">
@@ -199,7 +199,7 @@
                                             data-swiper-slide-index="2" style="width: 196px; margin-right: 30px;"
                                             role="group" aria-label="3 / 8">
                                             <div class="card-grid-5 card-category hover-up test-video-1"><a
-                                                    href="https://jobbox.archielite.com/job-categories/software">
+                                                    href="#">
                                                     <div
                                                         class="box-cover-img d-flex align-items-center justify-content-center">
                                                         <img src="./imgs/page/testimonial/play-icon.svg" alt="">
@@ -210,7 +210,7 @@
                                             data-swiper-slide-index="3" style="width: 196px; margin-right: 30px;"
                                             role="group" aria-label="4 / 8">
                                             <div class="card-grid-5 card-category hover-up test-video-2"><a
-                                                    href="https://jobbox.archielite.com/job-categories/finance">
+                                                    href="#">
                                                     <div
                                                         class="box-cover-img d-flex align-items-center justify-content-center">
                                                         <img src="./imgs/page/testimonial/play-icon.svg" alt="">
@@ -221,7 +221,7 @@
                                             data-swiper-slide-index="4" style="width: 196px; margin-right: 30px;"
                                             role="group" aria-label="5 / 8">
                                             <div class="card-grid-5 card-category hover-up test-video-3"><a
-                                                    href="https://jobbox.archielite.com/job-categories/customer-help">
+                                                    href="#">
                                                     <div
                                                         class="box-cover-img d-flex align-items-center justify-content-center">
                                                         <img src="./imgs/page/testimonial/play-icon.svg" alt="">
@@ -232,7 +232,7 @@
                                             data-swiper-slide-index="5" style="width: 196px; margin-right: 30px;"
                                             role="group" aria-label="6 / 8">
                                             <div class="card-grid-5 card-category hover-up test-video-1"><a
-                                                    href="https://jobbox.archielite.com/job-categories/marketing-sale">
+                                                    href="#">
                                                     <div
                                                         class="box-cover-img d-flex align-items-center justify-content-center">
                                                         <img src="./imgs/page/testimonial/play-icon.svg" alt="">
@@ -243,7 +243,7 @@
                                             data-swiper-slide-index="6" style="width: 196px; margin-right: 30px;"
                                             role="group" aria-label="7 / 8">
                                             <div class="card-grid-5 card-category hover-up test-video-2"><a
-                                                    href="https://jobbox.archielite.com/job-categories/market-research">
+                                                    href="#">
                                                     <div
                                                         class="box-cover-img d-flex align-items-center justify-content-center">
                                                         <img src="./imgs/page/testimonial/play-icon.svg" alt="">
@@ -254,7 +254,7 @@
                                             data-swiper-slide-index="7" style="width: 196px; margin-right: 30px;"
                                             role="group" aria-label="8 / 8">
                                             <div class="card-grid-5 card-category hover-up test-video-3"><a
-                                                    href="https://jobbox.archielite.com/job-categories/content-writer">
+                                                    href="#">
                                                     <div
                                                         class="box-cover-img d-flex align-items-center justify-content-center">
                                                         <img src="./imgs/page/testimonial/play-icon.svg" alt="">
@@ -265,7 +265,7 @@
                                             data-swiper-slide-index="0" style="width: 196px; margin-right: 30px;"
                                             role="group" aria-label="1 / 8">
                                             <div class="card-grid-5 card-category hover-up test-video-1"><a
-                                                    href="https://jobbox.archielite.com/job-categories/management">
+                                                    href="#">
                                                     <div
                                                         class="box-cover-img d-flex align-items-center justify-content-center">
                                                         <img src="./imgs/page/testimonial/play-icon.svg" alt="">
@@ -276,7 +276,7 @@
                                             data-swiper-slide-index="1" style="width: 196px; margin-right: 30px;"
                                             role="group" aria-label="2 / 8">
                                             <div class="card-grid-5 card-category hover-up test-video-2"><a
-                                                    href="https://jobbox.archielite.com/job-categories/human-resource">
+                                                    href="#">
                                                     <div
                                                         class="box-cover-img d-flex align-items-center justify-content-center">
                                                         <img src="./imgs/page/testimonial/play-icon.svg" alt="">
@@ -286,7 +286,7 @@
                                         <div class="swiper-slide hover-up" data-swiper-slide-index="2"
                                             style="width: 196px; margin-right: 30px;" role="group" aria-label="3 / 8">
                                             <div class="card-grid-5 card-category hover-up test-video-3"><a
-                                                    href="https://jobbox.archielite.com/job-categories/software">
+                                                    href="#">
                                                     <div
                                                         class="box-cover-img d-flex align-items-center justify-content-center">
                                                         <img src="./imgs/page/testimonial/play-icon.svg" alt="">
@@ -296,7 +296,7 @@
                                         <div class="swiper-slide hover-up" data-swiper-slide-index="3"
                                             style="width: 196px; margin-right: 30px;" role="group" aria-label="4 / 8">
                                             <div class="card-grid-5 card-category hover-up test-video-1"><a
-                                                    href="https://jobbox.archielite.com/job-categories/finance">
+                                                    href="#">
                                                     <div
                                                         class="box-cover-img d-flex align-items-center justify-content-center">
                                                         <img src="./imgs/page/testimonial/play-icon.svg" alt="">
@@ -306,7 +306,7 @@
                                         <div class="swiper-slide hover-up" data-swiper-slide-index="4"
                                             style="width: 196px; margin-right: 30px;" role="group" aria-label="5 / 8">
                                             <div class="card-grid-5 card-category hover-up test-video-2"><a
-                                                    href="https://jobbox.archielite.com/job-categories/customer-help">
+                                                    href="#">
                                                     <div
                                                         class="box-cover-img d-flex align-items-center justify-content-center">
                                                         <img src="./imgs/page/testimonial/play-icon.svg" alt="">
@@ -316,7 +316,7 @@
                                         <div class="swiper-slide hover-up" data-swiper-slide-index="5"
                                             style="width: 196px; margin-right: 30px;" role="group" aria-label="6 / 8">
                                             <div class="card-grid-5 card-category hover-up test-video-3"><a
-                                                    href="https://jobbox.archielite.com/job-categories/marketing-sale">
+                                                    href="#">
                                                     <div
                                                         class="box-cover-img d-flex align-items-center justify-content-center">
                                                         <img src="./imgs/page/testimonial/play-icon.svg" alt="">
@@ -326,7 +326,7 @@
                                         <div class="swiper-slide hover-up" data-swiper-slide-index="6"
                                             style="width: 196px; margin-right: 30px;" role="group" aria-label="7 / 8">
                                             <div class="card-grid-5 card-category hover-up test-video-1"><a
-                                                    href="https://jobbox.archielite.com/job-categories/market-research">
+                                                    href="#">
                                                     <div
                                                         class="box-cover-img d-flex align-items-center justify-content-center">
                                                         <img src="./imgs/page/testimonial/play-icon.svg" alt="">
@@ -336,7 +336,7 @@
                                         <div class="swiper-slide hover-up swiper-slide-prev" data-swiper-slide-index="7"
                                             style="width: 196px; margin-right: 30px;" role="group" aria-label="8 / 8">
                                             <div class="card-grid-5 card-category hover-up test-video-2"><a
-                                                    href="https://jobbox.archielite.com/job-categories/content-writer">
+                                                    href="#">
                                                     <div
                                                         class="box-cover-img d-flex align-items-center justify-content-center">
                                                         <img src="./imgs/page/testimonial/play-icon.svg" alt="">
@@ -347,7 +347,7 @@
                                             data-swiper-slide-index="0" style="width: 196px; margin-right: 30px;"
                                             role="group" aria-label="1 / 8">
                                             <div class="card-grid-5 card-category hover-up test-video-3"><a
-                                                    href="https://jobbox.archielite.com/job-categories/management">
+                                                    href="#">
                                                     <div
                                                         class="box-cover-img d-flex align-items-center justify-content-center">
                                                         <img src="./imgs/page/testimonial/play-icon.svg" alt="">
@@ -358,7 +358,7 @@
                                             data-swiper-slide-index="1" style="width: 196px; margin-right: 30px;"
                                             role="group" aria-label="2 / 8">
                                             <div class="card-grid-5 card-category hover-up test-video-1"><a
-                                                    href="https://jobbox.archielite.com/job-categories/human-resource">
+                                                    href="#">
                                                     <div
                                                         class="box-cover-img d-flex align-items-center justify-content-center">
                                                         <img src="./imgs/page/testimonial/play-icon.svg" alt="">
@@ -369,7 +369,7 @@
                                             data-swiper-slide-index="2" style="width: 196px; margin-right: 30px;"
                                             role="group" aria-label="3 / 8">
                                             <div class="card-grid-5 card-category hover-up test-video-2"><a
-                                                    href="https://jobbox.archielite.com/job-categories/software">
+                                                    href="#">
                                                     <div
                                                         class="box-cover-img d-flex align-items-center justify-content-center">
                                                         <img src="./imgs/page/testimonial/play-icon.svg" alt="">
@@ -380,7 +380,7 @@
                                             data-swiper-slide-index="3" style="width: 196px; margin-right: 30px;"
                                             role="group" aria-label="4 / 8">
                                             <div class="card-grid-5 card-category hover-up test-video-3"><a
-                                                    href="https://jobbox.archielite.com/job-categories/finance">
+                                                    href="#">
                                                     <div
                                                         class="box-cover-img d-flex align-items-center justify-content-center">
                                                         <img src="./imgs/page/testimonial/play-icon.svg" alt="">
@@ -391,7 +391,7 @@
                                             data-swiper-slide-index="4" style="width: 196px; margin-right: 30px;"
                                             role="group" aria-label="5 / 8">
                                             <div class="card-grid-5 card-category hover-up test-video-1"><a
-                                                    href="https://jobbox.archielite.com/job-categories/customer-help">
+                                                    href="#">
                                                     <div
                                                         class="box-cover-img d-flex align-items-center justify-content-center">
                                                         <img src="./imgs/page/testimonial/play-icon.svg" alt="">
@@ -402,7 +402,7 @@
                                             data-swiper-slide-index="5" style="width: 196px; margin-right: 30px;"
                                             role="group" aria-label="6 / 8">
                                             <div class="card-grid-5 card-category hover-up test-video-2"><a
-                                                    href="https://jobbox.archielite.com/job-categories/marketing-sale">
+                                                    href="#">
                                                     <div
                                                         class="box-cover-img d-flex align-items-center justify-content-center">
                                                         <img src="./imgs/page/testimonial/play-icon.svg" alt="">
@@ -444,7 +444,7 @@
                                             role="group" aria-label="1 / 4">
                                             <div class="card-review-1">
                                                 <div class="image-review"><img
-                                                        src="https://jobbox.archielite.com/storage/testimonials/1-150x150.png"
+                                                        src="./storage/testimonials/1-150x150.png"
                                                         alt="Ellis Kim"></div>
                                                 <div class="review-info">
                                                     <div class="review-name secondary-text-color">
@@ -462,7 +462,7 @@
                                             role="group" aria-label="2 / 4">
                                             <div class="card-review-1">
                                                 <div class="image-review"><img
-                                                        src="https://jobbox.archielite.com/storage/testimonials/2-150x150.png"
+                                                        src="./storage/testimonials/2-150x150.png"
                                                         alt="John Smith"></div>
                                                 <div class="review-info">
                                                     <div class="review-name secondary-text-color">
@@ -480,7 +480,7 @@
                                             role="group" aria-label="3 / 4">
                                             <div class="card-review-1">
                                                 <div class="image-review"><img
-                                                        src="https://jobbox.archielite.com/storage/testimonials/3-150x150.png"
+                                                        src="./storage/testimonials/3-150x150.png"
                                                         alt="Sayen Ahmod"></div>
                                                 <div class="review-info">
                                                     <div class="review-name secondary-text-color">
@@ -498,7 +498,7 @@
                                             role="group" aria-label="4 / 4">
                                             <div class="card-review-1">
                                                 <div class="image-review"><img
-                                                        src="https://jobbox.archielite.com/storage/testimonials/4-150x150.png"
+                                                        src="./storage/testimonials/4-150x150.png"
                                                         alt="Tayla Swef"></div>
                                                 <div class="review-info">
                                                     <div class="review-name secondary-text-color">
@@ -515,7 +515,7 @@
                                             style="width: 316.5px; margin-right: 20px;" role="group" aria-label="1 / 4">
                                             <div class="card-review-1">
                                                 <div class="image-review"><img
-                                                        src="https://jobbox.archielite.com/storage/testimonials/1-150x150.png"
+                                                        src="./storage/testimonials/1-150x150.png"
                                                         alt="Ellis Kim"></div>
                                                 <div class="review-info">
                                                     <div class="review-name secondary-text-color">
@@ -532,7 +532,7 @@
                                             style="width: 316.5px; margin-right: 20px;" role="group" aria-label="2 / 4">
                                             <div class="card-review-1">
                                                 <div class="image-review"><img
-                                                        src="https://jobbox.archielite.com/storage/testimonials/2-150x150.png"
+                                                        src="./storage/testimonials/2-150x150.png"
                                                         alt="John Smith"></div>
                                                 <div class="review-info">
                                                     <div class="review-name secondary-text-color">
@@ -550,7 +550,7 @@
                                             role="group" aria-label="3 / 4">
                                             <div class="card-review-1">
                                                 <div class="image-review"><img
-                                                        src="https://jobbox.archielite.com/storage/testimonials/3-150x150.png"
+                                                        src="./storage/testimonials/3-150x150.png"
                                                         alt="Sayen Ahmod"></div>
                                                 <div class="review-info">
                                                     <div class="review-name secondary-text-color">
@@ -567,7 +567,7 @@
                                             style="width: 316.5px; margin-right: 20px;" role="group" aria-label="4 / 4">
                                             <div class="card-review-1">
                                                 <div class="image-review"><img
-                                                        src="https://jobbox.archielite.com/storage/testimonials/4-150x150.png"
+                                                        src="./storage/testimonials/4-150x150.png"
                                                         alt="Tayla Swef"></div>
                                                 <div class="review-info">
                                                     <div class="review-name secondary-text-color">
@@ -585,7 +585,7 @@
                                             role="group" aria-label="1 / 4">
                                             <div class="card-review-1">
                                                 <div class="image-review"><img
-                                                        src="https://jobbox.archielite.com/storage/testimonials/1-150x150.png"
+                                                        src="./storage/testimonials/1-150x150.png"
                                                         alt="Ellis Kim"></div>
                                                 <div class="review-info">
                                                     <div class="review-name secondary-text-color">
@@ -603,7 +603,7 @@
                                             role="group" aria-label="2 / 4">
                                             <div class="card-review-1">
                                                 <div class="image-review"><img
-                                                        src="https://jobbox.archielite.com/storage/testimonials/2-150x150.png"
+                                                        src="./storage/testimonials/2-150x150.png"
                                                         alt="John Smith"></div>
                                                 <div class="review-info">
                                                     <div class="review-name secondary-text-color">
@@ -621,7 +621,7 @@
                                             role="group" aria-label="3 / 4">
                                             <div class="card-review-1">
                                                 <div class="image-review"><img
-                                                        src="https://jobbox.archielite.com/storage/testimonials/3-150x150.png"
+                                                        src="./storage/testimonials/3-150x150.png"
                                                         alt="Sayen Ahmod"></div>
                                                 <div class="review-info">
                                                     <div class="review-name secondary-text-color">
@@ -639,7 +639,7 @@
                                             role="group" aria-label="4 / 4">
                                             <div class="card-review-1">
                                                 <div class="image-review"><img
-                                                        src="https://jobbox.archielite.com/storage/testimonials/4-150x150.png"
+                                                        src="./storage/testimonials/4-150x150.png"
                                                         alt="Tayla Swef"></div>
                                                 <div class="review-info">
                                                     <div class="review-name secondary-text-color">
@@ -690,14 +690,14 @@
     <script src="./plugins/scrollup.js"></script>
     <script src="./plugins/swiper-bundle.min.js"></script>
     <script src="./plugins/counterup.js"></script>
-    <script src="./js/main.js%3Fv=1.17.0"></script>
-    <script src="./js/script.js%3Fv=1.17.0"></script>
-    <script src="./js/backend.js%3Fv=1.17.0"></script>
-    <script src="vendor/core/core/js-validation/js/js-validation.js%3Fv=1.0.1"></script>
+    <script src="./js/main.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/backend.js"></script>
+    <script src="./vendor/core/core/js-validation/js/js-validation.js%3Fv=1.0.1"></script>
     <script> jQuery(document).ready(function () { 'use strict'; $("#botble-job-board-forms-fronts-internal-job-application-form").each(function () { $(this).validate({ errorElement: 'div', errorClass: 'invalid-feedback', errorPlacement: function (error, element) { if (element.closest('[data-bb-toggle="tree-checkboxes"]').length) { error.insertAfter(element.closest('[data-bb-toggle="tree-checkboxes"]')); } else if (element.parent('.input-group').length || element.prop('type') === 'checkbox' || element.prop('type') === 'radio') { error.insertAfter(element.parent()); } else if ($(element).data('select2')) { error.insertAfter(element.next('span')); } else { error.insertAfter(element); } }, highlight: function (element) { $(element).closest('.form-control').removeClass('is-valid').addClass('is-invalid'); }, unhighlight: function (element) { $(element).closest('.form-control').removeClass('is-invalid').addClass('is-valid'); }, success: function (element) { $(element).closest('.form-control').removeClass('is-invalid').addClass('is-valid'); }, focusInvalid: false, rules: JSON.parse('{\u0022job_type\u0022:{\u0022laravelValidation\u0022:[[\u0022In\u0022,[\u0022internal\u0022,\u0022external\u0022],\u0022The selected job type is invalid.\u0022,false]]},\u0022email\u0022:{\u0022laravelValidation\u0022:[[\u0022Required\u0022,[],\u0022The Email field is required.\u0022,true],[\u0022Email\u0022,[],\u0022The Email must be a valid email address.\u0022,false]]},\u0022message\u0022:{\u0022laravelValidation\u0022:[[\u0022Nullable\u0022,[],\u0022validation.nullable\u0022,false],[\u0022Max\u0022,[\u00221000\u0022],\u0022The Message must not be greater than 1000 characters.\u0022,false]]}}') }); }); });</script>
     <script> jQuery(document).ready(function () { 'use strict'; $("#botble-job-board-forms-fronts-external-job-application-form").each(function () { $(this).validate({ errorElement: 'div', errorClass: 'invalid-feedback', errorPlacement: function (error, element) { if (element.closest('[data-bb-toggle="tree-checkboxes"]').length) { error.insertAfter(element.closest('[data-bb-toggle="tree-checkboxes"]')); } else if (element.parent('.input-group').length || element.prop('type') === 'checkbox' || element.prop('type') === 'radio') { error.insertAfter(element.parent()); } else if ($(element).data('select2')) { error.insertAfter(element.next('span')); } else { error.insertAfter(element); } }, highlight: function (element) { $(element).closest('.form-control').removeClass('is-valid').addClass('is-invalid'); }, unhighlight: function (element) { $(element).closest('.form-control').removeClass('is-invalid').addClass('is-valid'); }, success: function (element) { $(element).closest('.form-control').removeClass('is-invalid').addClass('is-valid'); }, focusInvalid: false, rules: JSON.parse('{\u0022job_type\u0022:{\u0022laravelValidation\u0022:[[\u0022In\u0022,[\u0022internal\u0022,\u0022external\u0022],\u0022The selected job type is invalid.\u0022,false]]},\u0022email\u0022:{\u0022laravelValidation\u0022:[[\u0022Required\u0022,[],\u0022The Email field is required.\u0022,true],[\u0022Email\u0022,[],\u0022The Email must be a valid email address.\u0022,false]]},\u0022message\u0022:{\u0022laravelValidation\u0022:[[\u0022Nullable\u0022,[],\u0022validation.nullable\u0022,false],[\u0022Max\u0022,[\u00221000\u0022],\u0022The Message must not be greater than 1000 characters.\u0022,false]]}}') }); }); });</script>
     <script> jQuery(document).ready(function () { 'use strict'; $("#botble-newsletter-forms-fronts-newsletter-form").each(function () { $(this).validate({ errorElement: 'div', errorClass: 'invalid-feedback', errorPlacement: function (error, element) { if (element.closest('[data-bb-toggle="tree-checkboxes"]').length) { error.insertAfter(element.closest('[data-bb-toggle="tree-checkboxes"]')); } else if (element.parent('.input-group').length || element.prop('type') === 'checkbox' || element.prop('type') === 'radio') { error.insertAfter(element.parent()); } else if ($(element).data('select2')) { error.insertAfter(element.next('span')); } else { error.insertAfter(element); } }, highlight: function (element) { $(element).closest('.form-control').removeClass('is-valid').addClass('is-invalid'); }, unhighlight: function (element) { $(element).closest('.form-control').removeClass('is-invalid').addClass('is-valid'); }, success: function (element) { $(element).closest('.form-control').removeClass('is-invalid').addClass('is-valid'); }, focusInvalid: false, rules: JSON.parse('{\u0022email\u0022:{\u0022laravelValidation\u0022:[[\u0022Required\u0022,[],\u0022The email field is required.\u0022,true],[\u0022Email\u0022,[],\u0022The email must be a valid email address.\u0022,false]],\u0022laravelValidationRemote\u0022:[[\u0022Unique\u0022,[\u0022email\u0022,\u0022eyJpdiI6IklIUFdsa1VwTENVUitsMDZlbWZJMlE9PSIsInZhbHVlIjoialQ1c0xua21ZaXM5aHZ5cEF4QkxuNDhVVjlBc090MDBhenNRNUdtS092aDNQeTM4TkJUbVFRMFZ4Z3ZzOWpwUDVncGpKdnRXaDdNYW9HWnVLK3lBOFE9PSIsIm1hYyI6IjFlYmExMDcyNTNkYzQyY2Y0MTc0OWFhMjE5NTlmYjNkOTJlZTg2OTljNzI1MmQ3NzExZDlkNGQ1Y2IzYzY0NGUiLCJ0YWciOiIifQ==\u0022,false],\u0022The email has already been taken.\u0022,false]]},\u0022status\u0022:{\u0022laravelValidation\u0022:[[\u0022In\u0022,[\u0022subscribed\u0022,\u0022unsubscribed\u0022],\u0022The selected status is invalid.\u0022,false]]}}') }); }); });</script>
-    <script src="vendor/core/plugins/language/js/language-public.js%3Fv=2.2.0"></script>
+    <script src="./vendor/core/plugins/language/js/language-public.js%3Fv=2.2.0"></script>
     <style>
         .site-notice {
             position: fixed;
@@ -1002,7 +1002,7 @@
         <div class="site-notice-body page_speed_903811784">
             <div class="site-notice__inner">
                 <div class="site-notice__message"> Your experience on this site will be improved by allowing cookies <a
-                        href="https://jobbox.archielite.com//cookie-policy">Cookie Policy</a></div>
+                        href="#">Cookie Policy</a></div>
                 <div class="site-notice__actions"><button
                         class="js-site-notice-agree site-notice__agree page_speed_1073625542"> Allow cookies </button>
                 </div>
@@ -1034,7 +1034,7 @@
     </div>
     <div data-site-cookie-name="cookie_for_consent"></div>
     <div data-site-cookie-lifetime="7300"></div>
-    <div data-site-cookie-domain="jobbox.archielite.com"></div>
+    <div data-site-cookie-domain=""></div>
     <div data-site-session-secure=""></div>
     <script> document.addEventListener('DOMContentLoaded', function () { function checkCookie(name) { return document.cookie.split(';').some((item) => item.trim().startsWith(name + '=')); } setTimeout(function () { const cookieName = document.querySelector('div[data-site-cookie-name]').getAttribute('data-site-cookie-name') || 'cookie_for_consent'; if (!checkCookie(cookieName)) { const siteNotice = document.querySelector('.js-site-notice'); if (siteNotice) { siteNotice.classList.add('site-notice--visible'); } } }, 1000); }); window.addEventListener('load', function () { if (typeof gtag !== 'undefined') { gtag('consent', 'default', { 'ad_storage': 'denied', 'analytics_storage': 'denied' }); document.addEventListener('click', function (event) { if (event.target.classList.contains('js-site-notice-agree')) { const categories = document.querySelectorAll('.js-cookie-category:checked'); const consents = { 'ad_storage': 'denied', 'analytics_storage': 'denied' }; categories.forEach(function (category) { if (category.value === 'marketing') { consents.ad_storage = 'granted'; } if (category.value === 'analytics') { consents.analytics_storage = 'granted'; } }); gtag('consent', 'update', consents); } }); } window.botbleCookieConsent = (function () { const COOKIE_NAME = document.querySelector('div[data-site-cookie-name]').getAttribute('data-site-cookie-name') || 'cookie_for_consent'; const COOKIE_DOMAIN = document.querySelector('div[data-site-cookie-domain]').getAttribute('data-site-cookie-domain') || window.location.hostname; const COOKIE_LIFETIME = parseInt(document.querySelector('div[data-site-cookie-lifetime]').getAttribute('data-site-cookie-lifetime') || '36000', 10); const SESSION_SECURE = document.querySelector('div[data-site-session-secure]').getAttribute('data-site-session-secure') || ''; const cookieDialog = document.querySelector('.js-site-notice'); const cookieCategories = document.querySelector('.site-notice__categories'); const customizeButton = document.querySelector('.js-site-notice-customize'); if (cookieDialog) { if (cookieCategories) { cookieCategories.style.display = 'none'; } if (!cookieExists(COOKIE_NAME)) { setTimeout(function () { cookieDialog.classList.add('site-notice--visible'); }, 800); } } function consentWithCookies() { const categories = {}; document.querySelectorAll('.js-cookie-category:checked').forEach(function (checkbox) { categories[checkbox.value] = true; }); setCookie(COOKIE_NAME, JSON.stringify(categories), COOKIE_LIFETIME); hideCookieDialog(); } function savePreferences() { consentWithCookies(); if (cookieCategories) { const slideUpAnimation = cookieCategories.animate([{ opacity: 1, height: cookieCategories.offsetHeight + 'px' }, { opacity: 0, height: 0 }], { duration: 300, easing: 'ease-out' }); slideUpAnimation.onfinish = function () { cookieCategories.style.display = 'none'; }; } if (customizeButton) { customizeButton.classList.remove('active'); } } function rejectAllCookies() { if (cookieExists(COOKIE_NAME)) { const secure = window.location.protocol === 'https:' ? '; Secure' : ''; document.cookie = COOKIE_NAME + '=; expires=Thu, 01 Jan 1970 00:00:00 UTC; domain=' + COOKIE_DOMAIN + '; path=/; SameSite=Lax' + secure + SESSION_SECURE; } if (typeof gtag !== 'undefined') { gtag('consent', 'update', { 'ad_storage': 'denied', 'analytics_storage': 'denied' }); } hideCookieDialog(); } function cookieExists(name) { const cookie = getCookie(name); return cookie !== null && cookie !== undefined; } function getCookie(name) { const value = `; ${document.cookie}`; const parts = value.split(`; ${name}=`); if (parts.length === 2) { return parts.pop().split(';').shift(); } return null; } function hideCookieDialog() { if (cookieDialog) { cookieDialog.classList.remove('site-notice--visible'); cookieDialog.style.display = 'none'; } } function setCookie(name, value, expirationInDays) { const date = new Date(); date.setTime(date.getTime() + expirationInDays * 24 * 60 * 60 * 1000); const secure = window.location.protocol === 'https:' ? ';Secure' : ''; document.cookie = name + '=' + value + ';expires=' + date.toUTCString() + ';domain=' + COOKIE_DOMAIN + ';path=/' + ';SameSite=Lax' + secure + SESSION_SECURE; } function toggleCustomizeView() { if (!cookieCategories) return; if (cookieCategories.style.display === 'none') { cookieCategories.style.height = '0'; cookieCategories.style.opacity = '0'; cookieCategories.style.display = 'block'; const height = cookieCategories.scrollHeight; const slideDownAnimation = cookieCategories.animate([{ opacity: 0, height: 0 }, { opacity: 1, height: height + 'px' }], { duration: 300, easing: 'ease-in' }); slideDownAnimation.onfinish = function () { cookieCategories.style.height = 'auto'; cookieCategories.style.opacity = '1'; }; if (customizeButton) { customizeButton.classList.add('active'); } } else { const slideUpAnimation = cookieCategories.animate([{ opacity: 1, height: cookieCategories.offsetHeight + 'px' }, { opacity: 0, height: 0 }], { duration: 300, easing: 'ease-out' }); slideUpAnimation.onfinish = function () { cookieCategories.style.display = 'none'; }; if (customizeButton) { customizeButton.classList.remove('active'); } } } if (cookieExists(COOKIE_NAME)) { hideCookieDialog(); } document.addEventListener('click', function (event) { if (event.target.classList.contains('js-site-notice-agree')) { consentWithCookies(); } else if (event.target.classList.contains('js-site-notice-reject')) { rejectAllCookies(); } else if (event.target.classList.contains('js-site-notice-customize')) { toggleCustomizeView(); } else if (event.target.classList.contains('js-site-notice-save')) { savePreferences(); } }); return { consentWithCookies: consentWithCookies, rejectAllCookies: rejectAllCookies, hideCookieDialog: hideCookieDialog, savePreferences: savePreferences, }; })(); });</script>
     <script> 'use strict'; $(function () { $.scrollUp({ scrollText: '<i class="fi-rr-arrow-small-up"></i>', easingType: "linear", scrollSpeed: 900, animation: "fade" }) }); </script>
