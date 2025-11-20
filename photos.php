@@ -178,9 +178,7 @@
                                 class="font-sm color-text-paragraph w-lg-74 mx-auto wow animate__ animate__fadeInUp animated page_speed_1928531640">
                                 Recany (a “JJ Consultants” company) is one of the top recruitment companies in India
                                 serving
-                                both domestic and international staffing needs since 2008. Mr. Pradeep is the backbone
-                                of
-                                Recany and strives to hire quality professionals. </p>
+                                both domestic and international staffing needs since 2008. </p>
                         </div>
                         <div class="d-flex flex-wrap flex-lg-nowrap mt-50">
                             <div class="block-banner-1">
