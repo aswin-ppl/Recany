@@ -29,18 +29,18 @@
             color: var(--secondary-text-color) !important;
         }
     </style>
-    <title>Job Details</title>
-    <meta name=description content="Job Description">
+    <title>Contact Us</title>
+    <meta name=description content="Get the latest news, updates and tips">
     <link rel="canonical" href="en/about-us.html">
     <meta name=robots content="index, follow">
-    <meta property="og:site_name" content="JobBox - Laravel Job Board Script">
+    <meta property="og:site_name" content="">
     <meta property="og:type" content="article">
-    <meta property="og:title" content="Job Details">
-    <meta property="og:description" content="Job Description">
+    <meta property="og:title" content="Contact Us">
+    <meta property="og:description" content="Get the latest news, updates and tips">
     <meta property="og:url" content="">
     <meta property="og:image" content="">
-    <meta name=twitter:title content="Job Details">
-    <meta name=twitter:description content="Job Description">
+    <meta name=twitter:title content="Contact Us">
+    <meta name=twitter:description content="Get the latest news, updates and tips">
     <link rel="icon" type=image/x-icon href="imgs/favicon.png">
     <style>
         :root {
@@ -55,10 +55,8 @@
     <link media="all" type=text/css rel="stylesheet" href="./css/styles.css">
     <link media="all" type=text/css rel="stylesheet" href="./plugins/animate.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link media="all" type=text/css rel="stylesheet" href="./plugins/leaflet/leaflet.css">
-
     <script
-        type=application/ld+json>{"@context":"https:\/\/schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https:\/\/jobbox.archielite.com"},{"@type":"ListItem","position":2,"name":"Job Details","item":"https:\/\/jobbox.archielite.com\/about-us"}]}</script>
+        type=application/ld+json>{"@context":"https:\/\/schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https:\/\/jobbox.archielite.com"},{"@type":"ListItem","position":2,"name":"Contact Us","item":"https:\/\/jobbox.archielite.com\/about-us"}]}</script>
     <script
         type=application/ld+json>{"@context":"https:\/\/schema.org","@type":"WebSite","name":"JobBox - Laravel Job Board Script","url":"https:\/\/jobbox.archielite.com"}</script>
     <script
@@ -134,8 +132,9 @@
         .box-newsletter .box-form-newsletter .form-newsletter .input-newsletter {
             width: 75%;
         }
-        .leaflet-marker-pane{
-            display: none;
+
+        textarea.form-control {
+            min-height: calc(1.5em + 11.75rem + 2px);
         }
     </style>
 </head>
@@ -151,13 +150,13 @@
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-6">
-                            <h2 class="mb-10">Job Details</h2>
-                            <p class="font-lg color-text-paragraph-2">Job Description</p>
+                            <h2 class="mb-10">Contact Us</h2>
+                            <p class="font-lg color-text-paragraph-2">Get the latest news, updates and tips</p>
                         </div>
                         <div class="col-lg-6 text-md-end">
                             <ul class="breadcrumbs mt-40 ">
                                 <li><a href="en.html"><span class="fi-rr-home icon-home"></span> Home </a></li>
-                                <li>Job Details</li>
+                                <li>Contact Us</li>
                             </ul>
                         </div>
                     </div>
@@ -166,236 +165,410 @@
         </section>
         <div class="ck-content">
             <div class="bg-homepage1"></div>
-            <div class="pb-5"></div>
-            <section class="section-box-2">
-                <div class="container">
-                    <div class="mt-10 d-flex align-items-center job-header-content">
-                        <div>
-                            <h1 class="h3 text-dark">Manual Lathe Machinist </h1>
-                            <div class="mt-0 mb-15"><span class="card-briefcase">Contract</span><span
-                                    class="card-time">8 months ago</span></div>
-                        </div>
-                        <div class="ms-auto">
-                            <button class="ml-auto btn btn-gradient text-light px-5">
-                                Apply </button>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="section-box mt-50 job-detail-section">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-12 col-sm-12 col-12 col-lg-8">
-                            <div class="job-overview bg-white">
-                                <h2 class="border-bottom pb-15 mb-30 h5">Employment Information</h2>
-                                <div class="row">
-                                    <div class="col-md-6 d-flex mt-15">
-                                        <div class="sidebar-icon-item"><img src="./imgs/page/job-single/industry.svg"
-                                                alt="Industry"></div>
-                                        <div class="sidebar-text-info ml-10"><span
-                                                class="text-description industry-icon mb-10">Industry</span><span
-                                                class="small-heading"><a href="#">Food & Beverage</a></span>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 d-flex mt-15">
-                                        <div class="sidebar-icon-item"><img src="./imgs/page/job-single/job-level.svg"
-                                                alt="Open positions"></div>
-                                        <div class="sidebar-text-info ml-10"><span
-                                                class="text-description joblevel-icon mb-10">Open
-                                                Positions</span><strong class="small-heading">5</strong></div>
-                                    </div>
-                                    <div class="col-md-6 d-flex mt-15">
-                                        <div class="sidebar-icon-item"><img src="./imgs/page/job-single/job-level.svg"
-                                                alt="Job Level"></div>
-                                        <div class="sidebar-text-info ml-10"><span
-                                                class="text-description joblevel-icon mb-10">Job Level</span><strong
-                                                class="small-heading">Entry Level</strong></div>
-                                    </div>
-                                    <div class="col-md-6 d-flex mt-15">
-                                        <div class="sidebar-icon-item"><img src="./imgs/page/job-single/experience.svg"
-                                                alt="Experience"></div>
-                                        <div class="sidebar-text-info ml-10"><span
-                                                class="text-description experience-icon mb-10">Experience</span><strong
-                                                class="small-heading">Fresher</strong></div>
-                                    </div>
-                                    <div class="col-md-6 d-flex mt-15">
-                                        <div class="sidebar-icon-item"><img src="./imgs/page/job-single/job-type.svg"
-                                                alt="Job Type"></div>
-                                        <div class="sidebar-text-info ml-10"><span
-                                                class="text-description jobtype-icon mb-10">Job Type</span><strong
-                                                class="small-heading"> Contract </strong></div>
-                                    </div>
-                                    <div class="col-md-6 d-flex mt-15">
-                                        <div class="sidebar-icon-item"><img src="./imgs/page/job-single/location.svg"
-                                                alt="Location"></div>
-                                        <div class="sidebar-text-info ml-10"><span
-                                                class="text-description mb-10">Location</span><strong
-                                                class="small-heading"> New York, Holland, Holland </strong></div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="content-single">
-                                <div class="ck-content">
-                                    <h5>Responsibilities</h5>
-                                    <div>
-                                        <p>As a Product Designer, you will work within a Product Delivery Team fused
-                                            with UX, engineering, product and data talent.</p>
-                                        <ul>
-                                            <li>Have sound knowledge of commercial activities.</li>
-                                            <li>Build next-generation web applications with a focus on the client side
-                                            </li>
-                                            <li>Work on multiple projects at once, and consistently meet draft deadlines
-                                            </li>
-                                            <li>have already graduated or are currently in any year of study</li>
-                                            <li>Revise the work of previous designers to create a unified aesthetic for
-                                                our brand materials</li>
-                                        </ul>
-                                    </div>
-                                    <h5>Qualification </h5>
-                                    <div>
-                                        <ul>
-                                            <li>B.C.A / M.C.A under National University course complete.</li>
-                                            <li>3 or more years of professional design experience</li>
-                                            <li>have already graduated or are currently in any year of study</li>
-                                            <li>Advanced degree or equivalent experience in graphic and web design</li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="mt-4">
-                                <h6 class="fs-16 mb-3">Job location</h6>
-                                <div class="job-board-street-map-container">
-                                    <div class="job-board-street-map leaflet-container leaflet-touch leaflet-retina leaflet-fade-anim leaflet-grab leaflet-touch-drag leaflet-touch-zoom"
-                                        data-popup-id="#street-map-popup-template"
-                                        data-center="[&quot;11.0361&quot;,&quot;76.9783&quot;]"
-                                        data-map-icon="" style="position: relative;"
-                                        tabindex="0">
-                                        <div class="leaflet-pane leaflet-map-pane"
-                                            style="transform: translate3d(0px, 0px, 0px);">
-                                            <div class="leaflet-pane leaflet-tile-pane">
-                                                <div class="leaflet-layer " style="z-index: 1; opacity: 1;">
-                                                    <div class="leaflet-tile-container leaflet-zoom-animated"
-                                                        style="z-index: 15; transform: translate3d(622px, 93px, 0px) scale(0.125);">
-                                                    </div>
-                                                    <div class="leaflet-tile-container leaflet-zoom-animated"
-                                                        style="z-index: 18; transform: translate3d(0px, 0px, 0px) scale(1);">
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="leaflet-proxy leaflet-zoom-animated"
-                                                style="transform: translate3d(1212870px, 1530970px, 0px) scale(8192);">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="d-none" id="street-map-popup-template">
-                                    <div>
-                                        <table width="100%">
-                                            <tbody>
-                                                <tr>
-                                                    <td width="60" class="image-company">
-                                                        <div><img
-                                                                src="./storage/companies/Nintendo.png"
-                                                                width="40" alt="Java Software Engineer"></div>
-                                                    </td>
-                                                    <td>
-                                                        <div class="infomarker">
-                                                            <h5 class="page_speed_1855693225"><a
-                                                                    href="#"
-                                                                    target="_blank">Square </a></h5>
-                                                            <div class="text-info"><strong><a
-                                                                        href="#"
-                                                                        target="_blank">Customer Success
-                                                                        Architect</a></strong></div>
-                                                            <div class="text-info"><i
-                                                                    class="mdi mdi-account"></i><span>5
-                                                                    Vacancy-Contract</span><span>-</span>
-                                                            </div>
-                                                            <div class="text-muted"><i class="uil uil-map"></i><span>New
-                                                                    York, New York, USA</span></div>
-                                                        </div>
-                                                    </td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-12 col-sm-12 col-12 pl-40 pl-lg-15 mt-lg-30">
-                            <div class="sidebar-border">
-                                <div class="sidebar-heading">
-                                    <div class="avatar-sidebar">
-                                        <figure><a href="https://jobbox.archielite.com/companies/bing-search"><img
-                                                    alt="Bing Search" src="./storage/companies/Nintendo.png"></a>
-                                        </figure>
-                                        <div class="sidebar-info"><a
-                                                href="https://jobbox.archielite.com/companies/bing-search"><span
-                                                    class="sidebar-company">Bing Search </span></a><a
-                                                class="link-underline mt-15"
-                                                href="https://jobbox.archielite.com/companies/bing-search"> 4 Open Jobs
-                                            </a></div>
-                                    </div>
-                                </div>
-                                <div class="sidebar-list-job">
-                                    <ul class="ul-disc">
-                                        <li>328 Jenkins River Apt. 015Desireestad, WI 63932</li>
-                                        <li>Website: https://www.bing.com</li>
-                                        <li>Phone: +16787865000</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="sidebar-border">
-                                <div class="sidebar-heading">
-                                    <div class="avatar-sidebar">
-                                        <div class="sidebar-info p-0">
-                                            <a href="#"><span class="sidebar-company secondary-text-color">Similar jobs
-                                                </span></a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="sidebar-list-job">
-                                    <div class="sidebar-heading">
-                                        <div class="item-logo"><a
-                                                href="https://jobbox.archielite.com/companies/nintendo"
-                                                class="d-flex gap-3">
-                                                <div><img alt="Nintendo" style="min-width: 4em;"
-                                                        src="./storage/companies/Nintendo.png">
-                                                </div>
-                                                <div class="text-info-right">
-                                                    <h5 class="secondary-text-color">Support Engineer (Enterprise
-                                                        Support Japanese) </h5>
-                                                    <div class="text-info-bottom mt-5 text-truncate" style="padding-left: 1px;">
-                                                        <span class="card-briefcase"> Contract </span>
-                                                        <span class="card-time"><span> Sep 24, 2024</span></span>
-                                                    </div>
-                                                    <div class="text-info-bottom mt-5 text-truncate">
-                                                        <span class="card-location" style="padding: 0 0 0 17px;"> New York, US </span>
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <!-- <div class="avatar-sidebar">
-                                            <figure><a href="https://jobbox.archielite.com/companies/bing-search"><img
-                                                        alt="Bing Search" src="./storage/companies/Nintendo.png"></a>
-                                            </figure>
-                                            <div class="sidebar-info"><a
-                                                    href="https://jobbox.archielite.com/companies/bing-search"><span
-                                                        class="sidebar-company">Bing Search </span></a><a
-                                                    class="link-underline mt-15"
-                                                    href="https://jobbox.archielite.com/companies/bing-search"> 4 Open
-                                                    Jobs
-                                                </a></div>
-                                        </div> -->
-                                    </div>
-                                </div>
-                            </div>
+            <div class="my-5">
+                <section class="section-box py-4">
+                    <div class="container">
+                        <div class="text-center py-4">
+                            <h6 class="f-18 color-text-mutted text-uppercase"></h6>
+                            <h2 class="secondary-text-color mb-10 wow animate__ animate__fadeInUp  page_speed_1928531640 animated"
+                                style="visibility: visible; animation-name: fadeInUp;">
+                                <span class="text-primary">Contact</span> &amp; Us
+                            </h2>
+                            <p class="font-sm color-text-paragraph w-lg-74 mx-auto wow animate__ animate__fadeInUp  page_speed_1928531640 animated"
+                                style="visibility: visible; animation-name: fadeInUp;">
+                                Recany (a “JJ Consultants” company) is one of the top recruitment companies in India
+                                serving
+                                both domestic and international staffing needs since 2008. </p>
                         </div>
                     </div>
-                </div>
-            </section>
-        </div>
+                </section>
+                <section class="section-box py-5">
+                    <div class="container">
+                        <div class="row align-items-center justify-content-center">
+                            <div class="col-md-6 bg-white rounded p-5">
+                                <form>
+                                    <div class="my-3 mb-25">
+                                        <p class="app-label">Job Application</p>
+                                        <h3 class="app-title">Fill your details</h1>
 
+                                        <!-- Instructions Box -->
+                                        <div class="info-box">
+                                            <h6>Instructions for Candidates</h6>
+                                            <p>Candidates should download, Fill the Form, Sign, Insert a Photo, Scan it
+                                                and Send it to</p>
+                                            <ul class="mb-0">
+                                                <li>Email: cm@recany.com</li>
+                                                <li>WhatsApp: 7418710788 / 9790610788</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <!-- Date and Post Applied For -->
+                                    <div class="row mb-3">
+                                        <div class="col-md-6 mb-3 mb-md-0">
+                                            <label for="date" class="form-label">Date<span
+                                                    class="required">*</span></label>
+                                            <input type="date" class="form-control" id="date" required>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="post" class="form-label">Post Applied For<span
+                                                    class="required">*</span></label>
+                                            <select class="form-select" id="post" required>
+                                                <option value="">Select Post</option>
+                                                <option value="developer">Developer</option>
+                                                <option value="designer">Designer</option>
+                                                <option value="manager">Manager</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <!-- Name -->
+                                    <div class="mb-3">
+                                        <label for="name" class="form-label">Name<span class="required">*</span></label>
+                                        <input type="text" class="form-control" id="name" placeholder="Your Name"
+                                            required>
+                                    </div>
+
+                                    <!-- Fathers Name and Mothers Name -->
+                                    <div class="row mb-3">
+                                        <div class="col-md-6 mb-3 mb-md-0">
+                                            <label for="fatherName" class="form-label">Fathers Name<span
+                                                    class="required">*</span></label>
+                                            <input type="text" class="form-control" id="fatherName"
+                                                placeholder="Your fathers name" required>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="motherName" class="form-label">Mothers Name<span
+                                                    class="required">*</span></label>
+                                            <input type="text" class="form-control" id="motherName"
+                                                placeholder="Your mothers name" required>
+                                        </div>
+                                    </div>
+
+                                    <!-- Phone Number and Email -->
+                                    <div class="row mb-3">
+                                        <div class="col-md-6 mb-3 mb-md-0">
+                                            <label for="phone" class="form-label">Phone Number<span
+                                                    class="required">*</span></label>
+                                            <input type="tel" class="form-control" id="phone"
+                                                placeholder="Your phone number" required>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="email" class="form-label">Email<span
+                                                    class="required">*</span></label>
+                                            <input type="email" class="form-control" id="email" placeholder="Your Email"
+                                                required>
+                                        </div>
+                                    </div>
+
+                                    <!-- Nationality and Religion -->
+                                    <div class="row mb-3">
+                                        <div class="col-md-6 mb-3 mb-md-0">
+                                            <label for="nationality" class="form-label">Nationality<span
+                                                    class="required">*</span></label>
+                                            <select class="form-select" id="nationality" required>
+                                                <option value="Indian" selected>Indian</option>
+                                                <option value="Other">Other</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="religion" class="form-label">Religion<span
+                                                    class="required">*</span></label>
+                                            <input type="text" class="form-control" id="religion"
+                                                placeholder="Enter religion" required>
+                                        </div>
+                                    </div>
+
+                                    <!-- Select Job Type -->
+                                    <div class="mb-3">
+                                        <label for="jobType" class="form-label">Select Job Type<span
+                                                class="required">*</span></label>
+                                        <select class="form-select" id="jobType" required>
+                                            <option value="International" selected>International</option>
+                                            <option value="Domestic">Domestic</option>
+                                        </select>
+                                    </div>
+
+                                    <!-- Date of Birth and Age -->
+                                    <div class="row mb-3">
+                                        <div class="col-md-6 mb-3 mb-md-0">
+                                            <label for="dob" class="form-label">Date of Birth<span
+                                                    class="required">*</span></label>
+                                            <input type="date" class="form-control" id="dob"
+                                                placeholder="Enter your DOB" required>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="age" class="form-label">Age<span
+                                                    class="required">*</span></label>
+                                            <input type="number" class="form-control" id="age"
+                                                placeholder="Enter your age" required>
+                                        </div>
+                                    </div>
+
+                                    <!-- Place of Birth -->
+                                    <div class="mb-3">
+                                        <label for="birthPlace" class="form-label">Place of Birth<span
+                                                class="required">*</span></label>
+                                        <input type="text" class="form-control" id="birthPlace"
+                                            placeholder="Enter place of birth" required>
+                                    </div>
+
+                                    <!-- Present Address -->
+                                    <div class="mb-3">
+                                        <label for="presentAddress" class="form-label">Present Address<span
+                                                class="required">*</span></label>
+                                        <input type="text" class="form-control" id="presentAddress"
+                                            placeholder="Enter your present address" required>
+                                    </div>
+
+                                    <!-- Permanent Address -->
+                                    <div class="mb-3">
+                                        <label for="permanentAddress" class="form-label">Permanent Address<span
+                                                class="required">*</span></label>
+                                        <input type="text" class="form-control" id="permanentAddress"
+                                            placeholder="Enter your permanent address" required>
+                                    </div>
+
+                                    <!-- Education Qualification -->
+                                    <div class="mb-3">
+                                        <label for="education" class="form-label">Education Qualification<span
+                                                class="required">*</span></label>
+                                        <input type="text" class="form-control" id="education"
+                                            placeholder="Enter your education qualification" required>
+                                    </div>
+
+                                    <!-- Technical Qualification -->
+                                    <div class="mb-3">
+                                        <label for="technical" class="form-label">Technical Qualification<span
+                                                class="required">*</span></label>
+                                        <input type="text" class="form-control" id="technical"
+                                            placeholder="Enter your technical qualification" required>
+                                    </div>
+
+                                    <!-- Overseas Experience -->
+                                    <div class="mb-3">
+                                        <label for="overseas" class="form-label">Overseas Experience<span
+                                                class="required">*</span></label>
+                                        <select class="form-select" id="overseas" required>
+                                            <option value="Yes">Yes</option>
+                                            <option value="No" selected>No</option>
+                                        </select>
+                                    </div>
+
+                                    <!-- Work Experience Section 1 -->
+                                    <div class="experience-section">
+                                        <div class="row mb-2">
+                                            <div class="col-md-3 mb-2">
+                                                <label for="from1" class="form-label">From<span
+                                                        class="required">*</span></label>
+                                                <input type="date" class="form-control" id="from1"
+                                                    placeholder="dd/mm/yyyy" required>
+                                            </div>
+                                            <div class="col-md-3 mb-2">
+                                                <label for="to1" class="form-label">To<span
+                                                        class="required">*</span></label>
+                                                <input type="date" class="form-control" id="to1"
+                                                    placeholder="dd/mm/yyyy" required>
+                                            </div>
+                                            <div class="col-md-3 mb-2">
+                                                <label for="designation1" class="form-label">Designation<span
+                                                        class="required">*</span></label>
+                                                <select class="form-select" id="designation1" required>
+                                                    <option value="">Select designation</option>
+                                                    <option value="manager">Manager</option>
+                                                    <option value="developer">Developer</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-md-3 mb-2">
+                                                <label for="salary1" class="form-label">Salary<span
+                                                        class="required">*</span></label>
+                                                <input type="text" class="form-control" id="salary1"
+                                                    placeholder="Salary range" required>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Work Experience Section 2 -->
+                                    <div class="experience-section">
+                                        <div class="row mb-2">
+                                            <div class="col-md-3 mb-2">
+                                                <label for="from2" class="form-label">From</label>
+                                                <input type="date" class="form-control" id="from2"
+                                                    placeholder="dd/mm/yyyy">
+                                            </div>
+                                            <div class="col-md-3 mb-2">
+                                                <label for="to2" class="form-label">To</label>
+                                                <input type="date" class="form-control" id="to2"
+                                                    placeholder="dd/mm/yyyy">
+                                            </div>
+                                            <div class="col-md-3 mb-2">
+                                                <label for="designation2" class="form-label">Designation</label>
+                                                <select class="form-select" id="designation2">
+                                                    <option value="">Select designation</option>
+                                                    <option value="manager">Manager</option>
+                                                    <option value="developer">Developer</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-md-3 mb-2">
+                                                <label for="salary2" class="form-label">Salary</label>
+                                                <input type="text" class="form-control" id="salary2"
+                                                    placeholder="Salary range">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Work Experience Section 3 -->
+                                    <div class="experience-section mb-3">
+                                        <div class="row mb-2">
+                                            <div class="col-md-3 mb-2">
+                                                <label for="from3" class="form-label">From</label>
+                                                <input type="date" class="form-control" id="from3"
+                                                    placeholder="dd/mm/yyyy">
+                                            </div>
+                                            <div class="col-md-3 mb-2">
+                                                <label for="to3" class="form-label">To</label>
+                                                <input type="date" class="form-control" id="to3"
+                                                    placeholder="dd/mm/yyyy">
+                                            </div>
+                                            <div class="col-md-3 mb-2">
+                                                <label for="designation3" class="form-label">Designation</label>
+                                                <select class="form-select" id="designation3">
+                                                    <option value="">Select designation</option>
+                                                    <option value="manager">Manager</option>
+                                                    <option value="developer">Developer</option>
+                                                </select>
+                                            </div>
+                                            <div class="col-md-3 mb-2">
+                                                <label for="salary3" class="form-label">Salary</label>
+                                                <input type="text" class="form-control" id="salary3"
+                                                    placeholder="Salary range">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Notice Period and Health Issues -->
+                                    <div class="row mb-3">
+                                        <div class="col-md-6 mb-3 mb-md-0">
+                                            <label for="noticePeriod" class="form-label">Notice Period if any</label>
+                                            <input type="text" class="form-control" id="noticePeriod"
+                                                placeholder="Enter your notice period">
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="healthIssues" class="form-label">Health Issues if any</label>
+                                            <input type="text" class="form-control" id="healthIssues"
+                                                placeholder="Enter your health issues">
+                                        </div>
+                                    </div>
+
+                                    <!-- Visa No and Date of Entry & Exit -->
+                                    <div class="row mb-3">
+                                        <div class="col-md-6 mb-3 mb-md-0">
+                                            <label for="visa" class="form-label">Visa No. & Date of Issue<span
+                                                    class="required">*</span></label>
+                                            <input type="text" class="form-control" id="visa"
+                                                placeholder="Enter your visa no. & date of issue" required>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="entryExit" class="form-label">Date of Entry & Exit<span
+                                                    class="required">*</span></label>
+                                            <input type="text" class="form-control" id="entryExit"
+                                                placeholder="Enter date of entry and exit" required>
+                                        </div>
+                                    </div>
+
+                                    <!-- Marital Status and Next of Kin -->
+                                    <div class="row mb-3">
+                                        <div class="col-md-6 mb-3 mb-md-0">
+                                            <label for="maritalStatus" class="form-label">Marital Status<span
+                                                    class="required">*</span></label>
+                                            <input type="text" class="form-control" id="maritalStatus"
+                                                placeholder="Enter your marital status" required>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="nextOfKin" class="form-label">Next of Kin<span
+                                                    class="required">*</span></label>
+                                            <input type="text" class="form-control" id="nextOfKin"
+                                                placeholder="Enter next of kin" required>
+                                        </div>
+                                    </div>
+
+                                    <!-- Height and Weight -->
+                                    <div class="row mb-3">
+                                        <div class="col-md-6 mb-3 mb-md-0">
+                                            <label for="height" class="form-label">Height<span
+                                                    class="required">*</span></label>
+                                            <input type="text" class="form-control" id="height"
+                                                placeholder="Enter your height" required>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="weight" class="form-label">Weight<span
+                                                    class="required">*</span></label>
+                                            <input type="text" class="form-control" id="weight"
+                                                placeholder="Enter your weight" required>
+                                        </div>
+                                    </div>
+
+                                    <!-- Expected Salary -->
+                                    <div class="mb-3">
+                                        <label for="expectedSalary" class="form-label">Expected Salary<span
+                                                class="required">*</span></label>
+                                        <input type="text" class="form-control" id="expectedSalary"
+                                            placeholder="Enter your expected salary" required>
+                                    </div>
+
+                                    <!-- Any Other Details -->
+                                    <div class="mb-4">
+                                        <label for="otherDetails" class="form-label">Any Other Details</label>
+                                        <textarea class="form-control" id="otherDetails"
+                                            placeholder="Comment"></textarea>
+                                    </div>
+
+                                    <!-- Declaration Checkbox -->
+                                    <div class="form-check mb-4">
+                                        <input class="form-check-input" type="checkbox" id="declaration" required>
+                                        <label class="form-check-label declaration-text" for="declaration">
+                                            This declaration is made truthfully and voluntarily for the purpose of
+                                            completing the selection process for overseas employment.
+                                        </label>
+                                    </div>
+
+                                    <!-- Name and Passport Number -->
+                                    <div class="row mb-3">
+                                        <div class="col-md-6 mb-3 mb-md-0">
+                                            <label for="declarationName" class="form-label">Name<span
+                                                    class="required">*</span></label>
+                                            <input type="text" class="form-control" id="declarationName"
+                                                placeholder="Enter your name" required>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="passport" class="form-label">Passport Number<span
+                                                    class="required">*</span></label>
+                                            <input type="text" class="form-control" id="passport"
+                                                placeholder="Enter your passport number" required>
+                                        </div>
+                                    </div>
+
+                                    <!-- Place and Applicant Signature -->
+                                    <div class="row mb-4">
+                                        <div class="col-md-6 mb-3 mb-md-0">
+                                            <label for="place" class="form-label">Place<span
+                                                    class="required">*</span></label>
+                                            <input type="text" class="form-control" id="place"
+                                                placeholder="Enter your Place" required>
+                                        </div>
+                                        <div class="col-md-6">
+                                            <label for="signature" class="form-label">Applicant Signature</label>
+                                            <input type="text" class="form-control" id="signature" placeholder="">
+                                        </div>
+                                    </div>
+
+                                    <!-- Download Button -->
+                                    <button type="submit" class="btn btn-download">Download</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
     </main>
 
     <!-- Footer   -->
@@ -419,7 +592,6 @@
     <script src="./js/script.js"></script>
     <script src="./js/backend.js"></script>
     <script src="./vendor/core/core/js-validation/js/js-validation.js"></script>
-    <script src=./plugins/leaflet/leaflet.js></script>
     <script> jQuery(document).ready(function () { 'use strict'; $("#botble-job-board-forms-fronts-internal-job-application-form").each(function () { $(this).validate({ errorElement: 'div', errorClass: 'invalid-feedback', errorPlacement: function (error, element) { if (element.closest('[data-bb-toggle="tree-checkboxes"]').length) { error.insertAfter(element.closest('[data-bb-toggle="tree-checkboxes"]')); } else if (element.parent('.input-group').length || element.prop('type') === 'checkbox' || element.prop('type') === 'radio') { error.insertAfter(element.parent()); } else if ($(element).data('select2')) { error.insertAfter(element.next('span')); } else { error.insertAfter(element); } }, highlight: function (element) { $(element).closest('.form-control').removeClass('is-valid').addClass('is-invalid'); }, unhighlight: function (element) { $(element).closest('.form-control').removeClass('is-invalid').addClass('is-valid'); }, success: function (element) { $(element).closest('.form-control').removeClass('is-invalid').addClass('is-valid'); }, focusInvalid: false, rules: JSON.parse('{\u0022job_type\u0022:{\u0022laravelValidation\u0022:[[\u0022In\u0022,[\u0022internal\u0022,\u0022external\u0022],\u0022The selected job type is invalid.\u0022,false]]},\u0022email\u0022:{\u0022laravelValidation\u0022:[[\u0022Required\u0022,[],\u0022The Email field is required.\u0022,true],[\u0022Email\u0022,[],\u0022The Email must be a valid email address.\u0022,false]]},\u0022message\u0022:{\u0022laravelValidation\u0022:[[\u0022Nullable\u0022,[],\u0022validation.nullable\u0022,false],[\u0022Max\u0022,[\u00221000\u0022],\u0022The Message must not be greater than 1000 characters.\u0022,false]]}}') }); }); });</script>
     <script> jQuery(document).ready(function () { 'use strict'; $("#botble-job-board-forms-fronts-external-job-application-form").each(function () { $(this).validate({ errorElement: 'div', errorClass: 'invalid-feedback', errorPlacement: function (error, element) { if (element.closest('[data-bb-toggle="tree-checkboxes"]').length) { error.insertAfter(element.closest('[data-bb-toggle="tree-checkboxes"]')); } else if (element.parent('.input-group').length || element.prop('type') === 'checkbox' || element.prop('type') === 'radio') { error.insertAfter(element.parent()); } else if ($(element).data('select2')) { error.insertAfter(element.next('span')); } else { error.insertAfter(element); } }, highlight: function (element) { $(element).closest('.form-control').removeClass('is-valid').addClass('is-invalid'); }, unhighlight: function (element) { $(element).closest('.form-control').removeClass('is-invalid').addClass('is-valid'); }, success: function (element) { $(element).closest('.form-control').removeClass('is-invalid').addClass('is-valid'); }, focusInvalid: false, rules: JSON.parse('{\u0022job_type\u0022:{\u0022laravelValidation\u0022:[[\u0022In\u0022,[\u0022internal\u0022,\u0022external\u0022],\u0022The selected job type is invalid.\u0022,false]]},\u0022email\u0022:{\u0022laravelValidation\u0022:[[\u0022Required\u0022,[],\u0022The Email field is required.\u0022,true],[\u0022Email\u0022,[],\u0022The Email must be a valid email address.\u0022,false]]},\u0022message\u0022:{\u0022laravelValidation\u0022:[[\u0022Nullable\u0022,[],\u0022validation.nullable\u0022,false],[\u0022Max\u0022,[\u00221000\u0022],\u0022The Message must not be greater than 1000 characters.\u0022,false]]}}') }); }); });</script>
     <script> jQuery(document).ready(function () { 'use strict'; $("#botble-newsletter-forms-fronts-newsletter-form").each(function () { $(this).validate({ errorElement: 'div', errorClass: 'invalid-feedback', errorPlacement: function (error, element) { if (element.closest('[data-bb-toggle="tree-checkboxes"]').length) { error.insertAfter(element.closest('[data-bb-toggle="tree-checkboxes"]')); } else if (element.parent('.input-group').length || element.prop('type') === 'checkbox' || element.prop('type') === 'radio') { error.insertAfter(element.parent()); } else if ($(element).data('select2')) { error.insertAfter(element.next('span')); } else { error.insertAfter(element); } }, highlight: function (element) { $(element).closest('.form-control').removeClass('is-valid').addClass('is-invalid'); }, unhighlight: function (element) { $(element).closest('.form-control').removeClass('is-invalid').addClass('is-valid'); }, success: function (element) { $(element).closest('.form-control').removeClass('is-invalid').addClass('is-valid'); }, focusInvalid: false, rules: JSON.parse('{\u0022email\u0022:{\u0022laravelValidation\u0022:[[\u0022Required\u0022,[],\u0022The email field is required.\u0022,true],[\u0022Email\u0022,[],\u0022The email must be a valid email address.\u0022,false]],\u0022laravelValidationRemote\u0022:[[\u0022Unique\u0022,[\u0022email\u0022,\u0022eyJpdiI6IklIUFdsa1VwTENVUitsMDZlbWZJMlE9PSIsInZhbHVlIjoialQ1c0xua21ZaXM5aHZ5cEF4QkxuNDhVVjlBc090MDBhenNRNUdtS092aDNQeTM4TkJUbVFRMFZ4Z3ZzOWpwUDVncGpKdnRXaDdNYW9HWnVLK3lBOFE9PSIsIm1hYyI6IjFlYmExMDcyNTNkYzQyY2Y0MTc0OWFhMjE5NTlmYjNkOTJlZTg2OTljNzI1MmQ3NzExZDlkNGQ1Y2IzYzY0NGUiLCJ0YWciOiIifQ==\u0022,false],\u0022The email has already been taken.\u0022,false]]},\u0022status\u0022:{\u0022laravelValidation\u0022:[[\u0022In\u0022,[\u0022subscribed\u0022,\u0022unsubscribed\u0022],\u0022The selected status is invalid.\u0022,false]]}}') }); }); });</script>
