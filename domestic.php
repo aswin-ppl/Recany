@@ -130,7 +130,7 @@
 
         .btn-outline-gradient:hover {
             background: linear-gradient(to right, #950701, #d8241c);
-            color: #fff;
+            color: #fff !important;
         }
 
         .newsletter-bg {
@@ -596,11 +596,10 @@
                                                     <div class="card-2-bottom mt-15">
                                                         <div class="row">
                                                             <div class="col-12">
-                                                                <div class=""><button class="btn btn-outline-gradient"
+                                                                <div class=""><a href="./job-application.php" class="btn btn-outline-gradient"
                                                                         data-job-name="DevOps Account Executive - US Public Sector"
-                                                                        data-job-id="33" data-bs-toggle="modal"
-                                                                        data-bs-target="#ModalApplyJobForm">
-                                                                        Apply Now </button></div>
+                                                                        data-job-id="33">
+                                                                        Apply Now </a></div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -636,11 +635,10 @@
                                                     <div class="card-2-bottom mt-15">
                                                         <div class="row">
                                                             <div class="col-12">
-                                                                <div class=""><button class="btn btn-outline-gradient"
+                                                                <div class=""><a href="./job-application.php" class="btn btn-outline-gradient"
                                                                         data-job-name="DevOps Account Executive - US Public Sector"
-                                                                        data-job-id="33" data-bs-toggle="modal"
-                                                                        data-bs-target="#ModalApplyJobForm">
-                                                                        Apply Now </button></div>
+                                                                        data-job-id="33">
+                                                                        Apply Now </a></div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -676,11 +674,10 @@
                                                     <div class="card-2-bottom mt-15">
                                                         <div class="row">
                                                             <div class="col-12">
-                                                                <div class=""><button class="btn btn-outline-gradient"
+                                                                <div class=""><a href="./job-application.php" class="btn btn-outline-gradient"
                                                                         data-job-name="DevOps Account Executive - US Public Sector"
-                                                                        data-job-id="33" data-bs-toggle="modal"
-                                                                        data-bs-target="#ModalApplyJobForm">
-                                                                        Apply Now </button></div>
+                                                                        data-job-id="33">
+                                                                        Apply Now </a></div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -716,11 +713,10 @@
                                                     <div class="card-2-bottom mt-15">
                                                         <div class="row">
                                                             <div class="col-12">
-                                                                <div class=""><button class="btn btn-outline-gradient"
+                                                                <div class=""><a href="./job-application.php" class="btn btn-outline-gradient"
                                                                         data-job-name="DevOps Account Executive - US Public Sector"
-                                                                        data-job-id="33" data-bs-toggle="modal"
-                                                                        data-bs-target="#ModalApplyJobForm">
-                                                                        Apply Now </button></div>
+                                                                        data-job-id="33">
+                                                                        Apply Now </a></div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -757,11 +753,10 @@
                                                     <div class="card-2-bottom mt-15">
                                                         <div class="row">
                                                             <div class="col-12">
-                                                                <div class=""><button class="btn btn-outline-gradient"
+                                                                <div class=""><a href="./job-application.php" class="btn btn-outline-gradient"
                                                                         data-job-name="DevOps Account Executive - US Public Sector"
-                                                                        data-job-id="33" data-bs-toggle="modal"
-                                                                        data-bs-target="#ModalApplyJobForm">
-                                                                        Apply Now </button></div>
+                                                                        data-job-id="33">
+                                                                        Apply Now </a></div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -798,11 +793,10 @@
                                                     <div class="card-2-bottom mt-15">
                                                         <div class="row">
                                                             <div class="col-12">
-                                                                <div class=""><button class="btn btn-outline-gradient"
+                                                                <div class=""><a href="./job-application.php" class="btn btn-outline-gradient"
                                                                         data-job-name="DevOps Account Executive - US Public Sector"
-                                                                        data-job-id="33" data-bs-toggle="modal"
-                                                                        data-bs-target="#ModalApplyJobForm">
-                                                                        Apply Now </button></div>
+                                                                        data-job-id="33">
+                                                                        Apply Now </a></div>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -839,11 +833,10 @@
                                                     <div class="card-2-bottom mt-15">
                                                         <div class="row">
                                                             <div class="col-12">
-                                                                <div class=""><button class="btn btn-outline-gradient"
+                                                                <div class=""><a href="./job-application.php" class="btn btn-outline-gradient"
                                                                         data-job-name="DevOps Account Executive - US Public Sector"
-                                                                        data-job-id="33" data-bs-toggle="modal"
-                                                                        data-bs-target="#ModalApplyJobForm">
-                                                                        Apply Now </button></div>
+                                                                        data-job-id="33">
+                                                                        Apply Now </a></div>
                                                             </div>
                                                         </div>
                                                     </div>
